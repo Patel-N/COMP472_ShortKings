@@ -6,18 +6,19 @@ emotionsGZIP = gzip.open("./goemotions.json.gz", "rb")
 emotionsJSON = json.load(emotionsGZIP)
 
 classification = {"positive" : 0, "negative" : 0, "ambiguous" : 0, "neutral" : 0}
-emotion = {}
+emotions = {}
+comments = []
 
 def updateClassification(classification, sentiment):
     sentimentCount = classification[sentiment] + 1
     classification[sentiment] = sentimentCount
 
-def updateEmotion(emotion, feeling):
-    if feeling not in emotion:
-        emotion.update({feeling:1})
+def updateEmotion(emotions, feeling):
+    if feeling not in emotions:
+        emotions.update({feeling:1})
     else:
-        emotionCount = emotion[feeling] + 1
-        emotion[feeling] = emotionCount
+        emotionCount = emotions[feeling] + 1
+        emotions[feeling] = emotionCount
 
 
 def createPieChart(dict, dictName):
@@ -31,11 +32,13 @@ def createPieChart(dict, dictName):
     plt.clf()
 
 for value in emotionsJSON:
-    updateEmotion(emotion, value[1])
+    updateEmotion(emotions, value[1])
     updateClassification(classification, value[2])
+    comments.append(value[0])
     
 
 
 def run():
-    emotionPie = createPieChart(emotion, 'emotion')
+    emotionPie = createPieChart(emotions, 'emotions')
     classificationPie = createPieChart(classification, 'classification')
+    return comments, classification, emotions
