@@ -1,9 +1,11 @@
 from __future__ import print_function
+from ast import Mult
 from matplotlib import test
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.neural_network import MLPClassifier
 
 import json
 import matplotlib.pyplot as plt
@@ -63,11 +65,33 @@ def baseDT(commentsTrainVector, commentsTestVector, classification_train, classi
     dtClassifier.fit(commentsTrainVector, classification_train)
     classification_pred = dtClassifier.predict(commentsTestVector)
 
-    # for x,y in zip(classification_pred, emotions_pred):
-    #     print(x + "\t\t" + y)
+    return emotions_pred, classification_pred
+
+
+def baseMLP(commentsTrainVector, commentsTestVector, classification_train, classification_test, emotions_train, emotions_test):
+    mlpClassifer = MLPClassifier()
+
+    #emotions
+    mlpClassifer.fit(commentsTrainVector, emotions_train)
+    emotions_pred = mlpClassifer(commentsTestVector)
+
+    #classifications
+    mlpClassifer.fit(commentsTrainVector, classification_train)
+    classification_pred = mlpClassifer.predict(commentsTestVector)
 
     return emotions_pred, classification_pred
 
+def baseClassifiers(classifier, commentsTrainVector, commentsTestVector, classification_train, emotions_train):
+
+    #emotions
+    classifier.fit(commentsTrainVector, emotions_train)
+    emotions_pred = classifier.predict(commentsTestVector)
+
+    #classifications
+    classifier.fit(commentsTrainVector, classification_train)
+    classifications_pred = classifier.predict(commentsTestVector)
+
+    return emotions_pred, classifications_pred
 
 def run_q1():
     createPieChart(Counter(emotions), 'emotions_2')
@@ -88,10 +112,16 @@ def run_q2(comments, classification, emotions):
     commentsTestVector = vectorizer.transform(comments_test)
 
     #2.3.1
-    baseMNB(commentsTrainVector, commentsTestVector, classification_train, classification_test, emotions_train, emotions_test)
+    e_pred, c_pred = baseClassifiers(MultinomialNB(), commentsTrainVector, commentsTestVector, classification_train, emotions_train )
+    print(e_pred)
+    print(c_pred)
+    # baseMNB(commentsTrainVector, commentsTestVector, classification_train, classification_test, emotions_train, emotions_test)
 
     #2.3.2
-    baseDT(commentsTrainVector, commentsTestVector, classification_train, classification_test, emotions_train, emotions_test)
+    # baseDT(commentsTrainVector, commentsTestVector, classification_train, classification_test, emotions_train, emotions_test)
+
+    #2.3.3
+    # baseMLP(commentsTrainVector, commentsTestVector, classification_train, classification_test, emotions_train, emotions_test)
 
 for value in emotionsJSON:
     emotions.append(value[1])
