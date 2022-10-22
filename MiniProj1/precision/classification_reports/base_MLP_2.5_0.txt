@@ -1,0 +1,34 @@
+                precision    recall  f1-score   support
+
+    admiration       0.53      0.27      0.36      9472
+     amusement       0.59      0.26      0.36      5531
+         anger       0.37      0.00      0.01      4657
+     annoyance       0.15      0.00      0.00      7474
+      approval       0.47      0.01      0.02     10147
+        caring       0.00      0.00      0.00      3160
+     confusion       0.71      0.00      0.00      4435
+     curiosity       0.71      0.00      0.01      5325
+        desire       0.00      0.00      0.00      1945
+disappointment       0.00      0.00      0.00      4232
+   disapproval       0.21      0.00      0.00      6947
+       disgust       1.00      0.00      0.00      2594
+ embarrassment       0.00      0.00      0.00      1300
+    excitement       0.00      0.00      0.00      2718
+          fear       0.00      0.00      0.00      1603
+     gratitude       0.86      0.70      0.77      6373
+         grief       0.00      0.00      0.00       315
+           joy       0.65      0.01      0.02      3883
+          love       0.61      0.52      0.56      4462
+   nervousness       0.00      0.00      0.00       714
+       neutral       0.35      0.97      0.52     49727
+      optimism       0.61      0.02      0.03      4082
+         pride       0.00      0.00      0.00       628
+   realization       0.00      0.00      0.00      4278
+        relief       0.00      0.00      0.00       706
+       remorse       0.43      0.03      0.06      1345
+       sadness       0.00      0.00      0.00      3468
+      surprise       0.00      0.00      0.00      3117
+
+      accuracy                           0.38    154638
+     macro avg       0.30      0.10      0.10    154638
+  weighted avg       0.38      0.38      0.25    154638

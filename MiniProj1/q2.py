@@ -1,9 +1,14 @@
-import gzip
-import json
-import matplotlib.pyplot as plt
+from sklearn.feature_extraction.text import CountVectorizer
+import sys
+import numpy as np
 
-emotionsGZIP = gzip.open("./goemotions.json.gz", "rb")
-emotionsJSON = json.load(emotionsGZIP)
+def defineVocabulary(comments):
 
-classification = {"positive" : 0, "negative" : 0, "ambiguous" : 0, "neutral" : 0}
-emotion = {}
+    vectorizer = CountVectorizer()
+    X  = vectorizer.fit(comments)
+    np.set_printoptions(threshold=sys.maxsize)
+    # 2.1
+    print("Vocabulary size: ", len(X.vocabulary_))
+
+def run(comments, classification, emotions):
+    defineVocabulary(comments)
