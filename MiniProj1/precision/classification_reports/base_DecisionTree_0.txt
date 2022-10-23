@@ -11,22 +11,22 @@
         desire       0.24      0.28      0.26       439
 disappointment       0.16      0.18      0.17       970
    disapproval       0.25      0.24      0.24      1537
-       disgust       0.25      0.22      0.24       585
+       disgust       0.25      0.22      0.23       585
  embarrassment       0.21      0.15      0.17       303
     excitement       0.20      0.19      0.20       597
           fear       0.33      0.40      0.36       317
      gratitude       0.74      0.74      0.74      1409
          grief       0.09      0.09      0.09        58
-           joy       0.29      0.26      0.28       814
-          love       0.56      0.51      0.53      1004
+           joy       0.30      0.27      0.28       814
+          love       0.56      0.52      0.54      1004
    nervousness       0.20      0.13      0.16       187
        neutral       0.51      0.43      0.47     11067
       optimism       0.42      0.24      0.30       914
          pride       0.15      0.03      0.05       157
-   realization       0.17      0.07      0.09       972
+   realization       0.16      0.06      0.09       972
         relief       0.23      0.10      0.14       156
-       remorse       0.33      0.30      0.32       272
-       sadness       0.36      0.18      0.24       795
+       remorse       0.34      0.31      0.32       272
+       sadness       0.35      0.18      0.24       795
       surprise       0.36      0.22      0.27       691
 
       accuracy                           0.36     34364
