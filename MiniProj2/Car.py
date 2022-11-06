@@ -11,4 +11,3 @@ class Car:
     def isHorizontal(car):
         return car.direction == 'horizontal'
         
-
