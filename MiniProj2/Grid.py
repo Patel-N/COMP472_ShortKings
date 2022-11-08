@@ -1,12 +1,89 @@
 import numpy as np
 from Car import Car
+import copy
 class Grid:
     def __init__(grid):
         rows, cols = (6, 6)
+        
         # map = [["." for x in range(6)] for x in range(6)]
         map = [['.']* cols] * rows
         grid.map = map
         grid.cars = []
+        grid.parent = {}
+
+
+    #TO DO
+    def getMoves(grid):
+        moves = []
+        for c in grid.cars:
+            newMoves = grid.canCarMove(grid,c.name)
+            if(not newMoves is None):
+                moves.append(newMoves)
+        return moves
+
+    def canCarMove(grid, name):
+         car = grid.getCarByName(grid,name)
+         if(not Car(car).hasGas):
+            return False
+         start = Car (car).start
+         end = Car(car).end
+         moves = []
+         if(Car(car).direction == 'vertical'):
+             for i in range(len(grid.map)):
+                if (map(start + [0,i]) == '.' ): # idk how to check genre le up/down of a specific car 
+                    GridCopy = grid.deepcopy()
+                    #create deep copy of grid
+                    #move car in this new grid clone
+                    #Grid.cars.move car
+                    #reduce gas
+                    #moves.append(newGrid)
+                if (map(start - [0,i]) == '.' ):
+                    GridCopy = grid.deepcopy()
+                    #create deep copy of grid
+                    #move car in this new grid clone
+                    #Grid.cars.move car
+                    #reduce gas
+                    #moves.append(newGrid)
+             return moves
+         elif (Car(car).direction == 'horizontal'):
+            for i in range(len(grid.map)):
+                if (map(start + [i,0]) == '.' ): # idk how to check genre le up/down of a specific car 
+                    GridCopy = grid.deepcopy()
+                    #create deep copy of grid
+                    #move car in this new grid clone
+                    #Grid.cars.move car
+                    #reduce gas
+                    #moves.append(newGrid)
+                if (map(start - [i,0]) == '.' ):
+                    GridCopy = grid.deepcopy()
+                    #create deep copy of grid
+                    #move car in this new grid clone
+                    #Grid.cars.move car
+                    #reduce gas
+                    #moves.append(newGrid)
+            return moves
+         return moves
+
+            
+
+
+    def getPath(grid, goal):
+        path = [{goal}]
+        step = Grid(goal).parent
+        while True:
+            path.append(step)
+            if(Grid(step).parent is None):
+                break
+            step = Grid(step).parent
+        path.reverse()
+        return path
+        
+
+    def isGoalSpace(grid, nextStep):
+       for c in nextStep.cars:
+            if c.name == 'A':
+                if (Car(c).end == [3,6] and Car(c).start == [3,5] ):
+                    return True
 
     def getCarByName(grid, name):
         for c in grid.cars:

@@ -1,10 +1,32 @@
 from Car import Car
 from Grid import Grid
-
+import queue as Q
 
 # c = Car('horizontal', '10', '20', 95)
 
 # print(c.isVertical())
+
+def UniformCostSearch(grid):
+    OPEN = Q.PriorityQueue() #For UCS, we want a priority queue based on cost
+    OPEN.put((1,grid))
+    CLOSED = []
+    numberOfSteps = 0
+    while True:
+        if(OPEN.empty()):
+            print(f"No Solution for {grid.printMap()}")
+            break
+        numberOfSteps += 1
+        nextStep = OPEN.get()
+        CLOSED.append(nextStep)
+
+        #Check for solution state
+        if(nextStep.isGoalSpace(nextStep)):
+            path = nextStep.getPath(nextStep)
+            return path, numberOfSteps
+        children = Grid (nextStep).getMoves(grid)
+
+        
+    #hello
 
 def getPuzzlesFromFile(filePath):
     f = open(filePath, 'r')
@@ -33,6 +55,7 @@ def solvePuzzle(puzzleString):
         print(x.name)
         print('\n\t',x.start,'\n\t',x.end,'\n\t',x.direction,'\n\t',x.gas)
 
+    UniformCostSearch(grid)
     # handle predefined gas amount
 
 validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
@@ -40,8 +63,6 @@ validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
 for puzzle in validPuzzles:
     solvePuzzle(puzzle)
     break
-
-
 
 
 

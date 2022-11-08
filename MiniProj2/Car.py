@@ -12,3 +12,8 @@ class Car:
     def isHorizontal(car):
         return car.direction == 'horizontal'
         
+    def useGas(car, amount):
+        Car(car).gas -= amount
+
+    def hasGas(car):
+        return Car(car).gas > 0
