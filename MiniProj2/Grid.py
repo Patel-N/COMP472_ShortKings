@@ -1,4 +1,5 @@
 import numpy as np
+from typing import List
 from Car import Car
 import copy
 class Grid:
@@ -8,68 +9,117 @@ class Grid:
         # map = [["." for x in range(6)] for x in range(6)]
         map = [['.']* cols] * rows
         grid.map = map
-        grid.cars = []
+        grid.cars:List[Car]= []
         grid.parent = {}
 
 
     #TO DO
-    def getMoves(grid):
+    def getMoves(grid) -> List[dict[Car, any]]:
         moves = []
         for c in grid.cars:
-            newMoves = grid.canCarMove(grid,c.name)
-            if(not newMoves is None):
+            print('Checking car move for -> ' + c.name)
+            newMoves = grid.canCarMove(c.name)
+
+            #Will only add    
+            if newMoves:
                 moves.append(newMoves)
+
         return moves
 
-    def canCarMove(grid, name):
-         car = grid.getCarByName(grid,name)
-         if(not Car(car).hasGas):
-            return False
-         start = Car (car).start
-         end = Car(car).end
-         moves = []
-         if(Car(car).direction == 'vertical'):
-             for i in range(len(grid.map)):
-                if (map(start + [0,i]) == '.' ): # idk how to check genre le up/down of a specific car 
-                    GridCopy = grid.deepcopy()
-                    #create deep copy of grid
-                    #move car in this new grid clone
-                    #Grid.cars.move car
-                    #reduce gas
-                    #moves.append(newGrid)
-                if (map(start - [0,i]) == '.' ):
-                    GridCopy = grid.deepcopy()
-                    #create deep copy of grid
-                    #move car in this new grid clone
-                    #Grid.cars.move car
-                    #reduce gas
-                    #moves.append(newGrid)
-             return moves
-         elif (Car(car).direction == 'horizontal'):
-            for i in range(len(grid.map)):
-                if (map(start + [i,0]) == '.' ): # idk how to check genre le up/down of a specific car 
-                    GridCopy = grid.deepcopy()
-                    #create deep copy of grid
-                    #move car in this new grid clone
-                    #Grid.cars.move car
-                    #reduce gas
-                    #moves.append(newGrid)
-                if (map(start - [i,0]) == '.' ):
-                    GridCopy = grid.deepcopy()
-                    #create deep copy of grid
-                    #move car in this new grid clone
-                    #Grid.cars.move car
-                    #reduce gas
-                    #moves.append(newGrid)
-            return moves
-         return moves
 
+    def canCarMove(grid, name) -> dict:
+
+        def addToMovementDic(dict:dict, key, value):
+            if key in dict.keys():
+                valsForKeys = dict[key]
+                valsForKeys.append(value)
+                dict[key] = valsForKeys
+            else:
+                dict[key] = [value]
+
+
+        movementDict = dict()
+        car = grid.getCarByName(name)
+        if not car.hasGas():
+            return movementDict
+        start = car.start
+        end = car.end
+        map = grid.map
+        
+        if car.isVertical():
+            #Check up
+            #car is vertical start will be the upper part
+            top_x = start[1]
+            top_y = start[0]
+            y = top_y - 1
+            while y >= 0:
+                # print(car.name, top_x, i, map[i][top_x])
+                cell = map[y][top_x]
+                #movement possible
+                if( cell == '.' ):
+                   moveCount = top_y - y 
+                   movement = ['up', moveCount]
+                   addToMovementDic(movementDict, car.name, movement)
+                else:
+                    break
+                y -= 1
+
+            #Check down
+            #car is vertical start will be the bottom part
+            bottom_x = end[1]
+            bottom_y = end[0]
+            y = bottom_y + 1
+            while y < 6:
+                cell = map[y][bottom_x]
+                #movement possible
+                if( cell == '.' ):
+                    moveCount = y - bottom_y
+                    movement = ['down', moveCount]
+                    addToMovementDic(movementDict, car.name, movement)
+                else:
+                    break
+                y += 1
             
+        elif car.isHorizontal():
 
+            #left 
+            left_x = start[1]
+            left_y = start[0]
+            x = left_x - 1
+            while x >= 0:
+                cell = map[left_y][x]
+                
+                if cell == '.':
+                    moveCount = left_x - x
+                    movement = ['left', moveCount]
+                    addToMovementDic(movementDict, car.name, movement)
+                else:
+                    break
+                
+                x -= 1
 
-    def getPath(grid, goal):
-        path = [{goal}]
-        step = Grid(goal).parent
+            #right
+            right_x = end[1]
+            right_y = end[0]
+            x = x + 1
+            
+            while x < 6:
+                cell = map[right_y][x]
+
+                if cell == '.':
+                    moveCount = x - right_x
+                    movement = ['right', moveCount]
+                    addToMovementDic(movementDict, car.name, movement)
+                else:
+                    break
+                
+                x += 1
+
+        return movementDict
+
+    def getPath(grid, goal): #what is goal?
+        path = [{goal}] #?? what is path, is it a deep copy of the grid?
+        step = Grid(goal).parent #??
         while True:
             path.append(step)
             if(Grid(step).parent is None):
@@ -78,14 +128,14 @@ class Grid:
         path.reverse()
         return path
         
-
-    def isGoalSpace(grid, nextStep):
-       for c in nextStep.cars:
+    #the 2nd if condition could be wrong, flip start and end
+    def isGoalSpace(grid) -> bool:
+       for c in grid.cars:
             if c.name == 'A':
-                if (Car(c).end == [3,6] and Car(c).start == [3,5] ):
+                if (c.end == [2,5]): #I THINK THIS IS WRONG, YOU COULD HAVE A 3 WIDE CAR, AND IF A CAR OTHER THAN 'A' is on [3,5] it goes out of the grid
                     return True
 
-    def getCarByName(grid, name):
+    def getCarByName(grid, name) -> Car:
         for c in grid.cars:
             if c.name == name:
                 return c
@@ -108,6 +158,9 @@ class Grid:
             arr = [a[i:i+n] for i in range(0, len(a), n)]
             gameMap = [split(line) for line in arr]
             return gameMap
+
+        def getCarName(car:Car):
+            return car.name
             
         grid.map = splitString(str)
 
@@ -131,8 +184,10 @@ class Grid:
             startFound = False
 
             car.direction = 'horizontal' if (car.start[0] == car.end[0]) else 'vertical'
-            
             grid.cars.append(car)
+
+        #Sort cars by alphabetical order
+        grid.cars = sorted(grid.cars, key=getCarName)
 
 
     def setGasLevel(grid, gasValues):

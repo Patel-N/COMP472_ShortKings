@@ -1,5 +1,6 @@
+from typing import List
 class Car:
-    def __init__(car, name, direction='', start=[], end=[], gas=100):
+    def __init__(car, name, direction='', start:list=[], end:list=[], gas=100):
         car.direction = direction
         car.start = start
         car.end = end
@@ -17,3 +18,13 @@ class Car:
 
     def hasGas(car):
         return Car(car).gas > 0
+
+    def __str__(self) -> str:
+        strToPrint = ''
+        strToPrint += 'Car: ' + self.name + '\n'
+        strToPrint += '  Start:\t' + str(self.start) + '\n' 
+        strToPrint += '  End:\t\t' + str(self.end) + '\n'
+        strToPrint += '  Direction:\t' + self.direction + '\n'
+        strToPrint += '  Gas:\t\t' + str(self.gas)
+    
+        return strToPrint
