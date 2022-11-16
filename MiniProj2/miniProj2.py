@@ -65,94 +65,114 @@ def neil_UniformCostSearch(grid):
                 car = Car(car)
                 #iterate through all possible moves for a car
                 for move in moves:
-                    subState = doMovements(leftMostState, car.name, move)
+                    subState = doMovement(leftMostState, car.name, move)
 
-                    break
-                #would calculate heuristic here???
+                    #Update the cost
+                    newCost = leftMostState.cost + 1
+                    subState.cost = newCost
+                    #would calculate heuristic here???
 
+                    if(True): #would probably evaluate if same state already in OPEN but compare cost
+                        OPEN.insert(subState)
         # break
 
-def doMovements(parent:State, carName, movement):
+def doMovement(parent:State, carName, movement) -> State:
     #Create new state
     newState = State()
 
-    # Refer to previous state as parent
-    newState.parent = parent
 
     #Deepcopy of the grid + do movement and set movement(dict)
     newGrid = copy.deepcopy(parent.grid)
-    updateGrid(newGrid, carName, movement)
+    newGrid = updateGrid(newGrid, carName, movement)
+    
+    # print('Old')
+    # parent.grid.printMap()
+    # print('New')
+    # newGrid.printMap()
+
+    # Set variables
+    newState.grid = newGrid
+    newState.parent = parent
+    newState.movement = movement
+    
+    return newState
 
 
-def updateGrid(grid:Grid, carName, movement):
+def updateGrid(grid:Grid, carName, movement) -> Grid:
     #Get car from grid
     selectedCar = grid.getCarByName(carName)
     moveCount = int(movement[1])
 
-    car_top_x = selectedCar.start[1]
-    car_top_y = selectedCar.start[0]
-    car_bottom_x = selectedCar.end[1]
-    car_bottom_y = selectedCar.end[0]
-
-    car_left_x = selectedCar.start[1]
-    car_left_y = selectedCar.start[0]
-    car_right_x = selectedCar.end[1]
-    car_right_y = selectedCar.end[0]
-    
-    verticalCarLength = car_bottom_y - car_top_y + 1
-    horizontalCarLength = car_right_x - car_left_x + 1
+        
+    carLength = selectedCar.getCarLength()
+    i = 0
 
     #Update board and car
     if movement[0] == 'up':
+        #update car position but not in grid
         selectedCar.start[0] -= moveCount
         selectedCar.end[0] -= moveCount
 
-        #need to rethink board update logic
-
-        # while moveCount != 0:
-        #     #Update cells with '.'
-        #     grid.map[car_bottom_y][car_bottom_x] = '.'
-
-        #     moveCount -= 1
+        while i < carLength:
+            #using new start index
+            grid.map[selectedCar.start[0] + i][selectedCar.start[1]] = selectedCar.name
+            i += 1
         
-        # #Update cells with car value
-        # bottomCarIndex = selectedCar.end[0]
-        # while verticalCarLength != 0:
-        #     grid.map[bottomCarIndex][selectedCar.end[1]] = carName
-
-        #     bottomCarIndex -= 1
-        #     verticalCarLength -= 1
+        while moveCount != 0:
+            grid.map[selectedCar.end[0] + moveCount][selectedCar.start[1]] = '.'
+            moveCount -= 1
+        
 
     elif movement[0] == 'down':
         selectedCar.start[0] += moveCount
         selectedCar.end[0] += moveCount
-
-        # while moveCount != 0:
-        #     #Update cells with '.'
-        #     grid.map[car_bottom_y][car_bottom_x] = '.'
-
-        #     moveCount -= 1
         
-        # #Update cells with car value
-        # bottomCarIndex = selectedCar.end[0]
-        # while verticalCarLength != 0:
-        #     grid.map[bottomCarIndex][selectedCar.end[1]] = carName
+        while i < carLength:
+            #using new start index, update the lower cells
+            grid.map[selectedCar.start[0] + i][selectedCar.start[1]] = selectedCar.name
+            i += 1
+        
+        while moveCount != 0:
+            #using new start index, update the upper cells
+            grid.map[selectedCar.start[0] - moveCount][selectedCar.start[1]] = '.'
+            moveCount -= 1
 
-        #     bottomCarIndex -= 1
-        #     verticalCarLength -= 1
+    elif movement[0] == 'left':
+        #update car position but not in grid
+        selectedCar.start[1] -= moveCount
+        selectedCar.end[1] -= moveCount
 
-    # elif movement[0] == 'left':
+        while i < carLength:
+            #using new start index, update the right sided cells
+            grid.map[selectedCar.start[0]][selectedCar.start[1] + i] = selectedCar.name
+            i += 1
 
-    # elif movement[0] == 'right':
+        while moveCount != 0:
+            #using new start index, update the upper cells
+            grid.map[selectedCar.start[0]][selectedCar.end[1] + moveCount] = '.'
+            moveCount -= 1
 
-    print(carName, movement)
-    grid.printMap()
+    elif movement[0] == 'right':
+        #update car position but not in grid
+        selectedCar.start[1] += moveCount
+        selectedCar.end[1] += moveCount
+
+        while i < carLength:
+            #using new start index, update the right sided cells
+            grid.map[selectedCar.start[0]][selectedCar.start[1] + i] = selectedCar.name
+            i += 1
+
+        while moveCount != 0:
+            #using new start index, update the upper cells
+            grid.map[selectedCar.start[0]][selectedCar.start[1] - moveCount] = '.'
+            moveCount -= 1
     
-
-
+    return grid
+    
 def getPuzzlesFromFile(filePath):
     f = open(filePath, 'r')
     validPuzzles = []
+    
     for line in f:
         if not line.startswith("#") and line.strip():
             validPuzzles.append(line.replace('\n','').strip())

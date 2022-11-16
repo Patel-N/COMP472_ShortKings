@@ -53,7 +53,6 @@ class Grid:
             top_y = start[0]
             y = top_y - 1
             while y >= 0:
-                # print(car.name, top_x, i, map[i][top_x])
                 cell = map[y][top_x]
                 #movement possible
                 if( cell == '.' ):
@@ -101,11 +100,9 @@ class Grid:
             #right
             right_x = end[1]
             right_y = end[0]
-            x = x + 1
-            
+            x = right_x + 1
             while x < 6:
                 cell = map[right_y][x]
-
                 if cell == '.':
                     moveCount = x - right_x
                     movement = ['right', moveCount]
@@ -128,17 +125,16 @@ class Grid:
         path.reverse()
         return path
         
-    #the 2nd if condition could be wrong, flip start and end
-    def isGoalSpace(grid) -> bool:
-       for c in grid.cars:
-            if c.name == 'A':
-                if (c.end == [2,5]): #I THINK THIS IS WRONG, YOU COULD HAVE A 3 WIDE CAR, AND IF A CAR OTHER THAN 'A' is on [3,5] it goes out of the grid
-                    return True
-
     def getCarByName(grid, name) -> Car:
         for c in grid.cars:
             if c.name == name:
                 return c
+    #the 2nd if condition could be wrong, flip start and end
+    def isGoalSpace(grid) -> bool:
+        c = grid.getCarByName('A')
+        if (c.end == [2,5]): #I THINK THIS IS WRONG, YOU COULD HAVE A 3 WIDE CAR, AND IF A CAR OTHER THAN 'A' is on [3,5] it goes out of the grid
+            return True
+
 
     def printMap(grid):
         mapString = ''
@@ -179,6 +175,7 @@ class Grid:
                     if car.name == grid.map[i][j] and not startFound:
                         car.start = [i, j]
                         startFound = True
+                    #keep iterating through the map until the last placement is found
                     elif car.name == grid.map[i][j]: 
                         car.end = [i, j]
             startFound = False
