@@ -192,12 +192,15 @@ def solvePuzzle(puzzleString):
     print(gameInput)
     grid = setupGame(gameInput)
     grid.printMap()
+
+    y = grid.heuristicTwo()
+    print(y)
     
     # for x in grid.cars:
     #    print(x, '\n')
        
     # UniformCostSearch(grid)
-    neil_UniformCostSearch(grid)
+    #neil_UniformCostSearch(grid)
 
 validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
 
