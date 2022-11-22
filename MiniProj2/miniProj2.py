@@ -71,6 +71,61 @@ def neil_UniformCostSearch(grid):
                     newCost = leftMostState.cost + 1
                     subState.cost = newCost
                     #would calculate heuristic here???
+                    
+                    #Simon says: You have to check if it's already in OPEN or in CLOSED, 
+                    if(True): #would probably evaluate if same state already in OPEN but compare cost
+                        OPEN.insert(subState)
+        # break
+
+
+def GBFS_HOne(grid : Grid):
+    OPEN = Q.PriorityQueue() #For UCS, we want a priority queue based on cost
+    CLOSED = []
+    goalStates = []
+
+    #Initial State
+    
+    starting_heuristic = grid.heuristicOne()
+    initialState = State(cost = starting_heuristic, grid = grid)
+
+    OPEN.insert(initialState)
+    
+
+    #Start search
+    while True:
+        #Check if no more options are left to be explored
+        if OPEN.isEmpty():
+            #I THINK THAT THERE ARE LARGER EDGE CASES TO BE HANDLED
+            print("No solution")
+            # print(f"No Solution for {grid.printMap()}")
+            break
+
+        #get leftMost state
+        leftMostState = OPEN.get()
+        CLOSED.append(leftMostState)
+        #Check if goal state achieved for AA if yes, add to completedArray
+        if leftMostState.grid.isGoalSpace():
+            goalStates.append(leftMostState)
+            #what else needs to be done o.o
+            #PRINT ANSWER / # of steps
+            break
+        #handle exploration
+        else:
+            leftMostGrid = leftMostState.grid
+            allMovements = leftMostGrid.getMoves()
+
+        
+        for soloMovement in allMovements:
+            for car, moves in soloMovement.items():
+                car = Car(car)
+                #iterate through all possible moves for a car
+                for move in moves:
+                    subState = doMovement(leftMostState, car.name, move)
+
+                    #Update the cost
+                    subState.cost = subState.grid.heuristicOne()
+
+                    #would calculate heuristic here???
 
                     if(True): #would probably evaluate if same state already in OPEN but compare cost
                         OPEN.insert(subState)
@@ -193,7 +248,7 @@ def solvePuzzle(puzzleString):
     grid = setupGame(gameInput)
     grid.printMap()
 
-    y = grid.heuristicTwo()
+    y = grid.heuristicOne()
     print(y)
     
     # for x in grid.cars:
