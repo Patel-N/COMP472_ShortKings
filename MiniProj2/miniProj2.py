@@ -33,6 +33,7 @@ def neil_UniformCostSearch(grid):
     OPEN = pq()
     CLOSED = []
     goalStates = []
+    searchDetails = ''
 
     #Initial State
     initialState = State(cost = 0, grid = grid)
@@ -70,7 +71,7 @@ def neil_UniformCostSearch(grid):
                 for move in moves:
 
                     #Update the grid
-                    subState = doMovement(leftMostState, car.name, move)
+                    subState = doMovement(leftMostState, car.name, move, searchDetails)
 
                     #Update the cost
                     newCost = leftMostState.cost + 1
@@ -170,11 +171,11 @@ def checkForSameGridInOpen(OPEN: pq, subState:State) -> State:
     
     return None
     
-def isGridInClose(newState:State, CLOSED:List[State]):
-    for x in CLOSED:
-        if x.grid.map == newState.grid.map and newState.cost < 
+# def isGridInClose(newState:State, CLOSED:List[State]):
+#     for x in CLOSED:
+#         if x.grid.map == newState.grid.map and newState.cost <
 
-def doMovement(parent:State, carName, movement) -> State:
+def doMovement(parent:State, carName, movement, searchHistory:str = '') -> State:
     #Create new state
     newState = State()
 
@@ -192,7 +193,12 @@ def doMovement(parent:State, carName, movement) -> State:
     newState.grid = newGrid
     newState.parent = parent
     newState.movement = movement
+
+    #Update car capacities for search print
+    newState.carGasCapacities[carName] = newGrid.getCarByName(carName).gas
     
+
+
     return newState
 
 
