@@ -40,7 +40,7 @@ class Grid:
 
         movementDict = dict()
         car = grid.getCarByName(name)
-        if not car.hasGas():
+        if not car.hasGas() or not car.isOnGrid:
             return movementDict
         start = car.start
         end = car.end
@@ -129,11 +129,16 @@ class Grid:
         for c in grid.cars:
             if c.name == name:
                 return c
-    #the 2nd if condition could be wrong, flip start and end
+    
     def isGoalSpace(grid) -> bool:
+        grid.printMap()
         c = grid.getCarByName('A')
-        if (c.end == [2,5]): #I THINK THIS IS WRONG, YOU COULD HAVE A 3 WIDE CAR, AND IF A CAR OTHER THAN 'A' is on [3,5] it goes out of the grid
+        print(c.start)
+        print(c.end)
+        if (c.end == [2,5]): 
             return True
+        else:
+            return False
 
 
     def printMap(grid):
@@ -144,6 +149,16 @@ class Grid:
             mapString += '\n'
         print(mapString)
 
+    def removeExitCar(grid):
+        if grid.map[2][4] != '.' and grid.map[2][4] == grid.map[2][5]:
+            carAtExit = grid.getCarByName(grid.map[2][5])
+            print('Removing car -> ', carAtExit.name)
+            grid.printMap()
+            carAtExit.start = None
+            carAtExit.end = None
+            carAtExit.isOnGrid = False
+            grid.map[2][4] = '.'
+            grid.map[2][5] = '.'
     
 
     def parseStringToMap(grid, str):

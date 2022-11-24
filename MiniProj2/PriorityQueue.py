@@ -28,6 +28,9 @@ class PriorityQueue(object):
     def takeCost(self, elem:State):
         return elem.cost
 
+    def getState(self, state:State) -> State:
+        return self.queue.remove(state)
+            
     # for popping the leftMost state based on Priority
     # if no item, silently handle exception
     def get(self) -> State :

@@ -4,6 +4,7 @@ import queue as Q
 from PriorityQueue import PriorityQueue as pq
 from PriorityQueue import State as State
 import copy
+from typing import List
 
 
 def UniformCostSearch(grid):
@@ -37,45 +38,67 @@ def neil_UniformCostSearch(grid):
     initialState = State(cost = 0, grid = grid)
 
     OPEN.insert(initialState)
-    
+    print(initialState.grid.cars)
     #Start search
     while True:
         #Check if no more options are left to be explored
+        # print('OPEN size:', len(OPEN.queue) )
+        # print('GoalState size:', len(goalStates) )
+
         if OPEN.isEmpty():
-            #I THINK THAT THERE ARE LARGER EDGE CASES TO BE HANDLED
-            print("No solution")
-            # print(f"No Solution for {grid.printMap()}")
-            break
+            if len(goalStates) == 0:
+                print("No solution")
+            else:
+                print(len(goalStates))
+                bestPathState = findGoalStateWithLowestCost(goalStates)
+                print('Final state:')
+                break
 
         #get leftMost state
         leftMostState = OPEN.get()
+
         CLOSED.append(leftMostState)
         #Check if goal state achieved for AA if yes, add to completedArray
-        if leftMostState.grid.isGoalSpace():
-            goalStates.append(leftMostState)
-            #what else needs to be done o.o
-        #handle exploration
-        else:
-            leftMostGrid = leftMostState.grid
-            allMovements = leftMostGrid.getMoves()
+    
+        leftMostGrid = leftMostState.grid
+        allMovements = leftMostGrid.getMoves()
 
-        print(allMovements)
         for soloMovement in allMovements:
             for car, moves in soloMovement.items():
                 car = Car(car)
                 #iterate through all possible moves for a car
                 for move in moves:
+
+                    #Update the grid
                     subState = doMovement(leftMostState, car.name, move)
 
                     #Update the cost
                     newCost = leftMostState.cost + 1
                     subState.cost = newCost
+
                     #would calculate heuristic here???
+                    stateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
                     
-                    #Simon says: You have to check if it's already in OPEN or in CLOSED, 
-                    if(True): #would probably evaluate if same state already in OPEN but compare cost
+                    #check if movement results into winning if not do state add to queue evaluation
+                    if subState.grid.isGoalSpace():
+                        print("final map:")
+                        subState.grid.printMap()
+                        goalStates.append(subState)
+
+                    #add new subState if not same grid is found in the OPEN queue
+                    elif stateWithSameGridAsSubstate is None: #would probably evaluate if same state already in OPEN but compare cost
                         OPEN.insert(subState)
-        # break
+                        #Check if substate has car possible for exit
+                        subState.grid.removeExitCar()
+                    else: 
+                        #if same grid found with lower cost, we ignore the new substate
+                        #if same grid but higher cost, we add new one and discard the more expensive state from OPEN
+                        if subState.cost < stateWithSameGridAsSubstate.cost:
+                            #remove state from queue
+                            OPEN.getState(stateWithSameGridAsSubstate)
+                            OPEN.insert(subState)
+                        #Check if substate has car possible for exit
+                        subState.grid.removeExitCar()
 
 
 def GBFS_HOne(grid : Grid):
@@ -129,7 +152,27 @@ def GBFS_HOne(grid : Grid):
 
                     if(True): #would probably evaluate if same state already in OPEN but compare cost
                         OPEN.insert(subState)
-        # break
+        
+                
+def findGoalStateWithLowestCost(goalStates:List[State]):
+    lowestCostState = goalStates[0]
+    for x in goalStates:
+        if x.cost < lowestCostState.cost:
+            lowestCostState = x
+    
+    return lowestCostState
+
+def checkForSameGridInOpen(OPEN: pq, subState:State) -> State:
+    
+    for stateInQueue in OPEN.queue:
+        if(subState.grid.map == stateInQueue.grid.map):
+            return stateInQueue
+    
+    return None
+    
+def isGridInClose(newState:State, CLOSED:List[State]):
+    for x in CLOSED:
+        if x.grid.map == newState.grid.map and newState.cost < 
 
 def doMovement(parent:State, carName, movement) -> State:
     #Create new state
@@ -222,6 +265,8 @@ def updateGrid(grid:Grid, carName, movement) -> Grid:
             grid.map[selectedCar.start[0]][selectedCar.start[1] - moveCount] = '.'
             moveCount -= 1
     
+    #Update remaining gas
+    selectedCar.useGas(moveCount)
     return grid
     
 def getPuzzlesFromFile(filePath):
@@ -255,7 +300,7 @@ def solvePuzzle(puzzleString):
     #    print(x, '\n')
        
     # UniformCostSearch(grid)
-    #neil_UniformCostSearch(grid)
+    neil_UniformCostSearch(grid)
 
 validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
 
