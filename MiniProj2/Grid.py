@@ -17,7 +17,7 @@ class Grid:
     def getMoves(grid) -> List[dict[Car, any]]:
         moves = []
         for c in grid.cars:
-            print('Checking car move for -> ' + c.name)
+            # print('Checking car move for -> ' + c.name)
             newMoves = grid.canCarMove(c.name)
 
             #Will only add    
@@ -131,29 +131,32 @@ class Grid:
                 return c
     
     def isGoalSpace(grid) -> bool:
-        grid.printMap()
         c = grid.getCarByName('A')
-        print(c.start)
-        print(c.end)
+        # print(c.start)
+        # print(c.end)
         if (c.end == [2,5]): 
             return True
         else:
             return False
 
 
-    def printMap(grid):
+    def printMap(grid) -> str:
         mapString = ''
         for row in grid.map:
             for col in row:
                 mapString += col
             mapString += '\n'
         print(mapString)
+        return mapString
+
+    def getSingleLineMap(grid) -> str:
+        mapLoop = [ y for x in grid.map for y in x]
+        return ''.join(map(str,mapLoop))
 
     def removeExitCar(grid):
         if grid.map[2][4] != '.' and grid.map[2][4] == grid.map[2][5]:
             carAtExit = grid.getCarByName(grid.map[2][5])
             print('Removing car -> ', carAtExit.name)
-            grid.printMap()
             carAtExit.start = None
             carAtExit.end = None
             carAtExit.isOnGrid = False
@@ -219,7 +222,6 @@ class Grid:
                     x = 0
                     break
                 elif not cell ==  '.':
-                    print(cell)
                     if (cell not in blockingCars):
                         blockingCars.append(cell)
                         value +=1

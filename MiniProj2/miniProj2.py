@@ -5,29 +5,8 @@ from PriorityQueue import PriorityQueue as pq
 from PriorityQueue import State as State
 import copy
 from typing import List
-
-
-def UniformCostSearch(grid):
-    OPEN = Q.PriorityQueue() #For UCS, we want a priority queue based on cost
-    OPEN.put((1,grid))
-    CLOSED = []
-    numberOfSteps = 0 #I don't get #ofSteps
-    while True:
-        if(OPEN.empty()):
-            print(f"No Solution for {grid.printMap()}")
-            break
-        numberOfSteps += 1
-        nextStep = OPEN.get()
-        print(nextStep)
-        CLOSED.append(nextStep)
-
-        #Check for solution state
-        if(nextStep.isGoalSpace(nextStep)):
-            path = nextStep.getPath(nextStep)
-            return path, numberOfSteps
-        
-        children = Grid (nextStep).getMoves(grid)
-
+from OutputPrinter import *
+import time
 
 def neil_UniformCostSearch(grid):
     OPEN = pq()
@@ -39,7 +18,8 @@ def neil_UniformCostSearch(grid):
     initialState = State(cost = 0, grid = grid)
 
     OPEN.insert(initialState)
-    print(initialState.grid.cars)
+    start_time = time.time()
+
     #Start search
     while True:
         #Check if no more options are left to be explored
@@ -47,13 +27,12 @@ def neil_UniformCostSearch(grid):
         # print('GoalState size:', len(goalStates) )
 
         if OPEN.isEmpty():
+            final_time = time.time() - start_time
             if len(goalStates) == 0:
-                print("No solution")
+                return initialState, searchDetails, final_time
             else:
-                print(len(goalStates))
                 bestPathState = findGoalStateWithLowestCost(goalStates)
-                print('Final state:')
-                break
+                return bestPathState, searchDetails, final_time
 
         #get leftMost state
         leftMostState = OPEN.get()
@@ -65,13 +44,18 @@ def neil_UniformCostSearch(grid):
         allMovements = leftMostGrid.getMoves()
 
         for soloMovement in allMovements:
+
+            if len(goalStates) != 0:
+                break
+
             for car, moves in soloMovement.items():
                 car = Car(car)
                 #iterate through all possible moves for a car
                 for move in moves:
 
                     #Update the grid
-                    subState = doMovement(leftMostState, car.name, move, searchDetails)
+                    subState, details = doMovement(leftMostState, car.name, move, searchDetails)
+                    searchDetails += details + '\n'
 
                     #Update the cost
                     newCost = leftMostState.cost + 1
@@ -82,9 +66,8 @@ def neil_UniformCostSearch(grid):
                     
                     #check if movement results into winning if not do state add to queue evaluation
                     if subState.grid.isGoalSpace():
-                        print("final map:")
-                        subState.grid.printMap()
                         goalStates.append(subState)
+                        break
 
                     #add new subState if not same grid is found in the OPEN queue
                     elif stateWithSameGridAsSubstate is None: #would probably evaluate if same state already in OPEN but compare cost
@@ -183,6 +166,9 @@ def doMovement(parent:State, carName, movement, searchHistory:str = '') -> State
     #Deepcopy of the grid + do movement and set movement(dict)
     newGrid = copy.deepcopy(parent.grid)
     newGrid = updateGrid(newGrid, carName, movement)
+
+    #Retrieve a copy of prior gasConsumption
+    newState.carGasCapacities = copy.deepcopy(parent.carGasCapacities)
     
     # print('Old')
     # parent.grid.printMap()
@@ -195,11 +181,16 @@ def doMovement(parent:State, carName, movement, searchHistory:str = '') -> State
     newState.movement = movement
 
     #Update car capacities for search print
-    newState.carGasCapacities[carName] = newGrid.getCarByName(carName).gas
+    newState.carGasCapacities[str(carName)] = newGrid.getCarByName(carName).gas
     
+    # print('\nMovement to be done\n', carName, movement)
+    # print('old state gas\n', parent.getStateSearchDetail())
+    # print('new state gas\n', newState.getStateSearchDetail(),'\n')
 
+    #update f g h
+    # print('Search history after movement:\n\n', searchHistory)
 
-    return newState
+    return newState, newState.getStateSearchDetail()
 
 
 def updateGrid(grid:Grid, carName, movement) -> Grid:
@@ -272,7 +263,7 @@ def updateGrid(grid:Grid, carName, movement) -> Grid:
             moveCount -= 1
     
     #Update remaining gas
-    selectedCar.useGas(moveCount)
+    selectedCar.useGas(int(movement[1]))
     return grid
     
 def getPuzzlesFromFile(filePath):
@@ -293,42 +284,35 @@ def setupGame(gameInput):
 
     return grid
 
-def solvePuzzle(puzzleString):
+def solvePuzzle(puzzleString, puzzleNum:int):
+    global dir
+
     gameInput = puzzleString.split(' ')
-    print(gameInput)
+    # print(gameInput)
     grid = setupGame(gameInput)
     grid.printMap()
 
     y = grid.heuristicOne()
-    print(y)
+    # print(y)
     
-    # for x in grid.cars:
-    #    print(x, '\n')
-       
+
     # UniformCostSearch(grid)
-    neil_UniformCostSearch(grid)
+    ucs_state, ucs_details, search_time = neil_UniformCostSearch(grid)
+    generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time)
+
+
 
 validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
 
+dir = './output_files/'
+if os.path.exists(dir):
+    shutil.rmtree(dir)
+
+os.makedirs(dir)
+
+
+puzzleNum = 1
 for puzzle in validPuzzles:
-    solvePuzzle(puzzle)
+    solvePuzzle(puzzle, puzzleNum)
+    puzzleNum += 1
     break
-
-
-
-"""
-1) Setup grid
-2) Parse file
-3) Loop through all examples
-    a) for each example run UCS, GBFS, A*
-    b) generate files
-
-
-
-UCS:
-
-1) Start with root node 0 with initial Grid
-2) go down first level do all potential moves for each car
-3) Move to next
-
-"""
