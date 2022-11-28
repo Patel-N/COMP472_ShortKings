@@ -1,29 +1,30 @@
 from typing import List
 class Car:
-    def __init__(car, name, direction='', start:list[int, int]=[], end:list[int, int]=[], gas=100):
-        car.direction = direction
-        car.start = start
-        car.end = end
-        car.gas = gas
-        car.name = name
+    def __init__(self, name, direction='', start:list[int, int]=[], end:list[int, int]=[], gas=100):
+        self.direction = direction
+        self.start = start
+        self.end = end
+        self.gas = gas
+        self.name = name
+        self.isOnGrid = True
 
-    def isVertical(car):
-        return car.direction == 'vertical'
+    def isVertical(self):
+        return self.direction == 'vertical'
     
-    def isHorizontal(car):
-        return car.direction == 'horizontal'
+    def isHorizontal(self):
+        return self.direction == 'horizontal'
         
-    def useGas(car, amount):
-        Car(car).gas -= amount
+    def useGas(self, amount):
+        self.gas -= amount
 
-    def hasGas(car):
-        return Car(car).gas > 0
+    def hasGas(self) -> bool:
+        return self.gas > 0
 
-    def getCarLength(car) -> int:
-        if car.isHorizontal():
-            return int(car.end[1]) - int(car.start[1]) + 1
-        elif car.isVertical():
-            return int(car.end[0]) - int(car.start[0]) + 1
+    def getCarLength(self) -> int:
+        if self.isHorizontal():
+            return int(self.end[1]) - int(self.start[1]) + 1
+        elif self.isVertical():
+            return int(self.end[0]) - int(self.start[0]) + 1
 
     def __str__(self) -> str:
         strToPrint = ''

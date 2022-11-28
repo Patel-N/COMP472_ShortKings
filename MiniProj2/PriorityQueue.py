@@ -7,6 +7,22 @@ class State:
         self.grid:Grid = grid
         self.parent = parent
         self.movement = movement
+        self.f = 0
+        self.g = 0
+        self.h = 0
+        self.carGasCapacities:dict = dict()
+
+    def getCarConsumptionHistory(self) -> str:
+        history = ''
+        for key, value in self.carGasCapacities.items():
+            history = history + key + str(value) + ' '
+
+        return history
+
+    def getStateSearchDetail(self) -> str:
+        detailAtState = str(self.f) + ' ' + str(self.g) + ' ' + str(self.h) + ' ' + self.grid.getSingleLineMap() + ' ' + self.getCarConsumptionHistory()
+        # print('Details at state -> ', detailAtState)
+        return detailAtState
 
 class PriorityQueue(object):
     def __init__(self):
@@ -28,6 +44,9 @@ class PriorityQueue(object):
     def takeCost(self, elem:State):
         return elem.cost
 
+    def getState(self, state:State) -> State:
+        return self.queue.remove(state)
+            
     # for popping the leftMost state based on Priority
     # if no item, silently handle exception
     def get(self) -> State :
