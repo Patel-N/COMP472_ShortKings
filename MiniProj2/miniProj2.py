@@ -29,6 +29,8 @@ def neil_UniformCostSearch(grid):
         if OPEN.isEmpty():
             final_time = time.time() - start_time
             if len(goalStates) == 0:
+                print('No sol print')
+                initialState.grid.printMap()
                 return initialState, searchDetails, final_time
             else:
                 bestPathState = findGoalStateWithLowestCost(goalStates)
@@ -52,7 +54,6 @@ def neil_UniformCostSearch(grid):
                 car = Car(car)
                 #iterate through all possible moves for a car
                 for move in moves:
-
                     #Update the grid
                     subState, details = doMovement(leftMostState, car.name, move, searchDetails)
                     searchDetails += details + '\n'

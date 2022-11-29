@@ -57,7 +57,7 @@ class Grid:
                 #movement possible
                 if( cell == '.' ):
                    moveCount = top_y - y 
-                   movement = ['up', moveCount]
+                   movement = ['up', moveCount, car.name]
                    addToMovementDic(movementDict, car.name, movement)
                 else:
                     break
@@ -73,7 +73,7 @@ class Grid:
                 #movement possible
                 if( cell == '.' ):
                     moveCount = y - bottom_y
-                    movement = ['down', moveCount]
+                    movement = ['down', moveCount, car.name]
                     addToMovementDic(movementDict, car.name, movement)
                 else:
                     break
@@ -90,7 +90,7 @@ class Grid:
                 
                 if cell == '.':
                     moveCount = left_x - x
-                    movement = ['left', moveCount]
+                    movement = ['left', moveCount, car.name]
                     addToMovementDic(movementDict, car.name, movement)
                 else:
                     break
@@ -105,7 +105,7 @@ class Grid:
                 cell = map[right_y][x]
                 if cell == '.':
                     moveCount = x - right_x
-                    movement = ['right', moveCount]
+                    movement = ['right', moveCount, car.name]
                     addToMovementDic(movementDict, car.name, movement)
                 else:
                     break
@@ -148,6 +148,19 @@ class Grid:
             mapString += '\n'
         print(mapString)
         return mapString
+
+    def getAllCarFuel(grid):
+        allCars = grid.cars
+        stringToBuild = ''
+
+        i = 1
+        for x in allCars:
+            stringToBuild += x.name + ':' + str(x.gas)
+            if i != len(allCars):
+                stringToBuild += ', '
+            i += 1
+
+        return stringToBuild
 
     def getSingleLineMap(grid) -> str:
         mapLoop = [ y for x in grid.map for y in x]

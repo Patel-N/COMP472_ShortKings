@@ -29,7 +29,7 @@ def printSearchFile(dir:str, file_name:str, puzzleNum:int, searchDetails:str):
 def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, finalState: State, time):
     mapInfo = initialPuzzle.split(" ", 1)
     
-    movementList, carGas = buildMovementList(finalState)
+    movementList, initialCarFuel = buildMovementList(finalState)
 
     #Create file name 
     fileString = dir + file_name + '-sol-' + str(puzzleNum) + '.txt'
@@ -49,11 +49,11 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
 
     search_file.write(finalState.grid.printMap() + '\n')
 
-    search_file.write('Car fuel available: ' + initialPuzzle + '\n\n')
+    search_file.write('Car fuel available: ' + initialCarFuel + '\n\n')
 
     search_file.write(movementList + '\n\n')
 
-    search_file.write('Runtime: ' + time + 'seconds\n')
+    search_file.write('Runtime: ' + str(time) + ' seconds\n')
 
     search_file.write('--------------------------------------------------------------------------------')
     
@@ -63,12 +63,20 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
 
 def buildMovementList(startState:State):
     movementList = ''
+    initCarGas = ''
 
     if startState.parent is None:
         movementList = 'Sorry, could not solve the puzzle as specified.\nError: no solution found'
+        initCarGas = startState.grid.getAllCarFuel()
     else:
         currentState = startState
         while currentState is not None:
             print(currentState.movement)
+
+            if currentState.parent is None:
+                initCarGas = currentState.grid.getAllCarFuel()
+
             currentState = currentState.parent
+
+    return movementList, initCarGas
 
