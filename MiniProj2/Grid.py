@@ -26,6 +26,21 @@ class Grid:
 
         return moves
 
+    def getAllCarFuel(grid) -> str:
+        allCars = grid.cars
+        strToBuild = ''
+
+        carCount = 0
+        for x in allCars:
+            carCount += 1
+
+            strToBuild += x.name + ":" + x.gas
+
+            if carCount != len(allCars):
+                strToBuild += ', '
+
+        return strToBuild
+
 
     def canCarMove(grid, name) -> dict:
 

@@ -51,7 +51,7 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
 
     search_file.write('Car fuel available: ' + initialCarFuel + '\n\n')
 
-    search_file.write('{:>8} {:>8} {:>8}'.format(*line) + '\n\n')
+    # search_file.write('{:>8} {:>8} {:>8}'.format(*line) + '\n\n')
 
     search_file.write('Runtime: ' + str(time) + ' seconds\n')
 
