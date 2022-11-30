@@ -34,7 +34,7 @@ class Grid:
         for x in allCars:
             carCount += 1
 
-            strToBuild += x.name + ":" + x.gas
+            strToBuild += x.name + ":" + str(x.gas)
 
             if carCount != len(allCars):
                 strToBuild += ', '
@@ -72,7 +72,7 @@ class Grid:
                 #movement possible
                 if( cell == '.' ):
                    moveCount = top_y - y 
-                   movement = ['up', moveCount]
+                   movement = ['up', moveCount, car.name]
                    addToMovementDic(movementDict, car.name, movement)
                 else:
                     break
@@ -88,7 +88,7 @@ class Grid:
                 #movement possible
                 if( cell == '.' ):
                     moveCount = y - bottom_y
-                    movement = ['down', moveCount]
+                    movement = ['down', moveCount, car.name]
                     addToMovementDic(movementDict, car.name, movement)
                 else:
                     break
@@ -105,7 +105,7 @@ class Grid:
                 
                 if cell == '.':
                     moveCount = left_x - x
-                    movement = ['left', moveCount]
+                    movement = ['left', moveCount, car.name]
                     addToMovementDic(movementDict, car.name, movement)
                 else:
                     break
@@ -120,7 +120,7 @@ class Grid:
                 cell = map[right_y][x]
                 if cell == '.':
                     moveCount = x - right_x
-                    movement = ['right', moveCount]
+                    movement = ['right', moveCount, car.name]
                     addToMovementDic(movementDict, car.name, movement)
                 else:
                     break

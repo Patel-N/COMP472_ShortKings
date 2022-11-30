@@ -29,7 +29,7 @@ def printSearchFile(dir:str, file_name:str, puzzleNum:int, searchDetails:str):
 def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, finalState: State, time):
     mapInfo = initialPuzzle.split(" ", 1)
     
-    movementList, initialCarFuel = buildMovementList(finalState)
+    movementList, initialCarFuel, solutionPath = buildMovementList(finalState)
 
     #Create file name 
     fileString = dir + file_name + '-sol-' + str(puzzleNum) + '.txt'
@@ -51,9 +51,16 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
 
     search_file.write('Car fuel available: ' + initialCarFuel + '\n\n')
 
-    # search_file.write('{:>8} {:>8} {:>8}'.format(*line) + '\n\n')
-
     search_file.write('Runtime: ' + str(time) + ' seconds\n')
+    
+    if finalState.parent is not None:
+        search_file.write('Search path length: ' + str(None) + ' states\n')
+        search_file.write('Solution path length: ' + str(None) + ' moves\n')
+        search_file.write('Solution path: ' + solutionPath + '\n\n')
+
+        search_file.write(movementList + '\n\n')
+        search_file.write('! ' + finalState.getCarConsumptionHistory() + '\n')
+        search_file.write(finalState.grid.printMap() + '\n\n')
 
     search_file.write('--------------------------------------------------------------------------------')
     
@@ -62,21 +69,36 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
 
 
 def buildMovementList(startState:State):
+    movementListArr = []
     movementList = ''
     initCarGas = ''
-
+    solutionPathArr = []
+    
     if startState.parent is None:
         movementList = 'Sorry, could not solve the puzzle as specified.\nError: no solution found'
         initCarGas = startState.grid.getAllCarFuel()
     else:
         currentState = startState
-        while currentState is not None:
-            print(currentState.movement)
 
+        while currentState is not None:
+
+            if currentState.movement is not None:
+                movementString = '{:<2}{:>5}{:>2}       {:<3}{mapString} {history}'.format(currentState.movement[2], currentState.movement[0], currentState.movement[1], currentState.grid.getCarByName(currentState.movement[2]).gas, mapString = currentState.grid.getSingleLineMap(), history = currentState.getCarConsumptionHistory())
+                movementListArr.insert(0, movementString)
+                solStr = currentState.movement[2] + ' ' + currentState.movement[0] + ' ' + str(currentState.movement[1])
+                if currentState.parent.movement is None:
+                    print(solStr + ';')
+                    solutionPathArr.insert(0, solStr + '; ')
+                else:
+                    print(solStr)
+                    solutionPathArr.insert(0, solStr)
+                    
             if currentState.parent is None:
                 initCarGas = currentState.grid.getAllCarFuel()
-
             currentState = currentState.parent
 
-    return movementList, initCarGas
+        movementList = '\n'.join(movementListArr)
+        solutionPath = ''.join(solutionPathArr)
+
+    return movementList, initCarGas, solutionPath
 
