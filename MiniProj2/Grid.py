@@ -45,17 +45,20 @@ class Grid:
     def canCarMove(grid, name) -> dict:
 
         def addToMovementDic(dict:dict, key, value):
-            if key in dict.keys():
-                valsForKeys = dict[key]
-                valsForKeys.append(value)
-                dict[key] = valsForKeys
-            else:
-                dict[key] = [value]
+            c= grid.getCarByName(key)
+            if(c.gas>= value[1]):
+                if key in dict.keys():
+                    valsForKeys = dict[key]
+                    valsForKeys.append(value)
+                    dict[key] = valsForKeys
+                else:
+                    dict[key] = [value]
+            
 
 
         movementDict = dict()
         car = grid.getCarByName(name)
-        if not car.hasGas() or not car.isOnGrid:
+        if  car.gas <= 0 or not car.isOnGrid:
             return movementDict
         start = car.start
         end = car.end

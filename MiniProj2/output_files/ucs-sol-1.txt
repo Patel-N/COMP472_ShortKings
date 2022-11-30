@@ -1,32 +1,16 @@
 --------------------------------------------------------------------------------
 
-Initial board configuration:  BBIJ....IJCC..IAAMGDDK.MGH.KL.GHFFL.
+Initial board configuration:  BBB..MCCDD.MAAKL.MJ.KLEEJ.GG..JHHHII J0 B4
 
-! 
-BBIJ..
-..IJCC
-..I.AA
-GDDK.M
-GH.KLM
-GHFFL.
+! J0 B4
+BBB..M
+CCDD.M
+AAKL.M
+J.KLEE
+J.GG..
+JHHHII
 
-Car fuel available: A:100, B:100, C:100, D:100, F:100, G:100, H:100, I:100, J:100, K:100, L:100, M:100
+Car fuel available: A:100, B:4, C:100, D:100, E:100, G:100, H:100, I:100, J:0, K:100, L:100, M:100
 
-Runtime: 0.011427164077758789 seconds
-Search path length: None states
-Solution path length: None moves
-Solution path: M down 1; A right 1
-
-M  down 1       99 BBIJ....IJCC..IAA.GDDK.MGH.KLMGHFFL. M99 
-A right 1       99 BBIJ....IJCC..I.AAGDDK.MGH.KLMGHFFL. M99 A99 
-
-! M99 A99 
-BBIJ..
-..IJCC
-..I.AA
-GDDK.M
-GH.KLM
-GHFFL.
-
-
+Runtime: 65.95700263977051 seconds
 --------------------------------------------------------------------------------

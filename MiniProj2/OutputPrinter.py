@@ -73,6 +73,7 @@ def buildMovementList(startState:State):
     movementList = ''
     initCarGas = ''
     solutionPathArr = []
+    solutionPath = ''
     
     if startState.parent is None:
         movementList = 'Sorry, could not solve the puzzle as specified.\nError: no solution found'

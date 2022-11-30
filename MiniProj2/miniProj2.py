@@ -26,13 +26,15 @@ def neil_UniformCostSearch(grid):
         # print('OPEN size:', len(OPEN.queue) )
         # print('GoalState size:', len(goalStates) )
 
+        #SUCCESS
+        if len(goalStates) > 0:
+            final_time = time.time() - start_time
+            return initialState, searchDetails, final_time
+
+        #FAILURE
         if OPEN.isEmpty():
             final_time = time.time() - start_time
-            if len(goalStates) == 0:
-                return initialState, searchDetails, final_time
-            else:
-                bestPathState = findGoalStateWithLowestCost(goalStates)
-                return bestPathState, searchDetails, final_time
+            return initialState, searchDetails, final_time
 
         #get leftMost state
         leftMostState = OPEN.get()
@@ -62,6 +64,7 @@ def neil_UniformCostSearch(grid):
                     subState.cost = newCost
 
                     #would calculate heuristic here???
+                    #CHECK IF IN CLOSED
                     stateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
                     
                     #check if movement results into winning if not do state add to queue evaluation
@@ -85,57 +88,93 @@ def neil_UniformCostSearch(grid):
                         subState.grid.removeExitCar()
 
 
-def GBFS_HOne(grid : Grid):
-    OPEN = Q.PriorityQueue() #For UCS, we want a priority queue based on cost
+def GBFS_One(grid):
+    OPEN = pq()
     CLOSED = []
     goalStates = []
+    searchDetails = ''
 
     #Initial State
-    
     starting_heuristic = grid.heuristicOne()
     initialState = State(cost = starting_heuristic, grid = grid)
 
-    OPEN.insert(initialState)
-    
+    OPEN.insertH(initialState)
+    start_time = time.time()
 
     #Start search
     while True:
         #Check if no more options are left to be explored
-        if OPEN.isEmpty():
-            #I THINK THAT THERE ARE LARGER EDGE CASES TO BE HANDLED
-            print("No solution")
-            # print(f"No Solution for {grid.printMap()}")
-            break
+        # print('OPEN size:', len(OPEN.queue) )
+        # print('GoalState size:', len(goalStates) )
+        
+         
+        #SUCCESS
+        if len(goalStates) > 0:
+            final_time = time.time() - start_time
+            return initialState, searchDetails, final_time
 
+        #FAILURE
+        if OPEN.isEmpty():
+            if len(goalStates) == 0:
+                final_time = time.time() - start_time
+                return initialState, searchDetails, final_time
+       
         #get leftMost state
         leftMostState = OPEN.get()
+
         CLOSED.append(leftMostState)
         #Check if goal state achieved for AA if yes, add to completedArray
-        if leftMostState.grid.isGoalSpace():
-            goalStates.append(leftMostState)
-            #what else needs to be done o.o
-            #PRINT ANSWER / # of steps
-            break
-        #handle exploration
-        else:
-            leftMostGrid = leftMostState.grid
-            allMovements = leftMostGrid.getMoves()
+    
+        leftMostGrid = leftMostState.grid
+        allMovements = leftMostGrid.getMoves()
 
-        
         for soloMovement in allMovements:
+
+            if len(goalStates) != 0:
+                break
+
             for car, moves in soloMovement.items():
                 car = Car(car)
                 #iterate through all possible moves for a car
                 for move in moves:
-                    subState = doMovement(leftMostState, car.name, move)
+
+                    #Update the grid
+                    subState, details = doMovement(leftMostState, car.name, move, searchDetails)
+                    searchDetails += details + '\n'
 
                     #Update the cost
-                    subState.cost = subState.grid.heuristicOne()
+                    
+                    
+                    newCost = leftMostState.cost + 1
+                    subState.cost = newCost
+                    subState.h = subState.grid.heuristicOne()
+                    
 
                     #would calculate heuristic here???
+                    stateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
+                    
+                    #check if movement results into winning if not do state add to queue evaluation
+                    if subState.grid.isGoalSpace():
+                        goalStates.append(subState)
+                        break
 
-                    if(True): #would probably evaluate if same state already in OPEN but compare cost
-                        OPEN.insert(subState)
+                    #add new subState if not same grid is found in the OPEN queue
+                    elif stateWithSameGridAsSubstate is None: #would probably evaluate if same state already in OPEN but compare cost
+                        OPEN.insertH(subState)
+                        #Check if substate has car possible for exit
+                        subState.grid.removeExitCar()
+                    else: 
+                        #if same grid found with lower cost, we ignore the new substate
+                        #if same grid but higher cost, we add new one and discard the more expensive state from OPEN
+                        if subState.cost < stateWithSameGridAsSubstate.cost:
+                            #remove state from queue
+                            OPEN.getState(stateWithSameGridAsSubstate)
+                            OPEN.insertH(subState)
+                        #Check if substate has car possible for exit
+                        subState.grid.removeExitCar()
+
+
+
         
                 
 def findGoalStateWithLowestCost(goalStates:List[State]):
@@ -291,14 +330,17 @@ def solvePuzzle(puzzleString, puzzleNum:int):
     # print(gameInput)
     grid = setupGame(gameInput)
     grid.printMap()
-
-    y = grid.heuristicOne()
-    # print(y)
     
 
     # UniformCostSearch(grid)
+   # ucs_state, ucs_details, search_time = neil_UniformCostSearch(grid)
+    #generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time)
+
+    #GBFS
+    print("start")
     ucs_state, ucs_details, search_time = neil_UniformCostSearch(grid)
-    generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time)
+    generateOutputFiles(dir, 'UCS',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time)
+    print(search_time)
 
 
 
