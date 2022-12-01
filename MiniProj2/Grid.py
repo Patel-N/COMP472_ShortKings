@@ -230,6 +230,17 @@ class Grid:
             car = grid.getCarByName(targetCar)
             car.gas = gasQty
 
+    def heuristic(grid,h):
+        if(h == 'h1'):
+            return grid.heuristicOne()
+        elif(h =='h2'):
+            return grid.heuristicTwo()
+        elif(h=='h3'):
+            return grid.heuristicThree()
+        else:
+            return grid.heuristicOne()
+
+
     def heuristicOne(grid):
         value = 0
         x = 5
