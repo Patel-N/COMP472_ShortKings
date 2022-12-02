@@ -2,11 +2,11 @@ from PriorityQueue import State, PriorityQueue
 import os
 import shutil
 
-def generateOutputFiles(dir:str, filePrefix:str,  puzzleNum:int, initialPuzzle:str, finalState:State, searchDetails:str, timeToSol):
+def generateOutputFiles(dir:str, filePrefix:str,  puzzleNum:int, initialPuzzle:str, finalState:State, searchDetails:str, timeToSol, stateSearchCount:int):
     
     printSearchFile(dir, filePrefix, puzzleNum, searchDetails)
     print(finalState)
-    printSolutionFile(dir, filePrefix, puzzleNum, initialPuzzle, finalState, timeToSol)
+    printSolutionFile(dir, filePrefix, puzzleNum, initialPuzzle, finalState, timeToSol, stateSearchCount)
     # print(initialPuzzle)
     # print(finalState)
     # print(searchDetails)
@@ -26,10 +26,10 @@ def printSearchFile(dir:str, file_name:str, puzzleNum:int, searchDetails:str):
     search_file.close()
 
 
-def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, finalState: State, time):
+def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, finalState: State, time, stateSearchCount):
     mapInfo = initialPuzzle.split(" ", 1)
     
-    movementList, initialCarFuel, solutionPath = buildMovementList(finalState)
+    movementList, initialCarFuel, solutionPath, moveCount = buildMovementList(finalState)
 
     #Create file name 
     fileString = dir + file_name + '-sol-' + str(puzzleNum) + '.txt'
@@ -51,11 +51,14 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
 
     search_file.write('Car fuel available: ' + initialCarFuel + '\n\n')
 
+    if finalState.parent is None:
+        search_file.write(movementList + '\n\n')
+
     search_file.write('Runtime: ' + str(time) + ' seconds\n')
     
     if finalState.parent is not None:
-        search_file.write('Search path length: ' + str(None) + ' states\n')
-        search_file.write('Solution path length: ' + str(None) + ' moves\n')
+        search_file.write('Search path length: ' + str(stateSearchCount) + ' states\n')
+        search_file.write('Solution path length: ' + str(moveCount) + ' moves\n')
         search_file.write('Solution path: ' + solutionPath + '\n\n')
 
         search_file.write(movementList + '\n\n')
@@ -74,6 +77,7 @@ def buildMovementList(startState:State):
     initCarGas = ''
     solutionPathArr = []
     solutionPath = ''
+    moveCount = 0
     
     if startState.parent is None:
         movementList = 'Sorry, could not solve the puzzle as specified.\nError: no solution found'
@@ -87,19 +91,21 @@ def buildMovementList(startState:State):
                 movementString = '{:<2}{:>5}{:>2}       {:<3}{mapString} {history}'.format(currentState.movement[2], currentState.movement[0], currentState.movement[1], currentState.grid.getCarByName(currentState.movement[2]).gas, mapString = currentState.grid.getSingleLineMap(), history = currentState.getCarConsumptionHistory())
                 movementListArr.insert(0, movementString)
                 solStr = currentState.movement[2] + ' ' + currentState.movement[0] + ' ' + str(currentState.movement[1])
-                if currentState.parent.movement is None:
-                    print(solStr + ';')
-                    solutionPathArr.insert(0, solStr + '; ')
-                else:
-                    print(solStr)
+                
+                if moveCount == 0:
                     solutionPathArr.insert(0, solStr)
-                    
+                else:
+                    solutionPathArr.insert(0, solStr + '; ')
+
+                                
             if currentState.parent is None:
                 initCarGas = currentState.grid.getAllCarFuel()
             currentState = currentState.parent
 
+            moveCount += 1
+
         movementList = '\n'.join(movementListArr)
         solutionPath = ''.join(solutionPathArr)
 
-    return movementList, initCarGas, solutionPath
+    return movementList, initCarGas, solutionPath, moveCount 
 

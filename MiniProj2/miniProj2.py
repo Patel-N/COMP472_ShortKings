@@ -8,14 +8,16 @@ from typing import List
 from OutputPrinter import *
 import time
 
-def neil_UniformCostSearch(grid):
+def UniformCostSearch(grid):
     OPEN = pq()
     CLOSED = []
     goalStates = []
     searchDetails = ''
+    stateSearchCount = 0
 
     #Initial State
     initialState = State(cost = 0, grid = grid)
+    subState = None
 
     OPEN.insert(initialState)
     start_time = time.time()
@@ -29,12 +31,12 @@ def neil_UniformCostSearch(grid):
         #SUCCESS
         if len(goalStates) > 0:
             final_time = time.time() - start_time
-            return initialState, searchDetails, final_time
+            return subState, searchDetails, final_time, stateSearchCount
 
         #FAILURE
         if OPEN.isEmpty():
             final_time = time.time() - start_time
-            return initialState, searchDetails, final_time
+            return initialState, searchDetails, final_time, stateSearchCount
 
         #get leftMost state
         leftMostState = OPEN.get()
@@ -65,7 +67,7 @@ def neil_UniformCostSearch(grid):
 
                     #would calculate heuristic here???
                     #CHECK IF IN CLOSED
-                    stateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
+                    openStateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
                     closedStateWithSameGridAsSubstate = checkForSameGridInClosed(CLOSED, subState)
                     
                     #check if movement results into winning if not do state add to queue evaluation
@@ -74,7 +76,11 @@ def neil_UniformCostSearch(grid):
                         break
 
                     #add new subState if not same grid is found in the OPEN queue
-                    elif stateWithSameGridAsSubstate is None and closedStateWithSameGridAsSubstate is None: #would probably evaluate if same state already in OPEN but compare cost
+                    elif openStateWithSameGridAsSubstate is None and closedStateWithSameGridAsSubstate is None: #would probably evaluate if same state already in OPEN but compare cost
+                        
+                        # Count the amount of state change done
+                        stateSearchCount += 1
+
                         OPEN.insert(subState)
                         #Check if substate has car possible for exit
                         subState.grid.removeExitCar()
@@ -82,10 +88,15 @@ def neil_UniformCostSearch(grid):
                         #if same grid found with lower cost, we ignore the new substate
                         #if same grid but higher cost, we add new one and discard the more expensive state from OPEN
                         
-                        if stateWithSameGridAsSubstate is not None and subState.cost < stateWithSameGridAsSubstate.cost:
+                        if openStateWithSameGridAsSubstate is not None and subState.cost < openStateWithSameGridAsSubstate.cost:
+                            # Count the amount of state change done
+                            stateSearchCount += 1
+
+
                             #remove state from queue
-                            OPEN.getState(stateWithSameGridAsSubstate)
+                            OPEN.getState(openStateWithSameGridAsSubstate)
                             OPEN.insert(subState)
+                            
                         #Check if substate has car possible for exit
                         subState.grid.removeExitCar()
 
@@ -98,6 +109,7 @@ def GBFS(grid, heuristic):
     #Initial State
     starting_heuristic = grid.heuristic(heuristic)
     initialState = State(cost = starting_heuristic, grid = grid)
+    subState = None
 
     OPEN.insertH(initialState)
     start_time = time.time()
@@ -112,7 +124,7 @@ def GBFS(grid, heuristic):
         #SUCCESS
         if len(goalStates) > 0:
             final_time = time.time() - start_time
-            return initialState, searchDetails, final_time
+            return subState, searchDetails, final_time
 
         #FAILURE
         if OPEN.isEmpty():
@@ -207,7 +219,7 @@ def checkForSameGridInClosed(CLOSED: list, subState:State) -> State:
 #     for x in CLOSED:
 #         if x.grid.map == newState.grid.map and newState.cost <
 
-def doMovement(parent:State, carName, movement, searchHistory:str = '') -> State:
+def doMovement(parent:State, carName, movement, searchHistory:str = '') -> tuple[State, str]:
     #Create new state
     newState = State()
 
@@ -341,16 +353,16 @@ def solvePuzzle(puzzleString, puzzleNum:int):
     grid = setupGame(gameInput)
     grid.printMap()
     
+    print("start")
 
     # UniformCostSearch(grid)
-   # ucs_state, ucs_details, search_time = neil_UniformCostSearch(grid)
-    #generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time)
+    ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
+    generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
 
     #GBFS
-    print("start")
-    ucs_state, ucs_details, search_time = GBFS(grid, 'h2')
-    generateOutputFiles(dir, 'GBFS',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time)
-    print(search_time)
+    # ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
+    # generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
+    # print(search_time)
 
 
 
