@@ -1,16 +1,16 @@
 from PriorityQueue import State, PriorityQueue
-import os
-import shutil
+import re
+import pandas as pd
 
 def generateOutputFiles(dir:str, filePrefix:str,  puzzleNum:int, initialPuzzle:str, finalState:State, searchDetails:str, timeToSol, stateSearchCount:int):
     
     printSearchFile(dir, filePrefix, puzzleNum, searchDetails)
     print(finalState)
-    printSolutionFile(dir, filePrefix, puzzleNum, initialPuzzle, finalState, timeToSol, stateSearchCount)
+    moveCount = printSolutionFile(dir, filePrefix, puzzleNum, initialPuzzle, finalState, timeToSol, stateSearchCount)
     # print(initialPuzzle)
     # print(finalState)
     # print(searchDetails)
-
+    return moveCount
 
 def printSearchFile(dir:str, file_name:str, puzzleNum:int, searchDetails:str):
     #Create file name 
@@ -28,8 +28,7 @@ def printSearchFile(dir:str, file_name:str, puzzleNum:int, searchDetails:str):
 
 def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, finalState: State, time, stateSearchCount):
     mapInfo = initialPuzzle.split(" ", 1)
-    
-    movementList, initialCarFuel, solutionPath, moveCount = buildMovementList(finalState)
+    movementList, initialCarFuel, solutionPath, moveCount, gridFormatInit = buildMovementList(finalState)
 
     #Create file name 
     fileString = dir + file_name + '-sol-' + str(puzzleNum) + '.txt'
@@ -44,10 +43,10 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
     
     if len(mapInfo) > 1:
         search_file.write(mapInfo[1])
-    
+
     search_file.write('\n')
 
-    search_file.write(finalState.grid.printMap() + '\n')
+    search_file.write(gridFormatInit + '\n')
 
     search_file.write('Car fuel available: ' + initialCarFuel + '\n\n')
 
@@ -63,18 +62,21 @@ def printSolutionFile(dir:str, file_name:str, puzzleNum:int, initialPuzzle:str, 
 
         search_file.write(movementList + '\n\n')
         search_file.write('! ' + finalState.getCarConsumptionHistory() + '\n')
-        search_file.write(finalState.grid.printMap() + '\n\n')
+        search_file.write(finalState.grid.getGridFormatMap() + '\n\n')
 
     search_file.write('--------------------------------------------------------------------------------')
     
     #close file
     search_file.close()
 
+    return moveCount
+
 
 def buildMovementList(startState:State):
     movementListArr = []
     movementList = ''
     initCarGas = ''
+    initMap = ''
     solutionPathArr = []
     solutionPath = ''
     moveCount = 0
@@ -82,6 +84,7 @@ def buildMovementList(startState:State):
     if startState.parent is None:
         movementList = 'Sorry, could not solve the puzzle as specified.\nError: no solution found'
         initCarGas = startState.grid.getAllCarFuel()
+        initMap = startState.grid.getGridFormatMap()
     else:
         currentState = startState
 
@@ -100,12 +103,28 @@ def buildMovementList(startState:State):
                                 
             if currentState.parent is None:
                 initCarGas = currentState.grid.getAllCarFuel()
+                initMap = currentState.grid.getGridFormatMap()
+            else:
+                moveCount += 1
+
             currentState = currentState.parent
 
-            moveCount += 1
 
         movementList = '\n'.join(movementListArr)
         solutionPath = ''.join(solutionPathArr)
 
-    return movementList, initCarGas, solutionPath, moveCount 
+    return movementList, initCarGas, solutionPath, moveCount, initMap
 
+def printAnalysisFile(puzzleNumber, algo, heuristic, length_of_sol, length_of_search, exec_time):
+    data = {
+        "Puzzle Number": puzzleNumber,
+        "Algorithm": algo,
+        "Heuristic": heuristic,
+        "Length of the Solution": length_of_sol,
+        "Length of Search Path": length_of_search,
+        "Execution Time(in seconds)": exec_time
+    }
+
+    df = pd.DataFrame(data)
+
+    print(df)

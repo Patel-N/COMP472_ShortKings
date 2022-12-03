@@ -157,15 +157,18 @@ class Grid:
         else:
             return False
 
-
-    def printMap(grid) -> str:
+    def getGridFormatMap(grid) -> str:
         mapString = ''
         for row in grid.map:
             for col in row:
                 mapString += col
             mapString += '\n'
-        print(mapString)
+
         return mapString
+
+
+    def printMap(grid):
+        print(grid.getGridFormatMap())
 
     def getSingleLineMap(grid) -> str:
         mapLoop = [ y for x in grid.map for y in x]

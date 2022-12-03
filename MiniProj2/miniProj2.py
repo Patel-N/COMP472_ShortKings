@@ -7,6 +7,8 @@ import copy
 from typing import List
 from OutputPrinter import *
 import time
+import os
+import shutil
 
 def UniformCostSearch(grid):
     OPEN = pq()
@@ -20,6 +22,7 @@ def UniformCostSearch(grid):
     subState = None
 
     OPEN.insert(initialState)
+    searchDetails += initialState.getStateSearchDetail() + '\n'
     start_time = time.time()
 
     #Start search
@@ -58,14 +61,21 @@ def UniformCostSearch(grid):
                 for move in moves:
 
                     #Update the grid
-                    subState, details = doMovement(leftMostState, car.name, move, searchDetails)
-                    searchDetails += details + '\n'
+                    subState = doMovement(leftMostState, car.name, move, searchDetails)
+                    
 
                     #Update the cost
-                    newCost = leftMostState.cost + 1
-                    subState.cost = newCost
+                    prevG = leftMostState.g
+                    newG = prevG + 1
+                    subState.g = newG
 
-                    #would calculate heuristic here???
+                    #UCS cost is always edge cost --> g
+                    subState.f = newG
+                    subState.cost = newG
+                    
+                    #Update searchDetails
+                    searchDetails += subState.getStateSearchDetail() + '\n'
+                    
                     #CHECK IF IN CLOSED
                     openStateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
                     closedStateWithSameGridAsSubstate = checkForSameGridInClosed(CLOSED, subState)
@@ -96,7 +106,7 @@ def UniformCostSearch(grid):
                             #remove state from queue
                             OPEN.getState(openStateWithSameGridAsSubstate)
                             OPEN.insert(subState)
-                            
+
                         #Check if substate has car possible for exit
                         subState.grid.removeExitCar()
 
@@ -113,7 +123,8 @@ def GBFS(grid, heuristic):
 
     OPEN.insertH(initialState)
     start_time = time.time()
-
+    searchDetails += subState.getStateSearchDetail() + '\n'
+    
     #Start search
     while True:
         #Check if no more options are left to be explored
@@ -152,8 +163,7 @@ def GBFS(grid, heuristic):
                 for move in moves:
 
                     #Update the grid
-                    subState, details = doMovement(leftMostState, car.name, move, searchDetails)
-                    searchDetails += details + '\n'
+                    subState = doMovement(leftMostState, car.name, move, searchDetails)
 
                     #Update the cost
                     
@@ -162,6 +172,8 @@ def GBFS(grid, heuristic):
                     subState.cost = newCost
                     subState.h = subState.grid.heuristic(heuristic)
                     
+                    #Update searchDetails
+                    searchDetails += subState.getStateSearchDetail() + '\n'
 
                     #would calculate heuristic here???
                     stateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
@@ -208,18 +220,15 @@ def checkForSameGridInOpen(OPEN: pq, subState:State) -> State:
     return None
 
 
-def checkForSameGridInClosed(CLOSED: list, subState:State) -> State:
+def checkForSameGridInClosed(CLOSED: list[State], subState:State) -> State:
     
     for stateInQueue in CLOSED:
         if(subState.grid.map == stateInQueue.grid.map):
             return stateInQueue
     
     return None
-# def isGridInClose(newState:State, CLOSED:List[State]):
-#     for x in CLOSED:
-#         if x.grid.map == newState.grid.map and newState.cost <
 
-def doMovement(parent:State, carName, movement, searchHistory:str = '') -> tuple[State, str]:
+def doMovement(parent:State, carName, movement, searchHistory:str = '') -> State:
     #Create new state
     newState = State()
 
@@ -230,11 +239,6 @@ def doMovement(parent:State, carName, movement, searchHistory:str = '') -> tuple
 
     #Retrieve a copy of prior gasConsumption
     newState.carGasCapacities = copy.deepcopy(parent.carGasCapacities)
-    
-    # print('Old')
-    # parent.grid.printMap()
-    # print('New')
-    # newGrid.printMap()
 
     # Set variables
     newState.grid = newGrid
@@ -244,22 +248,14 @@ def doMovement(parent:State, carName, movement, searchHistory:str = '') -> tuple
     #Update car capacities for search print
     newState.carGasCapacities[str(carName)] = newGrid.getCarByName(carName).gas
     
-    # print('\nMovement to be done\n', carName, movement)
-    # print('old state gas\n', parent.getStateSearchDetail())
-    # print('new state gas\n', newState.getStateSearchDetail(),'\n')
-
-    #update f g h
-    # print('Search history after movement:\n\n', searchHistory)
-
-    return newState, newState.getStateSearchDetail()
+    return newState
 
 
 def updateGrid(grid:Grid, carName, movement) -> Grid:
     #Get car from grid
     selectedCar = grid.getCarByName(carName)
     moveCount = int(movement[1])
-
-        
+   
     carLength = selectedCar.getCarLength()
     i = 0
 
@@ -345,6 +341,22 @@ def setupGame(gameInput):
 
     return grid
 
+def addResultForAnalysis(puzzleNum: int, alg:str, heur:str, sol:int, search:int, time):
+    global puzzleNumber
+    global algo
+    global heuristic
+    global length_of_sol
+    global length_of_search
+    global exec_time
+
+    puzzleNumber.append(puzzleNum)
+    algo.append(alg)
+    heuristic.append(heur)
+    length_of_sol.append(sol)
+    length_of_search.append(search)
+    exec_time.append(time)
+
+
 def solvePuzzle(puzzleString, puzzleNum:int):
     global dir
 
@@ -357,8 +369,9 @@ def solvePuzzle(puzzleString, puzzleNum:int):
 
     # UniformCostSearch(grid)
     ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
-    generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
-
+    moveCount = generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'UCS', 'N/A', moveCount, stateSearchCount, search_time)
+    
     #GBFS
     # ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
     # generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
@@ -367,16 +380,32 @@ def solvePuzzle(puzzleString, puzzleNum:int):
 
 
 validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
+puzzleNumber = []
+algo = []
+heuristic = []
+length_of_sol = []
+length_of_search = []
+exec_time = []
 
+
+
+
+#Prepare output folders
 dir = './output_files/'
 if os.path.exists(dir):
     shutil.rmtree(dir)
 
 os.makedirs(dir)
 
+analysis_dir = './analysis/'
+if not os.path.exists(analysis_dir):
+    os.makedirs(analysis_dir)
+
 
 puzzleNum = 1
 for puzzle in validPuzzles:
     solvePuzzle(puzzle, puzzleNum)
     puzzleNum += 1
-    break
+
+printAnalysisFile(puzzleNumber, algo, heuristic, length_of_sol, length_of_search, exec_time)
+
