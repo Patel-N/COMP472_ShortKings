@@ -465,13 +465,41 @@ def solvePuzzle(puzzleString, puzzleNum:int):
     moveCount = generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
     addResultForAnalysis(puzzleNum, 'UCS', 'N/A', moveCount, stateSearchCount, search_time)
     
-    gbfs_state, gbfs_details, search_time, stateSearchCount = GBFS(grid, 'h1')
-    moveCount = generateOutputFiles(dir, 'GBFS',  puzzleNum, puzzleString, gbfs_state, gbfs_details, search_time, stateSearchCount)
-
     #GBFS
-    # ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
-    # generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
-    # print(search_time)
+    gbfs_state, gbfs_details, search_time, stateSearchCount = GBFS(grid, 'h1')
+    moveCount = generateOutputFiles(dir, 'gbfs-h1',  puzzleNum, puzzleString, gbfs_state, gbfs_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'GBFS', 'h1', moveCount, stateSearchCount, search_time)
+    
+    gbfs_state, gbfs_details, search_time, stateSearchCount = GBFS(grid, 'h2')
+    moveCount = generateOutputFiles(dir, 'gbfs-h2',  puzzleNum, puzzleString, gbfs_state, gbfs_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'GBFS', 'h2', moveCount, stateSearchCount, search_time)
+
+    gbfs_state, gbfs_details, search_time, stateSearchCount = GBFS(grid, 'h3')
+    moveCount = generateOutputFiles(dir, 'gbfs-h3',  puzzleNum, puzzleString, gbfs_state, gbfs_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'GBFS', 'h3', moveCount, stateSearchCount, search_time)
+
+    gbfs_state, gbfs_details, search_time, stateSearchCount = GBFS(grid, 'h4')
+    moveCount = generateOutputFiles(dir, 'gbfs-h4',  puzzleNum, puzzleString, gbfs_state, gbfs_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'GBFS', 'h4', moveCount, stateSearchCount, search_time)
+    
+    #A
+    a_state, a_details, search_time, stateSearchCount = A(grid, 'h1')
+    moveCount = generateOutputFiles(dir, 'a-h1',  puzzleNum, puzzleString, a_state, a_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'A/A*', 'h1', moveCount, stateSearchCount, search_time)
+    
+    a_state, a_details, search_time, stateSearchCount = A(grid, 'h2')
+    moveCount = generateOutputFiles(dir, 'a-h2',  puzzleNum, puzzleString, a_state, a_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'A/A*', 'h2', moveCount, stateSearchCount, search_time)
+
+    a_state, a_details, search_time, stateSearchCount = A(grid, 'h3')
+    moveCount = generateOutputFiles(dir, 'a-h3',  puzzleNum, puzzleString, a_state, a_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'A/A*', 'h3', moveCount, stateSearchCount, search_time)
+
+    a_state, a_details, search_time, stateSearchCount = A(grid, 'h4')
+    moveCount = generateOutputFiles(dir, 'a-h4',  puzzleNum, puzzleString, a_state, a_details, search_time, stateSearchCount)
+    addResultForAnalysis(puzzleNum, 'A/A*', 'h4', moveCount, stateSearchCount, search_time)
+    
+    
     
     print("Finish puzzle #" + str(puzzleNum) + "\n")
 
@@ -479,7 +507,7 @@ def solvePuzzle(puzzleString, puzzleNum:int):
 
 
 
-validPuzzles = getPuzzlesFromFile('./custom-input.txt')
+validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
 puzzleNumber = []
 algo = []
 heuristic = []
@@ -506,6 +534,7 @@ puzzleNum = 1
 for puzzle in validPuzzles:
     solvePuzzle(puzzle, puzzleNum)
     puzzleNum += 1
+    break
 
 printAnalysisFile(puzzleNumber, algo, heuristic, length_of_sol, length_of_search, exec_time)
 
