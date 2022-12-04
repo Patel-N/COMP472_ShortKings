@@ -15,5 +15,5 @@ Car fuel available: A:100, O:100, P:100, X:0
 Sorry, could not solve the puzzle as specified.
 Error: no solution found
 
-Runtime: 0.09599685668945312 seconds
+Runtime: 0.059551239013671875 seconds
 --------------------------------------------------------------------------------

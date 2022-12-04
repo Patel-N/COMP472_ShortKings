@@ -293,4 +293,4 @@ class Grid:
         return value * multipler
 
     def heuristicFour(grid):
-        return (grid.heuristicOne() +grid.heuristicTwo()) / 2
+        return int((grid.heuristicOne() +grid.heuristicTwo()) / 2)

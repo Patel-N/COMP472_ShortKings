@@ -12,7 +12,7 @@ AAX.BC
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, X:100
 
-Runtime: 23.92752504348755 seconds
+Runtime: 12.044856309890747 seconds
 Search path length: 3497 states
 Solution path length: 6 moves
 Solution path: C up 2; D left 2; E left 4; B down 2; X down 2; A right 4

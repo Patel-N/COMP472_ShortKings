@@ -12,7 +12,7 @@ AAD...
 
 Car fuel available: A:100, B:100, C:100, D:1, E:100, O:100, P:100, X:100
 
-Runtime: 0.2290658950805664 seconds
+Runtime: 0.16814446449279785 seconds
 Search path length: 126 states
 Solution path length: 7 moves
 Solution path: P left 1; E left 1; B down 2; O right 1; D up 1; X right 3; X left 4

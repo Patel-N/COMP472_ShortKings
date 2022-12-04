@@ -12,7 +12,7 @@ OOOPPP
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, P:100, X:100
 
-Runtime: 2.135711193084717 seconds
+Runtime: 1.305121898651123 seconds
 Search path length: 1025 states
 Solution path length: 8 moves
 Solution path: A left 1; C left 1; D up 2; E left 3; B down 2; D down 1; X down 2; A right 3

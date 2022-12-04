@@ -12,7 +12,7 @@ QQQDD.
 
 Car fuel available: A:100, B:100, C:100, D:100, O:100, P:100, Q:100, X:100
 
-Runtime: 0.4203188419342041 seconds
+Runtime: 0.21968865394592285 seconds
 Search path length: 218 states
 Solution path length: 7 moves
 Solution path: A right 2; C right 2; X down 2; O left 2; P left 1; B up 2; A right 2

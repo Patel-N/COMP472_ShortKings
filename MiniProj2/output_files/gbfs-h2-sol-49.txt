@@ -12,7 +12,7 @@ CCQ.B.
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, P:100, Q:100, X:100
 
-Runtime: 0.15114688873291016 seconds
+Runtime: 0.11459851264953613 seconds
 Search path length: 204 states
 Solution path length: 9 moves
 Solution path: E left 1; P down 3; A left 2; Q up 2; D left 1; B down 1; D left 2; Q down 2; A right 4

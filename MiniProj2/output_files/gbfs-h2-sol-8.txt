@@ -12,7 +12,7 @@ OOO.P.
 
 Car fuel available: A:100, B:100, C:100, O:100, P:100, Q:100, X:100
 
-Runtime: 2.3757667541503906 seconds
+Runtime: 1.3906958103179932 seconds
 Search path length: 1590 states
 Solution path length: 10 moves
 Solution path: X up 2; A left 1; Q up 2; B left 2; C left 2; P down 3; B left 1; C left 1; Q down 2; A right 3

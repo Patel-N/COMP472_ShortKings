@@ -1,1340 +1,1340 @@
 0 0 0 ..XXOP....OP..AAOP.......BBCDD...C.. 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. P99 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. X99 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. X98 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. A98 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 
-0 0 15 ..XXOP....OP.AACOP...C...BB.DD...... A99 C98 
-0 0 15 ..XXOP...COP.AACOP.......BB.DD...... A99 C97 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 P99 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 X99 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 X98 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A97 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. A96 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 
-0 0 15 ..XXOP....OPAA.COP...C...BB.DD...... A98 C98 
-0 0 15 ..XXOP...COPAA.COP.......BB.DD...... A98 C97 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X99 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. B99 A99 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. B99 A98 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. B98 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 P99 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 X99 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 X98 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... C99 A99 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... C99 A98 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... C99 B99 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. C98 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 P99 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 X99 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... C99 X98 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. O99 A99 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. O99 A98 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. O99 B99 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... O99 C99 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. O98 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 X99 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 X98 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 X99 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. P99 A99 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. P99 A98 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. P99 B99 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... P99 C99 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. P99 O99 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. P98 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. P99 X99 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. P99 X98 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. X99 A99 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. X99 A98 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. X99 B99 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... X99 C99 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. X99 O99 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. X99 P99 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. X98 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. X98 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. X98 A99 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. X98 A98 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. X98 B99 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... X98 C99 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. X98 O99 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. X98 P99 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. X97 
-0 0 10 ..XXOP....OP..AAOP.......BBCDD...C.. X96 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. A98 B99 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 B98 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 
-0 0 15 ..XXOP....OP.AACOP...C..BB..DD...... A99 B99 C98 
-0 0 15 ..XXOP...COP.AACOP......BB..DD...... A99 B99 C97 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 X99 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... A98 C99 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 C99 B99 
-0 0 15 ..XXOP....OP.AACOP...C...BB.DD...... A99 C98 
-0 0 15 ..XXOP...COP.AACOP.......BB.DD...... A99 C97 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 C98 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 X99 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 X98 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. A98 O99 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 O99 B99 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 O99 C99 
-0 0 15 ..XX.P....OP.AACOP...CO..BB.DD...... A99 O99 C98 
-0 0 15 ..XX.P...COP.AACOP....O..BB.DD...... A99 O99 C97 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 O98 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X99 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 X99 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. A98 P99 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 P99 B99 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 P99 C99 
-0 0 15 ..XXO.....OP.AACOP...C.P.BB.DD...... A99 P99 C98 
-0 0 15 ..XXO....COP.AACOP.....P.BB.DD...... A99 P99 C97 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 P99 O99 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 P98 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X99 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X99 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. A98 X99 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 X99 B99 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 X99 C99 
-0 0 15 .XX.OP....OP.AACOP...C...BB.DD...... A99 X99 C98 
-0 0 15 .XX.OP...COP.AACOP.......BB.DD...... A99 X99 C97 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X99 C96 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 X99 O99 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 X99 P99 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 X98 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 X98 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. A98 X98 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 X98 B99 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 X98 C99 
-0 0 15 XX..OP....OP.AACOP...C...BB.DD...... A99 X98 C98 
-0 0 15 XX..OP...COP.AACOP.......BB.DD...... A99 X98 C97 
-0 0 10 XX.COP...COP.AA.OP.......BB.DD...... A99 X98 C96 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 X98 O99 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 X98 P99 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 X97 
-0 0 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 X96 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A97 B99 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. A96 B99 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 B98 
-0 0 10 ..XXOP....OPAA..OP...C..BB.CDD...... A98 B99 C99 
-0 0 15 ..XXOP....OPAA.COP...C..BB..DD...... A98 B99 C98 
-0 0 15 ..XXOP...COPAA.COP......BB..DD...... A98 B99 C97 
-0 0 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 
-0 0 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 
-0 0 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 B99 X99 
-0 0 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... A97 C99 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... A96 C99 
-0 0 10 ..XXOP....OPAA..OP...C..BB.CDD...... A98 C99 B99 
-0 0 15 ..XXOP....OPAA.COP...C...BB.DD...... A98 C98 
-0 0 15 ..XXOP...COPAA.COP.......BB.DD...... A98 C97 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 C98 
-0 0 10 ..XX.P....OPAA..OP...CO..BBCDD...... A98 C99 O99 
-0 0 10 ..XXO.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 
-0 0 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 C99 X99 
-0 0 10 XX..OP....OPAA..OP...C...BBCDD...... A98 C99 X98 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A97 O99 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. A96 O99 
-0 0 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. A98 O99 B99 
-0 0 10 ..XX.P....OPAA..OP...CO..BBCDD...... A98 O99 C99 
-0 0 15 ..XX.P....OPAA.COP...CO..BB.DD...... A98 O99 C98 
-0 0 15 ..XX.P...COPAA.COP....O..BB.DD...... A98 O99 C97 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 O98 
-0 0 10 ..XX......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 
-0 0 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
-0 0 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
-0 0 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A97 P99 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. A96 P99 
-0 0 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. A98 P99 B99 
-0 0 10 ..XXO.....OPAA..OP...C.P.BBCDD...... A98 P99 C99 
-0 0 15 ..XXO.....OPAA.COP...C.P.BB.DD...... A98 P99 C98 
-0 0 15 ..XXO....COPAA.COP.....P.BB.DD...... A98 P99 C97 
-0 0 10 ..XX......OPAA..OP....OP.BBCDD...C.. A98 P99 O99 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 P98 
-0 0 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X99 
-0 0 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A97 X99 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. A96 X99 
-0 0 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 X99 B99 
-0 0 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 X99 C99 
-0 0 15 .XX.OP....OPAA.COP...C...BB.DD...... A98 X99 C98 
-0 0 15 .XX.OP...COPAA.COP.......BB.DD...... A98 X99 C97 
-0 0 10 .XXCOP...COPAA..OP.......BB.DD...... A98 X99 C96 
-0 0 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 X99 O99 
-0 0 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 X99 P99 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 X98 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A97 X98 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. A96 X98 
-0 0 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 X98 B99 
-0 0 10 XX..OP....OPAA..OP...C...BBCDD...... A98 X98 C99 
-0 0 15 XX..OP....OPAA.COP...C...BB.DD...... A98 X98 C98 
-0 0 15 XX..OP...COPAA.COP.......BB.DD...... A98 X98 C97 
-0 0 10 XX.COP...COPAA..OP.......BB.DD...... A98 X98 C96 
-0 0 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 X98 O99 
-0 0 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 X98 P99 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X97 
-0 0 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 X96 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... B99 C99 A99 
-0 0 10 ..XXOP....OPAA..OP...C..BB.CDD...... B99 C99 A98 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... B98 C99 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 C98 
-0 0 10 ..XX.P....OP..AAOP...CO.BB.CDD...... B99 C99 O99 
-0 0 10 ..XXO.....OP..AAOP...C.PBB.CDD...... B99 C99 P99 
-0 0 10 .XX.OP....OP..AAOP...C..BB.CDD...... B99 C99 X99 
-0 0 10 XX..OP....OP..AAOP...C..BB.CDD...... B99 C99 X98 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. B99 O99 A99 
-0 0 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. B99 O99 A98 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. B98 O99 
-0 0 10 ..XX.P....OP..AAOP...CO.BB.CDD...... B99 O99 C99 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 O98 
-0 0 10 ..XX......OP..AAOP....OPBB.CDD...C.. B99 O99 P99 
-0 0 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 O99 X99 
-0 0 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
-0 0 10 ...XXP....OP..AAOP....O.BB.CDD...C.. B99 O99 X99 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. B99 P99 A99 
-0 0 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. B99 P99 A98 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. B98 P99 
-0 0 10 ..XXO.....OP..AAOP...C.PBB.CDD...... B99 P99 C99 
-0 0 10 ..XX......OP..AAOP....OPBB.CDD...C.. B99 P99 O99 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 P98 
-0 0 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X99 
-0 0 10 XX..O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X98 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. B99 X99 A99 
-0 0 10 .XX.OP....OPAA..OP......BB.CDD...C.. B99 X99 A98 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. B98 X99 
-0 0 10 .XX.OP....OP..AAOP...C..BB.CDD...... B99 X99 C99 
-0 0 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 X99 O99 
-0 0 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. B99 X99 P99 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 X98 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 X98 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. B99 X98 A99 
-0 0 10 XX..OP....OPAA..OP......BB.CDD...C.. B99 X98 A98 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. B98 X98 
-0 0 10 XX..OP....OP..AAOP...C..BB.CDD...... B99 X98 C99 
-0 0 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 X98 O99 
-0 0 10 XX..O.....OP..AAOP.....PBB.CDD...C.. B99 X98 P99 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 X97 
-0 0 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 X96 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... C99 O99 A99 
-0 0 10 ..XX.P....OPAA..OP...CO..BBCDD...... C99 O99 A98 
-0 0 10 ..XX.P....OP..AAOP...CO.BB.CDD...... C99 O99 B99 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. C98 O99 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 O98 
-0 0 10 ..XX......OP..AAOP...COP.BBCDD...... C99 O99 P99 
-0 0 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 O99 X99 
-0 0 10 XX...P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
-0 0 10 ...XXP....OP..AAOP...CO..BBCDD...... C99 O99 X99 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... C99 P99 A99 
-0 0 10 ..XXO.....OPAA..OP...C.P.BBCDD...... C99 P99 A98 
-0 0 10 ..XXO.....OP..AAOP...C.PBB.CDD...... C99 P99 B99 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. C98 P99 
-0 0 10 ..XX......OP..AAOP...COP.BBCDD...... C99 P99 O99 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 P98 
-0 0 10 .XX.O.....OP..AAOP...C.P.BBCDD...... C99 P99 X99 
-0 0 10 XX..O.....OP..AAOP...C.P.BBCDD...... C99 P99 X98 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... C99 X99 A99 
-0 0 10 .XX.OP....OPAA..OP...C...BBCDD...... C99 X99 A98 
-0 0 10 .XX.OP....OP..AAOP...C..BB.CDD...... C99 X99 B99 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. C98 X99 
-0 0 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 X99 O99 
-0 0 10 .XX.O.....OP..AAOP...C.P.BBCDD...... C99 X99 P99 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... C99 X98 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 X98 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... C99 X98 A99 
-0 0 10 XX..OP....OPAA..OP...C...BBCDD...... C99 X98 A98 
-0 0 10 XX..OP....OP..AAOP...C..BB.CDD...... C99 X98 B99 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. C98 X98 
-0 0 10 XX...P....OP..AAOP...CO..BBCDD...... C99 X98 O99 
-0 0 10 XX..O.....OP..AAOP...C.P.BBCDD...... C99 X98 P99 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 X97 
-0 0 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 X96 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. O99 P99 A99 
-0 0 10 ..XX......OPAA..OP....OP.BBCDD...C.. O99 P99 A98 
-0 0 10 ..XX......OP..AAOP....OPBB.CDD...C.. O99 P99 B99 
-0 0 10 ..XX......OP..AAOP...COP.BBCDD...... O99 P99 C99 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. O98 P99 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 P98 
-0 0 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X99 
-0 0 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
-0 0 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X99 
-0 0 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. O99 X99 A99 
-0 0 10 .XX..P....OPAA..OP....O..BBCDD...C.. O99 X99 A98 
-0 0 10 .XX..P....OP..AAOP....O.BB.CDD...C.. O99 X99 B99 
-0 0 10 .XX..P....OP..AAOP...CO..BBCDD...... O99 X99 C99 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. O98 X99 
-0 0 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 X99 P99 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 X98 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 X98 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 X97 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. O99 X98 A99 
-0 0 10 XX...P....OPAA..OP....O..BBCDD...C.. O99 X98 A98 
-0 0 10 XX...P....OP..AAOP....O.BB.CDD...C.. O99 X98 B99 
-0 0 10 XX...P....OP..AAOP...CO..BBCDD...... O99 X98 C99 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. O98 X98 
-0 0 10 XX........OP..AAOP....OP.BBCDD...C.. O99 X98 P99 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 X97 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 X96 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 X95 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. O99 X99 A99 
-0 0 10 ...XXP....OPAA..OP....O..BBCDD...C.. O99 X99 A98 
-0 0 10 ...XXP....OP..AAOP....O.BB.CDD...C.. O99 X99 B99 
-0 0 10 ...XXP....OP..AAOP...CO..BBCDD...... O99 X99 C99 
-0 0 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 X99 P99 
-0 0 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 X98 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 X97 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 X96 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. P99 X99 A99 
-0 0 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. P99 X99 A98 
-0 0 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. P99 X99 B99 
-0 0 10 .XX.O.....OP..AAOP...C.P.BBCDD...... P99 X99 C99 
-0 0 10 .XX.......OP..AAOP....OP.BBCDD...C.. P99 X99 O99 
-0 0 10 .XX.OP....OP..AAOP.......BBCDD...C.. P98 X99 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. P99 X98 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. P99 X98 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. P99 X98 A99 
-0 0 10 XX..O.....OPAA..OP.....P.BBCDD...C.. P99 X98 A98 
-0 0 10 XX..O.....OP..AAOP.....PBB.CDD...C.. P99 X98 B99 
-0 0 10 XX..O.....OP..AAOP...C.P.BBCDD...... P99 X98 C99 
-0 0 10 XX........OP..AAOP....OP.BBCDD...C.. P99 X98 O99 
-0 0 10 XX..OP....OP..AAOP.......BBCDD...C.. P98 X98 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. P99 X97 
-0 0 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. P99 X96 
-0 0 10 ..XXOP....OPAA..OP...C..BB.CDD...... A98 B99 C99 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... A98 B99 C99 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 B98 C99 
-0 0 15 ..XXOP....OP.AACOP...C..BB..DD...... A99 B99 C98 
-0 0 15 ..XXOP...COP.AACOP......BB..DD...... A99 B99 C97 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 C98 
-0 0 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 
-0 0 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 P99 
-0 0 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X99 
-0 0 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X98 
-0 0 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 
-0 0 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 C99 
-0 0 15 ..XX.P....OP.AACOP...CO.BB..DD...... A99 B99 O99 C98 
-0 0 15 ..XX.P...COP.AACOP....O.BB..DD...... A99 B99 O99 C97 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 O98 
-0 0 10 ..XX......OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 
-0 0 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X99 
-0 0 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
-0 0 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X99 
-0 0 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. A98 B99 P99 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 B98 P99 
-0 0 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... A99 B99 P99 C99 
-0 0 15 ..XXO.....OP.AACOP...C.PBB..DD...... A99 B99 P99 C98 
-0 0 15 ..XXO....COP.AACOP.....PBB..DD...... A99 B99 P99 C97 
-0 0 10 ..XX......OP.AA.OP....OPBB.CDD...C.. A99 B99 P99 O99 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 P98 
-0 0 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X99 
-0 0 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X98 
-0 0 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 B99 X99 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. A98 B99 X99 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 B98 X99 
-0 0 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 X99 C99 
-0 0 15 .XX.OP....OP.AACOP...C..BB..DD...... A99 B99 X99 C98 
-0 0 15 .XX.OP...COP.AACOP......BB..DD...... A99 B99 X99 C97 
-0 0 10 .XXCOP...COP.AA.OP......BB..DD...... A99 B99 X99 C96 
-0 0 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 X99 O99 
-0 0 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 X99 P99 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 
-0 0 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. A98 B99 X98 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 B98 X98 
-0 0 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 X98 C99 
-0 0 15 XX..OP....OP.AACOP...C..BB..DD...... A99 B99 X98 C98 
-0 0 15 XX..OP...COP.AACOP......BB..DD...... A99 B99 X98 C97 
-0 0 10 XX.COP...COP.AA.OP......BB..DD...... A99 B99 X98 C96 
-0 0 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 X98 O99 
-0 0 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 X98 P99 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 X97 
-0 0 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 X96 
-0 0 10 ..XX.P....OPAA..OP...CO..BBCDD...... A98 C99 O99 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... A98 C99 O99 
-0 0 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 B99 
-0 0 15 ..XX.P....OP.AACOP...CO..BB.DD...... A99 C98 O99 
-0 0 15 ..XX.P...COP.AACOP....O..BB.DD...... A99 C97 O99 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 O98 
-0 0 10 ..XX......OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 
-0 0 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X99 
-0 0 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
-0 0 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X99 
-0 0 10 ..XXO.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... A98 C99 P99 
-0 0 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... A99 C99 P99 B99 
-0 0 15 ..XXO.....OP.AACOP...C.P.BB.DD...... A99 C98 P99 
-0 0 15 ..XXO....COP.AACOP.....P.BB.DD...... A99 C97 P99 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 C98 P99 
-0 0 10 ..XX......OP.AA.OP...COP.BBCDD...... A99 C99 P99 O99 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 P98 
-0 0 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X99 
-0 0 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X98 
-0 0 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 C99 X99 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... A98 C99 X99 
-0 0 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 C99 X99 B99 
-0 0 15 .XX.OP....OP.AACOP...C...BB.DD...... A99 C98 X99 
-0 0 15 .XX.OP...COP.AACOP.......BB.DD...... A99 C97 X99 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 C96 X99 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 C98 X99 
-0 0 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 X99 O99 
-0 0 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 C99 X99 P99 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 X98 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 X98 
-0 0 10 XX..OP....OPAA..OP...C...BBCDD...... A98 C99 X98 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... A98 C99 X98 
-0 0 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 C99 X98 B99 
-0 0 15 XX..OP....OP.AACOP...C...BB.DD...... A99 C98 X98 
-0 0 15 XX..OP...COP.AACOP.......BB.DD...... A99 C97 X98 
-0 0 10 XX.COP...COP.AA.OP.......BB.DD...... A99 C96 X98 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 C98 X98 
-0 0 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 X98 O99 
-0 0 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 C99 X98 P99 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 X97 
-0 0 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 X96 
-0 0 10 ..XX......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. A98 O99 P99 
-0 0 10 ..XX......OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 B99 
-0 0 10 ..XX......OP.AA.OP...COP.BBCDD...... A99 O99 P99 C99 
-0 0 15 ..XX......OP.AACOP...COP.BB.DD...... A99 O99 P99 C98 
-0 0 15 ..XX.....COP.AACOP....OP.BB.DD...... A99 O99 P99 C97 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 O98 P99 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 
-0 0 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X99 
-0 0 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
-0 0 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X99 
-0 0 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
-0 0 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. A98 O99 X99 
-0 0 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 O99 X99 B99 
-0 0 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 O99 X99 C99 
-0 0 15 .XX..P....OP.AACOP...CO..BB.DD...... A99 O99 X99 C98 
-0 0 15 .XX..P...COP.AACOP....O..BB.DD...... A99 O99 X99 C97 
-0 0 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 O99 X99 C96 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 O98 X99 
-0 0 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 X99 P99 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 X97 
-0 0 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. A98 O99 X98 
-0 0 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 O99 X98 B99 
-0 0 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 O99 X98 C99 
-0 0 15 XX...P....OP.AACOP...CO..BB.DD...... A99 O99 X98 C98 
-0 0 15 XX...P...COP.AACOP....O..BB.DD...... A99 O99 X98 C97 
-0 0 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 O99 X98 C96 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 O98 X98 
-0 0 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 X98 P99 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X97 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 X96 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 X95 
-0 0 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. A98 O99 X99 
-0 0 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 O99 X99 B99 
-0 0 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 O99 X99 C99 
-0 0 15 ...XXP....OP.AACOP...CO..BB.DD...... A99 O99 X99 C98 
-0 0 15 ...XXP...COP.AACOP....O..BB.DD...... A99 O99 X99 C97 
-0 0 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 X99 P99 
-0 0 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X97 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X96 
-0 0 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X99 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. A98 P99 X99 
-0 0 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 P99 X99 B99 
-0 0 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X99 C99 
-0 0 15 .XX.O.....OP.AACOP...C.P.BB.DD...... A99 P99 X99 C98 
-0 0 15 .XX.O....COP.AACOP.....P.BB.DD...... A99 P99 X99 C97 
-0 0 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 P99 X99 C96 
-0 0 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 P99 X99 O99 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 P98 X99 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 
-0 0 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. A98 P99 X98 
-0 0 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 P99 X98 B99 
-0 0 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X98 C99 
-0 0 15 XX..O.....OP.AACOP...C.P.BB.DD...... A99 P99 X98 C98 
-0 0 15 XX..O....COP.AACOP.....P.BB.DD...... A99 P99 X98 C97 
-0 0 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 P99 X98 C96 
-0 0 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 P99 X98 O99 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 P98 X98 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X97 
-0 0 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X96 
-0 0 10 .XXCOP...COPAA..OP.......BB.DD...... A98 X99 C96 
-0 0 10 .XXCOP...COP..AAOP.......BB.DD...... A98 X99 C96 
-0 0 10 .XXCOP...COP.AA.OP......BB..DD...... A99 X99 C96 B99 
-0 0 10 .XXCOP...COP.AA.OP........BBDD...... A99 X99 C96 B99 
-0 0 15 .XX.OP...COP.AACOP.......BB.DD...... A99 X99 C95 
-0 0 15 .XX.OP....OP.AACOP...C...BB.DD...... A99 X99 C94 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 X99 C93 
-0 0 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 X99 C92 
-0 0 10 .XXCOP...COP.AA.OP.......BBDD....... A99 X99 C96 D99 
-0 0 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 X99 C96 O99 
-0 0 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 X99 C96 P99 
-0 0 10 XX.COP...COP.AA.OP.......BB.DD...... A99 X98 C96 
-0 0 10 XX.COP...COPAA..OP.......BB.DD...... A98 X98 C96 
-0 0 10 XX.COP...COP..AAOP.......BB.DD...... A98 X98 C96 
-0 0 10 XX.COP...COP.AA.OP......BB..DD...... A99 X98 C96 B99 
-0 0 10 XX.COP...COP.AA.OP........BBDD...... A99 X98 C96 B99 
-0 0 15 XX..OP...COP.AACOP.......BB.DD...... A99 X98 C95 
-0 0 15 XX..OP....OP.AACOP...C...BB.DD...... A99 X98 C94 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 X98 C93 
-0 0 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 X98 C92 
-0 0 10 XX.COP...COP.AA.OP.......BBDD....... A99 X98 C96 D99 
-0 0 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 X98 C96 O99 
-0 0 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 X98 C96 P99 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X97 C96 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A97 B99 C99 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... A96 B99 C99 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 B98 C99 
-0 0 15 ..XXOP....OPAA.COP...C..BB..DD...... A98 B99 C98 
-0 0 15 ..XXOP...COPAA.COP......BB..DD...... A98 B99 C97 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 C98 
-0 0 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 B99 C99 O99 
-0 0 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 B99 C99 P99 
-0 0 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X99 
-0 0 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X98 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A97 B99 O99 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. A96 B99 O99 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 B98 O99 
-0 0 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 B99 O99 C99 
-0 0 15 ..XX.P....OPAA.COP...CO.BB..DD...... A98 B99 O99 C98 
-0 0 15 ..XX.P...COPAA.COP....O.BB..DD...... A98 B99 O99 C97 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 O98 
-0 0 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 B99 O99 P99 
-0 0 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
-0 0 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X98 
-0 0 10 ...XXP....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A97 B99 P99 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. A96 B99 P99 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 B98 P99 
-0 0 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 B99 P99 C99 
-0 0 15 ..XXO.....OPAA.COP...C.PBB..DD...... A98 B99 P99 C98 
-0 0 15 ..XXO....COPAA.COP.....PBB..DD...... A98 B99 P99 C97 
-0 0 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 B99 P99 O99 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 P98 
-0 0 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X99 
-0 0 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X98 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A97 B99 X99 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. A96 B99 X99 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 B98 X99 
-0 0 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 B99 X99 C99 
-0 0 15 .XX.OP....OPAA.COP...C..BB..DD...... A98 B99 X99 C98 
-0 0 15 .XX.OP...COPAA.COP......BB..DD...... A98 B99 X99 C97 
-0 0 10 .XXCOP...COPAA..OP......BB..DD...... A98 B99 X99 C96 
-0 0 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 B99 X99 O99 
-0 0 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 B99 X99 P99 
-0 0 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A97 B99 X98 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. A96 B99 X98 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 B98 X98 
-0 0 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 B99 X98 C99 
-0 0 15 XX..OP....OPAA.COP...C..BB..DD...... A98 B99 X98 C98 
-0 0 15 XX..OP...COPAA.COP......BB..DD...... A98 B99 X98 C97 
-0 0 10 XX.COP...COPAA..OP......BB..DD...... A98 B99 X98 C96 
-0 0 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 B99 X98 O99 
-0 0 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 B99 X98 P99 
-0 0 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 B99 X97 
-0 0 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 X96 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A97 C99 O99 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... A96 C99 O99 
-0 0 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 C99 O99 B99 
-0 0 15 ..XX.P....OPAA.COP...CO..BB.DD...... A98 C98 O99 
-0 0 15 ..XX.P...COPAA.COP....O..BB.DD...... A98 C97 O99 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 C98 O99 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 O98 
-0 0 10 ..XX......OPAA..OP...COP.BBCDD...... A98 C99 O99 P99 
-0 0 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
-0 0 10 XX...P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X98 
-0 0 10 ...XXP....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A97 C99 P99 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... A96 C99 P99 
-0 0 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 C99 P99 B99 
-0 0 15 ..XXO.....OPAA.COP...C.P.BB.DD...... A98 C98 P99 
-0 0 15 ..XXO....COPAA.COP.....P.BB.DD...... A98 C97 P99 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 C98 P99 
-0 0 10 ..XX......OPAA..OP...COP.BBCDD...... A98 C99 P99 O99 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 P98 
-0 0 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X99 
-0 0 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X98 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A97 C99 X99 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... A96 C99 X99 
-0 0 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 C99 X99 B99 
-0 0 15 .XX.OP....OPAA.COP...C...BB.DD...... A98 C98 X99 
-0 0 15 .XX.OP...COPAA.COP.......BB.DD...... A98 C97 X99 
-0 0 10 .XXCOP...COPAA..OP.......BB.DD...... A98 C96 X99 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 C98 X99 
-0 0 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 C99 X99 O99 
-0 0 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 C99 X99 P99 
-0 0 10 XX..OP....OPAA..OP...C...BBCDD...... A98 C99 X98 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 X98 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A97 C99 X98 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... A96 C99 X98 
-0 0 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 C99 X98 B99 
-0 0 15 XX..OP....OPAA.COP...C...BB.DD...... A98 C98 X98 
-0 0 15 XX..OP...COPAA.COP.......BB.DD...... A98 C97 X98 
-0 0 10 XX.COP...COPAA..OP.......BB.DD...... A98 C96 X98 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 C98 X98 
-0 0 10 XX...P....OPAA..OP...CO..BBCDD...... A98 C99 X98 O99 
-0 0 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 C99 X98 P99 
-0 0 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 C99 X97 
-0 0 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 X96 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A97 O99 P99 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. A96 O99 P99 
-0 0 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 O99 P99 B99 
-0 0 10 ..XX......OPAA..OP...COP.BBCDD...... A98 O99 P99 C99 
-0 0 15 ..XX......OPAA.COP...COP.BB.DD...... A98 O99 P99 C98 
-0 0 15 ..XX.....COPAA.COP....OP.BB.DD...... A98 O99 P99 C97 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 O98 P99 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 P98 
-0 0 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
-0 0 10 XX........OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
-0 0 10 ...XX.....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
-0 0 10 ....XX....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A97 O99 X99 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. A96 O99 X99 
-0 0 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 O99 X99 B99 
-0 0 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 O99 X99 C99 
-0 0 15 .XX..P....OPAA.COP...CO..BB.DD...... A98 O99 X99 C98 
-0 0 15 .XX..P...COPAA.COP....O..BB.DD...... A98 O99 X99 C97 
-0 0 10 .XXC.P...COPAA..OP....O..BB.DD...... A98 O99 X99 C96 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 O98 X99 
-0 0 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 O99 X99 P99 
-0 0 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
-0 0 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X97 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A97 O99 X98 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. A96 O99 X98 
-0 0 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 O99 X98 B99 
-0 0 10 XX...P....OPAA..OP...CO..BBCDD...... A98 O99 X98 C99 
-0 0 15 XX...P....OPAA.COP...CO..BB.DD...... A98 O99 X98 C98 
-0 0 15 XX...P...COPAA.COP....O..BB.DD...... A98 O99 X98 C97 
-0 0 10 XX.C.P...COPAA..OP....O..BB.DD...... A98 O99 X98 C96 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 O98 X98 
-0 0 10 XX........OPAA..OP....OP.BBCDD...C.. A98 O99 X98 P99 
-0 0 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X97 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 X96 
-0 0 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X95 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A97 O99 X99 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. A96 O99 X99 
-0 0 10 ...XXP....OPAA..OP....O.BB.CDD...C.. A98 O99 X99 B99 
-0 0 10 ...XXP....OPAA..OP...CO..BBCDD...... A98 O99 X99 C99 
-0 0 15 ...XXP....OPAA.COP...CO..BB.DD...... A98 O99 X99 C98 
-0 0 15 ...XXP...COPAA.COP....O..BB.DD...... A98 O99 X99 C97 
-0 0 10 ...XX.....OPAA..OP....OP.BBCDD...C.. A98 O99 X99 P99 
-0 0 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
-0 0 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X97 
-0 0 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X96 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A97 P99 X99 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. A96 P99 X99 
-0 0 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 P99 X99 B99 
-0 0 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 P99 X99 C99 
-0 0 15 .XX.O.....OPAA.COP...C.P.BB.DD...... A98 P99 X99 C98 
-0 0 15 .XX.O....COPAA.COP.....P.BB.DD...... A98 P99 X99 C97 
-0 0 10 .XXCO....COPAA..OP.....P.BB.DD...... A98 P99 X99 C96 
-0 0 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 P99 X99 O99 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 P98 X99 
-0 0 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A97 P99 X98 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. A96 P99 X98 
-0 0 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 P99 X98 B99 
-0 0 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 P99 X98 C99 
-0 0 15 XX..O.....OPAA.COP...C.P.BB.DD...... A98 P99 X98 C98 
-0 0 15 XX..O....COPAA.COP.....P.BB.DD...... A98 P99 X98 C97 
-0 0 10 XX.CO....COPAA..OP.....P.BB.DD...... A98 P99 X98 C96 
-0 0 10 XX........OPAA..OP....OP.BBCDD...C.. A98 P99 X98 O99 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 P98 X98 
-0 0 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X97 
-0 0 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 X96 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A97 X99 C96 
-0 0 10 .XXCOP...COP..AAOP.......BB.DD...... A96 X99 C96 
-0 0 10 .XXCOP...COPAA..OP......BB..DD...... A98 X99 C96 B99 
-0 0 10 .XXCOP...COPAA..OP........BBDD...... A98 X99 C96 B99 
-0 0 15 .XX.OP...COPAA.COP.......BB.DD...... A98 X99 C95 
-0 0 15 .XX.OP....OPAA.COP...C...BB.DD...... A98 X99 C94 
-0 0 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 X99 C93 
-0 0 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X99 C92 
-0 0 10 .XXCOP...COPAA..OP.......BBDD....... A98 X99 C96 D99 
-0 0 10 .XXC.P...COPAA..OP....O..BB.DD...... A98 X99 C96 O99 
-0 0 10 .XXCO....COPAA..OP.....P.BB.DD...... A98 X99 C96 P99 
-0 0 10 XX.COP...COPAA..OP.......BB.DD...... A98 X98 C96 
-0 0 10 XX.COP...COP.AA.OP.......BB.DD...... A97 X98 C96 
-0 0 10 XX.COP...COP..AAOP.......BB.DD...... A96 X98 C96 
-0 0 10 XX.COP...COPAA..OP......BB..DD...... A98 X98 C96 B99 
-0 0 10 XX.COP...COPAA..OP........BBDD...... A98 X98 C96 B99 
-0 0 15 XX..OP...COPAA.COP.......BB.DD...... A98 X98 C95 
-0 0 15 XX..OP....OPAA.COP...C...BB.DD...... A98 X98 C94 
-0 0 10 XX..OP....OPAA..OP...C...BBCDD...... A98 X98 C93 
-0 0 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 C92 
-0 0 10 XX.COP...COPAA..OP.......BBDD....... A98 X98 C96 D99 
-0 0 10 XX.C.P...COPAA..OP....O..BB.DD...... A98 X98 C96 O99 
-0 0 10 XX.CO....COPAA..OP.....P.BB.DD...... A98 X98 C96 P99 
-0 0 10 .XXCOP...COPAA..OP.......BB.DD...... A98 X97 C96 
-0 0 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... B99 C99 O99 A99 
-0 0 10 ..XX.P....OPAA..OP...CO.BB.CDD...... B99 C99 O99 A98 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... B98 C99 O99 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 C98 O99 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 O98 
-0 0 10 ..XX......OP..AAOP...COPBB.CDD...... B99 C99 O99 P99 
-0 0 10 .XX..P....OP..AAOP...CO.BB.CDD...... B99 C99 O99 X99 
-0 0 10 XX...P....OP..AAOP...CO.BB.CDD...... B99 C99 O99 X98 
-0 0 10 ...XXP....OP..AAOP...CO.BB.CDD...... B99 C99 O99 X99 
-0 0 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... B99 C99 P99 A99 
-0 0 10 ..XXO.....OPAA..OP...C.PBB.CDD...... B99 C99 P99 A98 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... B98 C99 P99 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 C98 P99 
-0 0 10 ..XX......OP..AAOP...COPBB.CDD...... B99 C99 P99 O99 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 P98 
-0 0 10 .XX.O.....OP..AAOP...C.PBB.CDD...... B99 C99 P99 X99 
-0 0 10 XX..O.....OP..AAOP...C.PBB.CDD...... B99 C99 P99 X98 
-0 0 10 .XX.OP....OP.AA.OP...C..BB.CDD...... B99 C99 X99 A99 
-0 0 10 .XX.OP....OPAA..OP...C..BB.CDD...... B99 C99 X99 A98 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... B98 C99 X99 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 C98 X99 
-0 0 10 .XX..P....OP..AAOP...CO.BB.CDD...... B99 C99 X99 O99 
-0 0 10 .XX.O.....OP..AAOP...C.PBB.CDD...... B99 C99 X99 P99 
-0 0 10 XX..OP....OP..AAOP...C..BB.CDD...... B99 C99 X98 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 X98 
-0 0 10 XX..OP....OP.AA.OP...C..BB.CDD...... B99 C99 X98 A99 
-0 0 10 XX..OP....OPAA..OP...C..BB.CDD...... B99 C99 X98 A98 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... B98 C99 X98 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 C98 X98 
-0 0 10 XX...P....OP..AAOP...CO.BB.CDD...... B99 C99 X98 O99 
-0 0 10 XX..O.....OP..AAOP...C.PBB.CDD...... B99 C99 X98 P99 
-0 0 10 .XX.OP....OP..AAOP...C..BB.CDD...... B99 C99 X97 
-0 0 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 X96 
-0 0 10 ..XX......OP.AA.OP....OPBB.CDD...C.. B99 O99 P99 A99 
-0 0 10 ..XX......OPAA..OP....OPBB.CDD...C.. B99 O99 P99 A98 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. B98 O99 P99 
-0 0 10 ..XX......OP..AAOP...COPBB.CDD...... B99 O99 P99 C99 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 O98 P99 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 P98 
-0 0 10 .XX.......OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X99 
-0 0 10 XX........OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X98 
-0 0 10 ...XX.....OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X99 
-0 0 10 ....XX....OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X98 
-0 0 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. B99 O99 X99 A99 
-0 0 10 .XX..P....OPAA..OP....O.BB.CDD...C.. B99 O99 X99 A98 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. B98 O99 X99 
-0 0 10 .XX..P....OP..AAOP...CO.BB.CDD...... B99 O99 X99 C99 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 O98 X99 
-0 0 10 .XX.......OP..AAOP....OPBB.CDD...C.. B99 O99 X99 P99 
-0 0 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
-0 0 10 ...XXP....OP..AAOP....O.BB.CDD...C.. B99 O99 X97 
-0 0 10 XX...P....OP.AA.OP....O.BB.CDD...C.. B99 O99 X98 A99 
-0 0 10 XX...P....OPAA..OP....O.BB.CDD...C.. B99 O99 X98 A98 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. B98 O99 X98 
-0 0 10 XX...P....OP..AAOP...CO.BB.CDD...... B99 O99 X98 C99 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 O98 X98 
-0 0 10 XX........OP..AAOP....OPBB.CDD...C.. B99 O99 X98 P99 
-0 0 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 O99 X97 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 X96 
-0 0 10 ...XXP....OP..AAOP....O.BB.CDD...C.. B99 O99 X95 
-0 0 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. B99 O99 X99 A99 
-0 0 10 ...XXP....OPAA..OP....O.BB.CDD...C.. B99 O99 X99 A98 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. B98 O99 X99 
-0 0 10 ...XXP....OP..AAOP...CO.BB.CDD...... B99 O99 X99 C99 
-0 0 10 ...XX.....OP..AAOP....OPBB.CDD...C.. B99 O99 X99 P99 
-0 0 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
-0 0 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 O99 X97 
-0 0 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 O99 X96 
-0 0 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. B99 P99 X99 A99 
-0 0 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. B99 P99 X99 A98 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. B98 P99 X99 
-0 0 10 .XX.O.....OP..AAOP...C.PBB.CDD...... B99 P99 X99 C99 
-0 0 10 .XX.......OP..AAOP....OPBB.CDD...C.. B99 P99 X99 O99 
-0 0 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 P98 X99 
-0 0 10 XX..O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X98 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 P99 X98 
-0 0 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. B99 P99 X98 A99 
-0 0 10 XX..O.....OPAA..OP.....PBB.CDD...C.. B99 P99 X98 A98 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. B98 P99 X98 
-0 0 10 XX..O.....OP..AAOP...C.PBB.CDD...... B99 P99 X98 C99 
-0 0 10 XX........OP..AAOP....OPBB.CDD...C.. B99 P99 X98 O99 
-0 0 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 P98 X98 
-0 0 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X97 
-0 0 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 P99 X96 
-0 0 10 ..XX......OP.AA.OP...COP.BBCDD...... C99 O99 P99 A99 
-0 0 10 ..XX......OPAA..OP...COP.BBCDD...... C99 O99 P99 A98 
-0 0 10 ..XX......OP..AAOP...COPBB.CDD...... C99 O99 P99 B99 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. C98 O99 P99 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 O98 P99 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 P98 
-0 0 10 .XX.......OP..AAOP...COP.BBCDD...... C99 O99 P99 X99 
-0 0 10 XX........OP..AAOP...COP.BBCDD...... C99 O99 P99 X98 
-0 0 10 ...XX.....OP..AAOP...COP.BBCDD...... C99 O99 P99 X99 
-0 0 10 ....XX....OP..AAOP...COP.BBCDD...... C99 O99 P99 X98 
-0 0 10 .XX..P....OP.AA.OP...CO..BBCDD...... C99 O99 X99 A99 
-0 0 10 .XX..P....OPAA..OP...CO..BBCDD...... C99 O99 X99 A98 
-0 0 10 .XX..P....OP..AAOP...CO.BB.CDD...... C99 O99 X99 B99 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. C98 O99 X99 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 O98 X99 
-0 0 10 .XX.......OP..AAOP...COP.BBCDD...... C99 O99 X99 P99 
-0 0 10 XX...P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
-0 0 10 ...XXP....OP..AAOP...CO..BBCDD...... C99 O99 X97 
-0 0 10 XX...P....OP.AA.OP...CO..BBCDD...... C99 O99 X98 A99 
-0 0 10 XX...P....OPAA..OP...CO..BBCDD...... C99 O99 X98 A98 
-0 0 10 XX...P....OP..AAOP...CO.BB.CDD...... C99 O99 X98 B99 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. C98 O99 X98 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... C99 O98 X98 
-0 0 10 XX........OP..AAOP...COP.BBCDD...... C99 O99 X98 P99 
-0 0 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 O99 X97 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 X96 
-0 0 10 ...XXP....OP..AAOP...CO..BBCDD...... C99 O99 X95 
-0 0 10 ...XXP....OP.AA.OP...CO..BBCDD...... C99 O99 X99 A99 
-0 0 10 ...XXP....OPAA..OP...CO..BBCDD...... C99 O99 X99 A98 
-0 0 10 ...XXP....OP..AAOP...CO.BB.CDD...... C99 O99 X99 B99 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. C98 O99 X99 
-0 0 10 ...XX.....OP..AAOP...COP.BBCDD...... C99 O99 X99 P99 
-0 0 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
-0 0 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 O99 X97 
-0 0 10 XX...P....OP..AAOP...CO..BBCDD...... C99 O99 X96 
-0 0 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... C99 P99 X99 A99 
-0 0 10 .XX.O.....OPAA..OP...C.P.BBCDD...... C99 P99 X99 A98 
-0 0 10 .XX.O.....OP..AAOP...C.PBB.CDD...... C99 P99 X99 B99 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. C98 P99 X99 
-0 0 10 .XX.......OP..AAOP...COP.BBCDD...... C99 P99 X99 O99 
-0 0 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 P98 X99 
-0 0 10 XX..O.....OP..AAOP...C.P.BBCDD...... C99 P99 X98 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 P99 X98 
-0 0 10 XX..O.....OP.AA.OP...C.P.BBCDD...... C99 P99 X98 A99 
-0 0 10 XX..O.....OPAA..OP...C.P.BBCDD...... C99 P99 X98 A98 
-0 0 10 XX..O.....OP..AAOP...C.PBB.CDD...... C99 P99 X98 B99 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. C98 P99 X98 
-0 0 10 XX........OP..AAOP...COP.BBCDD...... C99 P99 X98 O99 
-0 0 10 XX..OP....OP..AAOP...C...BBCDD...... C99 P98 X98 
-0 0 10 .XX.O.....OP..AAOP...C.P.BBCDD...... C99 P99 X97 
-0 0 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 P99 X96 
-0 0 10 .XX.......OP.AA.OP....OP.BBCDD...C.. O99 P99 X99 A99 
-0 0 10 .XX.......OPAA..OP....OP.BBCDD...C.. O99 P99 X99 A98 
-0 0 10 .XX.......OP..AAOP....OPBB.CDD...C.. O99 P99 X99 B99 
-0 0 10 .XX.......OP..AAOP...COP.BBCDD...... O99 P99 X99 C99 
-0 0 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. O98 P99 X99 
-0 0 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 P98 X99 
-0 0 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
-0 0 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
-0 0 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
-0 0 10 XX........OP.AA.OP....OP.BBCDD...C.. O99 P99 X98 A99 
-0 0 10 XX........OPAA..OP....OP.BBCDD...C.. O99 P99 X98 A98 
-0 0 10 XX........OP..AAOP....OPBB.CDD...C.. O99 P99 X98 B99 
-0 0 10 XX........OP..AAOP...COP.BBCDD...... O99 P99 X98 C99 
-0 0 10 XX..O.....OP..AAOP.....P.BBCDD...C.. O98 P99 X98 
-0 0 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 P98 X98 
-0 0 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
-0 0 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X95 
-0 0 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X94 
-0 0 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. O99 P99 X99 A99 
-0 0 10 ...XX.....OPAA..OP....OP.BBCDD...C.. O99 P99 X99 A98 
-0 0 10 ...XX.....OP..AAOP....OPBB.CDD...C.. O99 P99 X99 B99 
-0 0 10 ...XX.....OP..AAOP...COP.BBCDD...... O99 P99 X99 C99 
-0 0 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 P98 X99 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
-0 0 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
-0 0 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
-0 0 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
-0 0 10 ....XX....OP.AA.OP....OP.BBCDD...C.. O99 P99 X98 A99 
-0 0 10 ....XX....OPAA..OP....OP.BBCDD...C.. O99 P99 X98 A98 
-0 0 10 ....XX....OP..AAOP....OPBB.CDD...C.. O99 P99 X98 B99 
-0 0 10 ....XX....OP..AAOP...COP.BBCDD...... O99 P99 X98 C99 
-0 0 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
-0 0 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
-0 0 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X95 
-0 0 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X94 
-0 0 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 B99 C99 O99 
-0 0 10 ..XX.P....OP..AAOP...CO.BB.CDD...... A98 B99 C99 O99 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 B98 C99 O99 
-0 0 15 ..XX.P....OP.AACOP...CO.BB..DD...... A99 B99 C98 O99 
-0 0 15 ..XX.P...COP.AACOP....O.BB..DD...... A99 B99 C97 O99 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 C98 O99 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 O98 
-0 0 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 B99 C99 O99 P99 
-0 0 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 X99 
-0 0 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 X98 
-0 0 10 ...XXP....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 X99 
-0 0 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 B99 C99 P99 
-0 0 10 ..XXO.....OP..AAOP...C.PBB.CDD...... A98 B99 C99 P99 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 B98 C99 P99 
-0 0 15 ..XXO.....OP.AACOP...C.PBB..DD...... A99 B99 C98 P99 
-0 0 15 ..XXO....COP.AACOP.....PBB..DD...... A99 B99 C97 P99 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 C98 P99 
-0 0 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 B99 C99 P99 O99 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 P98 
-0 0 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 P99 X99 
-0 0 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 P99 X98 
-0 0 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X99 
-0 0 10 .XX.OP....OP..AAOP...C..BB.CDD...... A98 B99 C99 X99 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 B98 C99 X99 
-0 0 15 .XX.OP....OP.AACOP...C..BB..DD...... A99 B99 C98 X99 
-0 0 15 .XX.OP...COP.AACOP......BB..DD...... A99 B99 C97 X99 
-0 0 10 .XXCOP...COP.AA.OP......BB..DD...... A99 B99 C96 X99 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 C98 X99 
-0 0 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 X99 O99 
-0 0 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 X99 P99 
-0 0 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X98 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X98 
-0 0 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X98 
-0 0 10 XX..OP....OP..AAOP...C..BB.CDD...... A98 B99 C99 X98 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 B98 C99 X98 
-0 0 15 XX..OP....OP.AACOP...C..BB..DD...... A99 B99 C98 X98 
-0 0 15 XX..OP...COP.AACOP......BB..DD...... A99 B99 C97 X98 
-0 0 10 XX.COP...COP.AA.OP......BB..DD...... A99 B99 C96 X98 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 C98 X98 
-0 0 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 X98 O99 
-0 0 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 X98 P99 
-0 0 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X97 
-0 0 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X96 
-0 0 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 B99 O99 P99 
-0 0 10 ..XX......OP..AAOP....OPBB.CDD...C.. A98 B99 O99 P99 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 B98 O99 P99 
-0 0 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 B99 O99 P99 C99 
-0 0 15 ..XX......OP.AACOP...COPBB..DD...... A99 B99 O99 P99 C98 
-0 0 15 ..XX.....COP.AACOP....OPBB..DD...... A99 B99 O99 P99 C97 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 O98 P99 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 P98 
-0 0 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X99 
-0 0 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X98 
-0 0 10 ...XX.....OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X99 
-0 0 10 ....XX....OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X98 
-0 0 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
-0 0 10 .XX..P....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 X99 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 X99 
-0 0 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 X99 C99 
-0 0 15 .XX..P....OP.AACOP...CO.BB..DD...... A99 B99 O99 X99 C98 
-0 0 15 .XX..P...COP.AACOP....O.BB..DD...... A99 B99 O99 X99 C97 
-0 0 10 .XXC.P...COP.AA.OP....O.BB..DD...... A99 B99 O99 X99 C96 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 O98 X99 
-0 0 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 X99 P99 
-0 0 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
-0 0 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X97 
-0 0 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X98 
-0 0 10 XX...P....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 X98 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 X98 
-0 0 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 X98 C99 
-0 0 15 XX...P....OP.AACOP...CO.BB..DD...... A99 B99 O99 X98 C98 
-0 0 15 XX...P...COP.AACOP....O.BB..DD...... A99 B99 O99 X98 C97 
-0 0 10 XX.C.P...COP.AA.OP....O.BB..DD...... A99 B99 O99 X98 C96 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 O98 X98 
-0 0 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 X98 P99 
-0 0 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X97 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X96 
-0 0 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X95 
-0 0 10 ...XXP....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
-0 0 10 ...XXP....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 X99 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 X99 
-0 0 10 ...XXP....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 X99 C99 
-0 0 15 ...XXP....OP.AACOP...CO.BB..DD...... A99 B99 O99 X99 C98 
-0 0 15 ...XXP...COP.AACOP....O.BB..DD...... A99 B99 O99 X99 C97 
-0 0 10 ...XX.....OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 X99 P99 
-0 0 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
-0 0 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X97 
-0 0 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X96 
-0 0 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X99 
-0 0 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. A98 B99 P99 X99 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 B98 P99 X99 
-0 0 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 B99 P99 X99 C99 
-0 0 15 .XX.O.....OP.AACOP...C.PBB..DD...... A99 B99 P99 X99 C98 
-0 0 15 .XX.O....COP.AACOP.....PBB..DD...... A99 B99 P99 X99 C97 
-0 0 10 .XXCO....COP.AA.OP.....PBB..DD...... A99 B99 P99 X99 C96 
-0 0 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 B99 P99 X99 O99 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 P98 X99 
-0 0 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X98 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X98 
-0 0 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X98 
-0 0 10 XX..O.....OP..AAOP.....PBB.CDD...C.. A98 B99 P99 X98 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 B98 P99 X98 
-0 0 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 B99 P99 X98 C99 
-0 0 15 XX..O.....OP.AACOP...C.PBB..DD...... A99 B99 P99 X98 C98 
-0 0 15 XX..O....COP.AACOP.....PBB..DD...... A99 B99 P99 X98 C97 
-0 0 10 XX.CO....COP.AA.OP.....PBB..DD...... A99 B99 P99 X98 C96 
-0 0 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 B99 P99 X98 O99 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 P98 X98 
-0 0 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X97 
-0 0 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X96 
-0 0 10 .XXCOP...COPAA..OP......BB..DD...... A98 B99 X99 C96 
-0 0 10 .XXCOP...COP..AAOP......BB..DD...... A98 B99 X99 C96 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 B98 X99 C96 
-0 0 10 .XXCOP...COP.AA.OP........BBDD...... A99 B97 X99 C96 
-0 0 15 .XX.OP...COP.AACOP......BB..DD...... A99 B99 X99 C95 
-0 0 15 .XX.OP....OP.AACOP...C..BB..DD...... A99 B99 X99 C94 
-0 0 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 X99 C93 
-0 0 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 X99 C92 
-0 0 10 .XXCOP...COP.AA.OP......BB.DD....... A99 B99 X99 C96 D99 
-0 0 10 .XXCOP...COP.AA.OP......BBDD........ A99 B99 X99 C96 D98 
-0 0 10 .XXC.P...COP.AA.OP....O.BB..DD...... A99 B99 X99 C96 O99 
-0 0 10 .XXCO....COP.AA.OP.....PBB..DD...... A99 B99 X99 C96 P99 
-0 0 10 XX.COP...COP.AA.OP......BB..DD...... A99 B99 X98 C96 
-0 0 10 XX.COP...COPAA..OP......BB..DD...... A98 B99 X98 C96 
-0 0 10 XX.COP...COP..AAOP......BB..DD...... A98 B99 X98 C96 
-0 0 10 XX.COP...COP.AA.OP.......BB.DD...... A99 B98 X98 C96 
-0 0 10 XX.COP...COP.AA.OP........BBDD...... A99 B97 X98 C96 
-0 0 15 XX..OP...COP.AACOP......BB..DD...... A99 B99 X98 C95 
-0 0 15 XX..OP....OP.AACOP...C..BB..DD...... A99 B99 X98 C94 
-0 0 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 X98 C93 
-0 0 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 C92 
-0 0 10 XX.COP...COP.AA.OP......BB.DD....... A99 B99 X98 C96 D99 
-0 0 10 XX.COP...COP.AA.OP......BBDD........ A99 B99 X98 C96 D98 
-0 0 10 XX.C.P...COP.AA.OP....O.BB..DD...... A99 B99 X98 C96 O99 
-0 0 10 XX.CO....COP.AA.OP.....PBB..DD...... A99 B99 X98 C96 P99 
-0 0 10 .XXCOP...COP.AA.OP......BB..DD...... A99 B99 X97 C96 
-0 0 10 ..XX......OPAA..OP...COP.BBCDD...... A98 C99 O99 P99 
-0 0 10 ..XX......OP..AAOP...COP.BBCDD...... A98 C99 O99 P99 
-0 0 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 C99 O99 P99 B99 
-0 0 15 ..XX......OP.AACOP...COP.BB.DD...... A99 C98 O99 P99 
-0 0 15 ..XX.....COP.AACOP....OP.BB.DD...... A99 C97 O99 P99 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 C98 O99 P99 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 O98 P99 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 P98 
-0 0 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X99 
-0 0 10 XX........OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X98 
-0 0 10 ...XX.....OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X99 
-0 0 10 ....XX....OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X98 
-0 0 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
-0 0 10 .XX..P....OP..AAOP...CO..BBCDD...... A98 C99 O99 X99 
-0 0 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 X99 B99 
-0 0 15 .XX..P....OP.AACOP...CO..BB.DD...... A99 C98 O99 X99 
-0 0 15 .XX..P...COP.AACOP....O..BB.DD...... A99 C97 O99 X99 
-0 0 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 C96 O99 X99 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 X99 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 O98 X99 
-0 0 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 C99 O99 X99 P99 
-0 0 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
-0 0 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X97 
-0 0 10 XX...P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X98 
-0 0 10 XX...P....OP..AAOP...CO..BBCDD...... A98 C99 O99 X98 
-0 0 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 X98 B99 
-0 0 15 XX...P....OP.AACOP...CO..BB.DD...... A99 C98 O99 X98 
-0 0 15 XX...P...COP.AACOP....O..BB.DD...... A99 C97 O99 X98 
-0 0 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 C96 O99 X98 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 X98 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 O98 X98 
-0 0 10 XX........OP.AA.OP...COP.BBCDD...... A99 C99 O99 X98 P99 
-0 0 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X97 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X96 
-0 0 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X95 
-0 0 10 ...XXP....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
-0 0 10 ...XXP....OP..AAOP...CO..BBCDD...... A98 C99 O99 X99 
-0 0 10 ...XXP....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 X99 B99 
-0 0 15 ...XXP....OP.AACOP...CO..BB.DD...... A99 C98 O99 X99 
-0 0 15 ...XXP...COP.AACOP....O..BB.DD...... A99 C97 O99 X99 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 X99 
-0 0 10 ...XX.....OP.AA.OP...COP.BBCDD...... A99 C99 O99 X99 P99 
-0 0 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
-0 0 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X97 
-0 0 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X96 
-0 0 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X99 
-0 0 10 .XX.O.....OP..AAOP...C.P.BBCDD...... A98 C99 P99 X99 
-0 0 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 C99 P99 X99 B99 
-0 0 15 .XX.O.....OP.AACOP...C.P.BB.DD...... A99 C98 P99 X99 
-0 0 15 .XX.O....COP.AACOP.....P.BB.DD...... A99 C97 P99 X99 
-0 0 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 C96 P99 X99 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 C98 P99 X99 
-0 0 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 C99 P99 X99 O99 
-0 0 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 P98 X99 
-0 0 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X98 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X98 
-0 0 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X98 
-0 0 10 XX..O.....OP..AAOP...C.P.BBCDD...... A98 C99 P99 X98 
-0 0 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 C99 P99 X98 B99 
-0 0 15 XX..O.....OP.AACOP...C.P.BB.DD...... A99 C98 P99 X98 
-0 0 15 XX..O....COP.AACOP.....P.BB.DD...... A99 C97 P99 X98 
-0 0 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 C96 P99 X98 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 C98 P99 X98 
-0 0 10 XX........OP.AA.OP...COP.BBCDD...... A99 C99 P99 X98 O99 
-0 0 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 P98 X98 
-0 0 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X97 
-0 0 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X96 
-0 0 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
-0 0 10 .XX.......OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X99 
-0 0 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X99 B99 
-0 0 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 O99 P99 X99 C99 
-0 0 15 .XX.......OP.AACOP...COP.BB.DD...... A99 O99 P99 X99 C98 
-0 0 15 .XX......COP.AACOP....OP.BB.DD...... A99 O99 P99 X99 C97 
-0 0 10 .XXC.....COP.AA.OP....OP.BB.DD...... A99 O99 P99 X99 C96 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 O98 P99 X99 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 X99 
-0 0 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
-0 0 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
-0 0 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
-0 0 10 XX........OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
-0 0 10 XX........OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X98 
-0 0 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X98 B99 
-0 0 10 XX........OP.AA.OP...COP.BBCDD...... A99 O99 P99 X98 C99 
-0 0 15 XX........OP.AACOP...COP.BB.DD...... A99 O99 P99 X98 C98 
-0 0 15 XX.......COP.AACOP....OP.BB.DD...... A99 O99 P99 X98 C97 
-0 0 10 XX.C.....COP.AA.OP....OP.BB.DD...... A99 O99 P99 X98 C96 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 O98 P99 X98 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 X98 
-0 0 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
-0 0 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X95 
-0 0 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X94 
-0 0 10 ...XX.....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
-0 0 10 ...XX.....OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X99 
-0 0 10 ...XX.....OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X99 B99 
-0 0 10 ...XX.....OP.AA.OP...COP.BBCDD...... A99 O99 P99 X99 C99 
-0 0 15 ...XX.....OP.AACOP...COP.BB.DD...... A99 O99 P99 X99 C98 
-0 0 15 ...XX....COP.AACOP....OP.BB.DD...... A99 O99 P99 X99 C97 
-0 0 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 X99 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
-0 0 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
-0 0 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
-0 0 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
-0 0 10 ....XX....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
-0 0 10 ....XX....OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X98 
-0 0 10 ....XX....OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X98 B99 
-0 0 10 ....XX....OP.AA.OP...COP.BBCDD...... A99 O99 P99 X98 C99 
-0 0 15 ....XX....OP.AACOP...COP.BB.DD...... A99 O99 P99 X98 C98 
-0 0 15 ....XX...COP.AACOP....OP.BB.DD...... A99 O99 P99 X98 C97 
-0 0 10 ...CXX...COP.AA.OP....OP.BB.DD...... A99 O99 P99 X98 C96 
-0 0 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
-0 0 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
-0 0 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X95 
-0 0 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X94 
-0 0 10 .XXC.P...COPAA..OP....O..BB.DD...... A98 O99 X99 C96 
-0 0 10 .XXC.P...COP..AAOP....O..BB.DD...... A98 O99 X99 C96 
-0 0 10 .XXC.P...COP.AA.OP....O.BB..DD...... A99 O99 X99 C96 B99 
-0 0 10 .XXC.P...COP.AA.OP....O...BBDD...... A99 O99 X99 C96 B99 
-0 0 15 .XX..P...COP.AACOP....O..BB.DD...... A99 O99 X99 C95 
-0 0 15 .XX..P....OP.AACOP...CO..BB.DD...... A99 O99 X99 C94 
-0 0 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 O99 X99 C93 
-0 0 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X99 C92 
-0 0 10 .XXC.P...COP.AA.OP....O..BBDD....... A99 O99 X99 C96 D99 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 O98 X99 C96 
-0 0 10 .XXC.....COP.AA.OP....OP.BB.DD...... A99 O99 X99 C96 P99 
-0 0 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 O99 X98 C96 
-0 0 10 XX.C.P...COPAA..OP....O..BB.DD...... A98 O99 X98 C96 
-0 0 10 XX.C.P...COP..AAOP....O..BB.DD...... A98 O99 X98 C96 
-0 0 10 XX.C.P...COP.AA.OP....O.BB..DD...... A99 O99 X98 C96 B99 
-0 0 10 XX.C.P...COP.AA.OP....O...BBDD...... A99 O99 X98 C96 B99 
-0 0 15 XX...P...COP.AACOP....O..BB.DD...... A99 O99 X98 C95 
-0 0 15 XX...P....OP.AACOP...CO..BB.DD...... A99 O99 X98 C94 
-0 0 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 O99 X98 C93 
-0 0 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 C92 
-0 0 10 XX.C.P...COP.AA.OP....O..BBDD....... A99 O99 X98 C96 D99 
-0 0 10 XX.COP...COP.AA.OP.......BB.DD...... A99 O98 X98 C96 
-0 0 10 XX.C.....COP.AA.OP....OP.BB.DD...... A99 O99 X98 C96 P99 
-0 0 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 O99 X97 C96 
-0 0 10 .XXCO....COPAA..OP.....P.BB.DD...... A98 P99 X99 C96 
-0 0 10 .XXCO....COP..AAOP.....P.BB.DD...... A98 P99 X99 C96 
-0 0 10 .XXCO....COP.AA.OP.....PBB..DD...... A99 P99 X99 C96 B99 
-0 0 10 .XXCO....COP.AA.OP.....P..BBDD...... A99 P99 X99 C96 B99 
-0 0 15 .XX.O....COP.AACOP.....P.BB.DD...... A99 P99 X99 C95 
-0 0 15 .XX.O.....OP.AACOP...C.P.BB.DD...... A99 P99 X99 C94 
-0 0 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X99 C93 
-0 0 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X99 C92 
-0 0 10 .XXCO....COP.AA.OP.....P.BBDD....... A99 P99 X99 C96 D99 
-0 0 10 .XXC.....COP.AA.OP....OP.BB.DD...... A99 P99 X99 C96 O99 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 P98 X99 C96 
-0 0 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 P99 X98 C96 
-0 0 10 XX.CO....COPAA..OP.....P.BB.DD...... A98 P99 X98 C96 
-0 0 10 XX.CO....COP..AAOP.....P.BB.DD...... A98 P99 X98 C96 
-0 0 10 XX.CO....COP.AA.OP.....PBB..DD...... A99 P99 X98 C96 B99 
-0 0 10 XX.CO....COP.AA.OP.....P..BBDD...... A99 P99 X98 C96 B99 
-0 0 15 XX..O....COP.AACOP.....P.BB.DD...... A99 P99 X98 C95 
-0 0 15 XX..O.....OP.AACOP...C.P.BB.DD...... A99 P99 X98 C94 
-0 0 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X98 C93 
-0 0 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 C92 
-0 0 10 XX.CO....COP.AA.OP.....P.BBDD....... A99 P99 X98 C96 D99 
-0 0 10 XX.C.....COP.AA.OP....OP.BB.DD...... A99 P99 X98 C96 O99 
-0 0 10 XX.COP...COP.AA.OP.......BB.DD...... A99 P98 X98 C96 
-0 0 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 P99 X97 C96 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A97 X99 C96 
-0 0 10 .XXCOP...COPAA..OP.......BB.DD...... A96 X99 C96 
-0 0 10 .XXCOP...COP..AAOP......BB..DD...... A98 X99 C96 B99 
-0 0 10 .XXCOP...COP..AAOP........BBDD...... A98 X99 C96 B99 
-0 0 10 .XXCOP...COP..AAOP.......BBDD....... A98 X99 C96 D99 
-0 0 10 .XXC.P...COP..AAOP....O..BB.DD...... A98 X99 C96 O99 
-0 0 10 .XXCO....COP..AAOP.....P.BB.DD...... A98 X99 C96 P99 
-0 0 10 XX.COP...COP..AAOP.......BB.DD...... A98 X98 C96 
-0 0 10 .XXCOP...COPAA..OP........BBDD...... A98 X99 C96 B99 
-0 0 10 .XXCOP...COP..AAOP........BBDD...... A98 X99 C96 B99 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X99 C96 B98 
-0 0 10 .XXCOP...COP.AA.OP......BB..DD...... A99 X99 C96 B97 
-0 0 15 .XX.OP...COP.AACOP........BBDD...... A99 X99 C95 B99 
-0 0 15 .XX.OP....OP.AACOP...C....BBDD...... A99 X99 C94 B99 
-0 0 10 .XXC.P...COP.AA.OP....O...BBDD...... A99 X99 C96 B99 O99 
-0 0 10 .XXCO....COP.AA.OP.....P..BBDD...... A99 X99 C96 B99 P99 
-0 0 10 XX.COP...COP.AA.OP........BBDD...... A99 X98 C96 B99 
-0 0 10 .XXCOP...COPAA..OP.......BBDD....... A98 X99 C96 D99 
-0 0 10 .XXCOP...COP..AAOP.......BBDD....... A98 X99 C96 D99 
-0 0 10 .XXCOP...COP.AA.OP......BB.DD....... A99 X99 C96 D99 B99 
-0 0 15 .XX.OP...COP.AACOP.......BBDD....... A99 X99 C95 D99 
-0 0 15 .XX.OP....OP.AACOP...C...BBDD....... A99 X99 C94 D99 
-0 0 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X99 C96 D98 
-0 0 10 .XXC.P...COP.AA.OP....O..BBDD....... A99 X99 C96 D99 O99 
-0 0 10 .XXCO....COP.AA.OP.....P.BBDD....... A99 X99 C96 D99 P99 
-0 0 10 .XXCO....CO..AA.OP.....P.BBDDP...... A99 X99 C96 D99 P98 
-0 0 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X99 C96 D99 P97 
-0 0 10 XX.COP...COP.AA.OP.......BBDD....... A99 X98 C96 D99 
-0 0 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X99 C96 D99 P97 
-0 0 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X99 C96 D99 P97 
-0 0 5 .XXCO....CO..AA.O......PBB.DDP.....P A99 X99 C96 D99 P97 B99 
-0 0 10 .XX.O....CO..AACO......P.BBDDP.....P A99 X99 C95 D99 P97 
-0 0 10 .XX.O.....O..AACO....C.P.BBDDP.....P A99 X99 C94 D99 P97 
-0 0 5 .XXC.....CO..AA.O.....OP.BBDDP.....P A99 X99 C96 D99 P97 O99 
-0 0 10 .XXCO....CO..AA.OP.....P.BBDDP...... A99 X99 C96 D99 P96 
-0 0 10 .XXCO....COP.AA.OP.....P.BBDD....... A99 X99 C96 D99 P95 
-0 0 10 .XXCOP...COP.AA.OP.......BBDD....... A99 X99 C96 D99 P94 
-0 0 5 XX.CO....CO..AA.O......P.BBDDP.....P A99 X98 C96 D99 P97 
-0 0 5 .XXCO....CO..AA.O......P.BBDDP.....P A97 X99 C96 D99 P97 
-0 0 5 .XXCO....CO...AAO......P.BBDDP.....P A96 X99 C96 D99 P97 
-0 0 5 .XXCO....CO.AA..O......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
-0 0 10 .XX.O....CO.AA.CO......P.BBDDP.....P A98 X99 C95 D99 P97 
-0 0 10 .XX.O.....O.AA.CO....C.P.BBDDP.....P A98 X99 C94 D99 P97 
-0 0 5 .XXC.....CO.AA..O.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
-0 0 10 .XXCO....CO.AA..OP.....P.BBDDP...... A98 X99 C96 D99 P96 
-0 0 10 .XXCO....COPAA..OP.....P.BBDD....... A98 X99 C96 D99 P95 
-0 0 10 .XXCOP...COPAA..OP.......BBDD....... A98 X99 C96 D99 P94 
-0 0 5 XX.CO....CO.AA..O......P.BBDDP.....P A98 X98 C96 D99 P97 
-0 0 5 .XXCO....CO..AA.O......P.BBDDP.....P A97 X99 C96 D99 P97 
-0 0 5 .XXCO....CO.AA..O......P.BBDDP.....P A96 X99 C96 D99 P97 
-0 0 5 .XXCO....CO...AAO......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
-0 0 5 .XXC.....CO...AAO.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
-0 0 10 .XXCO....CO...AAOP.....P.BBDDP...... A98 X99 C96 D99 P96 
-0 0 10 .XXCO....COP..AAOP.....P.BBDD....... A98 X99 C96 D99 P95 
-0 0 10 .XXCOP...COP..AAOP.......BBDD....... A98 X99 C96 D99 P94 
-0 0 5 XX.CO....CO...AAO......P.BBDDP.....P A98 X98 C96 D99 P97 
-0 0 5 .XXCO....CO.AA..O......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
-0 0 5 .XXCO....CO...AAO......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
-0 0 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X99 C96 D99 P97 B98 
-0 0 10 .XX.O....CO..AACO......PBB.DDP.....P A99 X99 C95 D99 P97 B99 
-0 0 10 .XX.O.....O..AACO....C.PBB.DDP.....P A99 X99 C94 D99 P97 B99 
-0 0 5 .XXCO....CO..AA.O......PBBDD.P.....P A99 X99 C96 D98 P97 B99 
-0 0 5 .XXC.....CO..AA.O.....OPBB.DDP.....P A99 X99 C96 D99 P97 B99 O99 
-0 0 10 .XXCO....CO..AA.OP.....PBB.DDP...... A99 X99 C96 D99 P96 B99 
-0 0 10 .XXCO....COP.AA.OP.....PBB.DD....... A99 X99 C96 D99 P95 B99 
-0 0 10 .XXCOP...COP.AA.OP......BB.DD....... A99 X99 C96 D99 P94 B99 
-0 0 5 XX.CO....CO..AA.O......PBB.DDP.....P A99 X98 C96 D99 P97 B99 
-0 0 5 .XXC.....CO.AA..O.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
-0 0 5 .XXC.....CO...AAO.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
-0 0 5 .XXC.....CO..AA.O.....OPBB.DDP.....P A99 X99 C96 D99 P97 O99 B99 
-0 0 10 .XX......CO..AACO.....OP.BBDDP.....P A99 X99 C95 D99 P97 O99 
-0 0 10 .XX.......O..AACO....COP.BBDDP.....P A99 X99 C94 D99 P97 O99 
-0 0 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X99 C96 D99 P97 O98 
-0 0 10 .XXC.....CO..AA.OP....OP.BBDDP...... A99 X99 C96 D99 P96 O99 
-0 0 10 .XXC.....COP.AA.OP....OP.BBDD....... A99 X99 C96 D99 P95 O99 
-0 0 10 .XXC.P...COP.AA.OP....O..BBDD....... A99 X99 C96 D99 P94 O99 
-0 0 5 XX.C.....CO..AA.O.....OP.BBDDP.....P A99 X98 C96 D99 P97 O99 
-0 0 5 XX.CO....CO.AA..O......P.BBDDP.....P A98 X98 C96 D99 P97 
-0 0 5 XX.CO....CO...AAO......P.BBDDP.....P A98 X98 C96 D99 P97 
-0 0 5 XX.CO....CO..AA.O......PBB.DDP.....P A99 X98 C96 D99 P97 B99 
-0 0 10 XX..O....CO..AACO......P.BBDDP.....P A99 X98 C95 D99 P97 
-0 0 10 XX..O.....O..AACO....C.P.BBDDP.....P A99 X98 C94 D99 P97 
-0 0 5 XX.C.....CO..AA.O.....OP.BBDDP.....P A99 X98 C96 D99 P97 O99 
-0 0 10 XX.CO....CO..AA.OP.....P.BBDDP...... A99 X98 C96 D99 P96 
-0 0 10 XX.CO....COP.AA.OP.....P.BBDD....... A99 X98 C96 D99 P95 
-0 0 10 XX.COP...COP.AA.OP.......BBDD....... A99 X98 C96 D99 P94 
-0 0 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X97 C96 D99 P97 
-0 0 5 .XXCO....CO..AA.O......PBB.DDP.....P A97 X99 C96 D99 P97 B99 
-0 0 5 .XXCO....CO...AAO......PBB.DDP.....P A96 X99 C96 D99 P97 B99 
-0 0 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X99 C96 D99 P97 B98 
-0 0 10 .XX.O....CO.AA.CO......PBB.DDP.....P A98 X99 C95 D99 P97 B99 
-0 0 10 .XX.O.....O.AA.CO....C.PBB.DDP.....P A98 X99 C94 D99 P97 B99 
-0 0 5 .XXCO....CO.AA..O......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
-0 0 5 .XXC.....CO.AA..O.....OPBB.DDP.....P A98 X99 C96 D99 P97 B99 O99 
-0 0 10 .XXCO....CO.AA..OP.....PBB.DDP...... A98 X99 C96 D99 P96 B99 
-0 0 10 .XXCO....COPAA..OP.....PBB.DD....... A98 X99 C96 D99 P95 B99 
-0 0 10 .XXCOP...COPAA..OP......BB.DD....... A98 X99 C96 D99 P94 B99 
-0 0 5 XX.CO....CO.AA..O......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
-0 0 5 .XXC.....CO..AA.O.....OP.BBDDP.....P A97 X99 C96 D99 P97 O99 
-0 0 5 .XXC.....CO...AAO.....OP.BBDDP.....P A96 X99 C96 D99 P97 O99 
-0 0 5 .XXC.....CO.AA..O.....OPBB.DDP.....P A98 X99 C96 D99 P97 O99 B99 
-0 0 10 .XX......CO.AA.CO.....OP.BBDDP.....P A98 X99 C95 D99 P97 O99 
-0 0 10 .XX.......O.AA.CO....COP.BBDDP.....P A98 X99 C94 D99 P97 O99 
-0 0 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X99 C96 D99 P97 O98 
-0 0 10 .XXC.....CO.AA..OP....OP.BBDDP...... A98 X99 C96 D99 P96 O99 
-0 0 10 .XXC.....COPAA..OP....OP.BBDD....... A98 X99 C96 D99 P95 O99 
-0 0 10 .XXC.P...COPAA..OP....O..BBDD....... A98 X99 C96 D99 P94 O99 
-0 0 5 XX.C.....CO.AA..O.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
-0 0 5 XX.CO....CO..AA.O......P.BBDDP.....P A97 X98 C96 D99 P97 
-0 0 5 XX.CO....CO...AAO......P.BBDDP.....P A96 X98 C96 D99 P97 
-0 0 5 XX.CO....CO.AA..O......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
-0 0 10 XX..O....CO.AA.CO......P.BBDDP.....P A98 X98 C95 D99 P97 
-0 0 10 XX..O.....O.AA.CO....C.P.BBDDP.....P A98 X98 C94 D99 P97 
-0 0 5 XX.C.....CO.AA..O.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
-0 0 10 XX.CO....CO.AA..OP.....P.BBDDP...... A98 X98 C96 D99 P96 
-0 0 10 XX.CO....COPAA..OP.....P.BBDD....... A98 X98 C96 D99 P95 
-0 0 10 XX.COP...COPAA..OP.......BBDD....... A98 X98 C96 D99 P94 
-0 0 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X97 C96 D99 P97 
-0 0 5 .XXCO....CO..AA.O......PBB.DDP.....P A97 X99 C96 D99 P97 B99 
-0 0 5 .XXCO....CO.AA..O......PBB.DDP.....P A96 X99 C96 D99 P97 B99 
-0 0 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X99 C96 D99 P97 B98 
-0 0 5 .XXCO....CO...AAO......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
-0 0 5 .XXC.....CO...AAO.....OPBB.DDP.....P A98 X99 C96 D99 P97 B99 O99 
-0 0 10 .XXCO....CO...AAOP.....PBB.DDP...... A98 X99 C96 D99 P96 B99 
-0 0 10 .XXCO....COP..AAOP.....PBB.DD....... A98 X99 C96 D99 P95 B99 
-0 0 10 .XXCOP...COP..AAOP......BB.DD....... A98 X99 C96 D99 P94 B99 
-0 0 5 XX.CO....CO...AAO......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
-0 0 5 .XXC.....CO..AA.O.....OP.BBDDP.....P A97 X99 C96 D99 P97 O99 
-0 0 5 .XXC.....CO.AA..O.....OP.BBDDP.....P A96 X99 C96 D99 P97 O99 
-0 0 5 .XXC.....CO...AAO.....OPBB.DDP.....P A98 X99 C96 D99 P97 O99 B99 
-0 0 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X99 C96 D99 P97 O98 
-0 0 10 .XXC.....CO...AAOP....OP.BBDDP...... A98 X99 C96 D99 P96 O99 
-0 0 10 .XXC.....COP..AAOP....OP.BBDD....... A98 X99 C96 D99 P95 O99 
-0 0 10 .XXC.P...COP..AAOP....O..BBDD....... A98 X99 C96 D99 P94 O99 
-0 0 5 XX.C.....CO...AAO.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
-0 0 5 XX.CO....CO..AA.O......P.BBDDP.....P A97 X98 C96 D99 P97 
-0 0 5 XX.CO....CO.AA..O......P.BBDDP.....P A96 X98 C96 D99 P97 
-0 0 5 XX.CO....CO...AAO......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
-0 0 5 XX.C.....CO...AAO.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
-0 0 10 XX.CO....CO...AAOP.....P.BBDDP...... A98 X98 C96 D99 P96 
-0 0 10 XX.CO....COP..AAOP.....P.BBDD....... A98 X98 C96 D99 P95 
-0 0 10 XX.COP...COP..AAOP.......BBDD....... A98 X98 C96 D99 P94 
-0 0 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X97 C96 D99 P97 
-0 0 5 .XXCO....CO.AA..O......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
-0 0 5 .XXCO....CO...AAO......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
-0 0 10 .XX.O....CO..AACO......PBBDD.P.....P A99 X99 C95 D98 P97 B99 
-0 0 10 .XX.O.....O..AACO....C.PBBDD.P.....P A99 X99 C94 D98 P97 B99 
-0 0 5 .XXCO....CO..AA.O......PBB.DDP.....P A99 X99 C96 D97 P97 B99 
-0 0 5 .XXC.....CO..AA.O.....OPBBDD.P.....P A99 X99 C96 D98 P97 B99 O99 
-0 0 5 .XXC.....C...AA.O.....OPBBDDOP.....P A99 X99 C96 D98 P97 B99 O98 
-0 0 0 .XXC.....C...AA.......OPBBDDOP....OP A99 X99 C96 D98 P97 B99 O97 
-0 0 10 .XXCO....CO..AA.OP.....PBBDD.P...... A99 X99 C96 D98 P96 B99 
-0 0 10 .XXCO....COP.AA.OP.....PBBDD........ A99 X99 C96 D98 P95 B99 
-0 0 10 .XXCOP...COP.AA.OP......BBDD........ A99 X99 C96 D98 P94 B99 
-0 0 5 XX.CO....CO..AA.O......PBBDD.P.....P A99 X98 C96 D98 P97 B99 
-0 0 0 .XXC.....C..AA........OPBBDDOP....OP A98 X99 C96 D98 P97 B99 O97 
-0 0 0 .XXC.....C....AA......OPBBDDOP....OP A98 X99 C96 D98 P97 B99 O97 
-0 0 0 .XXC.....C.....AA.....OPBBDDOP....OP A97 X99 C96 D98 P97 B99 O97 
-0 0 0 .XXC.....C......AA....OPBBDDOP....OP A96 X99 C96 D98 P97 B99 O97 
+11 1 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 
+11 1 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 
+11 1 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 
+11 1 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 
+11 1 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 
+11 1 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. P99 
+11 1 10 .XX.OP....OP..AAOP.......BBCDD...C.. X99 
+11 1 10 XX..OP....OP..AAOP.......BBCDD...C.. X98 
+12 2 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. A98 
+12 2 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 
+12 2 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 
+17 2 15 ..XXOP....OP.AACOP...C...BB.DD...... A99 C98 
+17 2 15 ..XXOP...COP.AACOP.......BB.DD...... A99 C97 
+12 2 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 
+12 2 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 P99 
+12 2 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 X99 
+12 2 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 X98 
+12 2 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A97 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. A96 
+12 2 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 
+12 2 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 
+17 2 15 ..XXOP....OPAA.COP...C...BB.DD...... A98 C98 
+17 2 15 ..XXOP...COPAA.COP.......BB.DD...... A98 C97 
+12 2 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 
+12 2 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 
+12 2 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X99 
+12 2 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 
+12 2 10 ..XXOP....OP.AA.OP......BB.CDD...C.. B99 A99 
+12 2 10 ..XXOP....OPAA..OP......BB.CDD...C.. B99 A98 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. B98 
+12 2 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 
+12 2 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 
+12 2 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 P99 
+12 2 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 X99 
+12 2 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 X98 
+12 2 10 ..XXOP....OP.AA.OP...C...BBCDD...... C99 A99 
+12 2 10 ..XXOP....OPAA..OP...C...BBCDD...... C99 A98 
+12 2 10 ..XXOP....OP..AAOP...C..BB.CDD...... C99 B99 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. C98 
+12 2 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 
+12 2 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 P99 
+12 2 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 X99 
+12 2 10 XX..OP....OP..AAOP...C...BBCDD...... C99 X98 
+12 2 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. O99 A99 
+12 2 10 ..XX.P....OPAA..OP....O..BBCDD...C.. O99 A98 
+12 2 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. O99 B99 
+12 2 10 ..XX.P....OP..AAOP...CO..BBCDD...... O99 C99 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. O98 
+12 2 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 
+12 2 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 X99 
+12 2 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 X98 
+12 2 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 X99 
+12 2 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. P99 A99 
+12 2 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. P99 A98 
+12 2 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. P99 B99 
+12 2 10 ..XXO.....OP..AAOP...C.P.BBCDD...... P99 C99 
+12 2 10 ..XX......OP..AAOP....OP.BBCDD...C.. P99 O99 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. P98 
+12 2 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. P99 X99 
+12 2 10 XX..O.....OP..AAOP.....P.BBCDD...C.. P99 X98 
+12 2 10 .XX.OP....OP.AA.OP.......BBCDD...C.. X99 A99 
+12 2 10 .XX.OP....OPAA..OP.......BBCDD...C.. X99 A98 
+12 2 10 .XX.OP....OP..AAOP......BB.CDD...C.. X99 B99 
+12 2 10 .XX.OP....OP..AAOP...C...BBCDD...... X99 C99 
+12 2 10 .XX..P....OP..AAOP....O..BBCDD...C.. X99 O99 
+12 2 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. X99 P99 
+12 2 10 XX..OP....OP..AAOP.......BBCDD...C.. X98 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. X98 
+12 2 10 XX..OP....OP.AA.OP.......BBCDD...C.. X98 A99 
+12 2 10 XX..OP....OPAA..OP.......BBCDD...C.. X98 A98 
+12 2 10 XX..OP....OP..AAOP......BB.CDD...C.. X98 B99 
+12 2 10 XX..OP....OP..AAOP...C...BBCDD...... X98 C99 
+12 2 10 XX...P....OP..AAOP....O..BBCDD...C.. X98 O99 
+12 2 10 XX..O.....OP..AAOP.....P.BBCDD...C.. X98 P99 
+12 2 10 .XX.OP....OP..AAOP.......BBCDD...C.. X97 
+12 2 10 ..XXOP....OP..AAOP.......BBCDD...C.. X96 
+13 3 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 
+13 3 10 ..XXOP....OP..AAOP......BB.CDD...C.. A98 B99 
+13 3 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 B98 
+13 3 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 
+18 3 15 ..XXOP....OP.AACOP...C..BB..DD...... A99 B99 C98 
+18 3 15 ..XXOP...COP.AACOP......BB..DD...... A99 B99 C97 
+13 3 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 
+13 3 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 
+13 3 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 X99 
+13 3 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 
+13 3 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 
+13 3 10 ..XXOP....OP..AAOP...C...BBCDD...... A98 C99 
+13 3 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 C99 B99 
+18 3 15 ..XXOP....OP.AACOP...C...BB.DD...... A99 C98 
+18 3 15 ..XXOP...COP.AACOP.......BB.DD...... A99 C97 
+13 3 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 C98 
+13 3 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 
+13 3 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 
+13 3 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 X99 
+13 3 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 X98 
+13 3 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. A98 O99 
+13 3 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 O99 B99 
+13 3 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 O99 C99 
+18 3 15 ..XX.P....OP.AACOP...CO..BB.DD...... A99 O99 C98 
+18 3 15 ..XX.P...COP.AACOP....O..BB.DD...... A99 O99 C97 
+13 3 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 O98 
+13 3 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 
+13 3 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X99 
+13 3 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
+13 3 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 X99 
+13 3 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 
+13 3 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. A98 P99 
+13 3 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 P99 B99 
+13 3 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 P99 C99 
+18 3 15 ..XXO.....OP.AACOP...C.P.BB.DD...... A99 P99 C98 
+18 3 15 ..XXO....COP.AACOP.....P.BB.DD...... A99 P99 C97 
+13 3 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 P99 O99 
+13 3 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 P98 
+13 3 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X99 
+13 3 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 
+13 3 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X99 
+13 3 10 .XX.OP....OP..AAOP.......BBCDD...C.. A98 X99 
+13 3 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 X99 B99 
+13 3 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 X99 C99 
+18 3 15 .XX.OP....OP.AACOP...C...BB.DD...... A99 X99 C98 
+18 3 15 .XX.OP...COP.AACOP.......BB.DD...... A99 X99 C97 
+13 3 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X99 C96 
+13 3 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 X99 O99 
+13 3 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 X99 P99 
+13 3 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 X98 
+13 3 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 X98 
+13 3 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 
+13 3 10 XX..OP....OP..AAOP.......BBCDD...C.. A98 X98 
+13 3 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 X98 B99 
+13 3 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 X98 C99 
+18 3 15 XX..OP....OP.AACOP...C...BB.DD...... A99 X98 C98 
+18 3 15 XX..OP...COP.AACOP.......BB.DD...... A99 X98 C97 
+13 3 10 XX.COP...COP.AA.OP.......BB.DD...... A99 X98 C96 
+13 3 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 X98 O99 
+13 3 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 X98 P99 
+13 3 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 X97 
+13 3 10 ..XXOP....OP.AA.OP.......BBCDD...C.. A99 X96 
+13 3 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A97 B99 
+13 3 10 ..XXOP....OP..AAOP......BB.CDD...C.. A96 B99 
+13 3 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 B98 
+13 3 10 ..XXOP....OPAA..OP...C..BB.CDD...... A98 B99 C99 
+18 3 15 ..XXOP....OPAA.COP...C..BB..DD...... A98 B99 C98 
+18 3 15 ..XXOP...COPAA.COP......BB..DD...... A98 B99 C97 
+13 3 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 
+13 3 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 
+13 3 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 B99 X99 
+13 3 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
+13 3 10 ..XXOP....OP.AA.OP...C...BBCDD...... A97 C99 
+13 3 10 ..XXOP....OP..AAOP...C...BBCDD...... A96 C99 
+13 3 10 ..XXOP....OPAA..OP...C..BB.CDD...... A98 C99 B99 
+18 3 15 ..XXOP....OPAA.COP...C...BB.DD...... A98 C98 
+18 3 15 ..XXOP...COPAA.COP.......BB.DD...... A98 C97 
+13 3 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 C98 
+13 3 10 ..XX.P....OPAA..OP...CO..BBCDD...... A98 C99 O99 
+13 3 10 ..XXO.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 
+13 3 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 C99 X99 
+13 3 10 XX..OP....OPAA..OP...C...BBCDD...... A98 C99 X98 
+13 3 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A97 O99 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. A96 O99 
+13 3 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. A98 O99 B99 
+13 3 10 ..XX.P....OPAA..OP...CO..BBCDD...... A98 O99 C99 
+18 3 15 ..XX.P....OPAA.COP...CO..BB.DD...... A98 O99 C98 
+18 3 15 ..XX.P...COPAA.COP....O..BB.DD...... A98 O99 C97 
+13 3 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 O98 
+13 3 10 ..XX......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 
+13 3 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
+13 3 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
+13 3 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
+13 3 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A97 P99 
+13 3 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. A96 P99 
+13 3 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. A98 P99 B99 
+13 3 10 ..XXO.....OPAA..OP...C.P.BBCDD...... A98 P99 C99 
+18 3 15 ..XXO.....OPAA.COP...C.P.BB.DD...... A98 P99 C98 
+18 3 15 ..XXO....COPAA.COP.....P.BB.DD...... A98 P99 C97 
+13 3 10 ..XX......OPAA..OP....OP.BBCDD...C.. A98 P99 O99 
+13 3 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 P98 
+13 3 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X99 
+13 3 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
+13 3 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A97 X99 
+13 3 10 .XX.OP....OP..AAOP.......BBCDD...C.. A96 X99 
+13 3 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 X99 B99 
+13 3 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 X99 C99 
+18 3 15 .XX.OP....OPAA.COP...C...BB.DD...... A98 X99 C98 
+18 3 15 .XX.OP...COPAA.COP.......BB.DD...... A98 X99 C97 
+13 3 10 .XXCOP...COPAA..OP.......BB.DD...... A98 X99 C96 
+13 3 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 X99 O99 
+13 3 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 X99 P99 
+13 3 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 
+13 3 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 X98 
+13 3 10 XX..OP....OP.AA.OP.......BBCDD...C.. A97 X98 
+13 3 10 XX..OP....OP..AAOP.......BBCDD...C.. A96 X98 
+13 3 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 X98 B99 
+13 3 10 XX..OP....OPAA..OP...C...BBCDD...... A98 X98 C99 
+18 3 15 XX..OP....OPAA.COP...C...BB.DD...... A98 X98 C98 
+18 3 15 XX..OP...COPAA.COP.......BB.DD...... A98 X98 C97 
+13 3 10 XX.COP...COPAA..OP.......BB.DD...... A98 X98 C96 
+13 3 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 X98 O99 
+13 3 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 X98 P99 
+13 3 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X97 
+13 3 10 ..XXOP....OPAA..OP.......BBCDD...C.. A98 X96 
+13 3 10 ..XXOP....OP.AA.OP...C..BB.CDD...... B99 C99 A99 
+13 3 10 ..XXOP....OPAA..OP...C..BB.CDD...... B99 C99 A98 
+13 3 10 ..XXOP....OP..AAOP...C...BBCDD...... B98 C99 
+13 3 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 C98 
+13 3 10 ..XX.P....OP..AAOP...CO.BB.CDD...... B99 C99 O99 
+13 3 10 ..XXO.....OP..AAOP...C.PBB.CDD...... B99 C99 P99 
+13 3 10 .XX.OP....OP..AAOP...C..BB.CDD...... B99 C99 X99 
+13 3 10 XX..OP....OP..AAOP...C..BB.CDD...... B99 C99 X98 
+13 3 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. B99 O99 A99 
+13 3 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. B99 O99 A98 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. B98 O99 
+13 3 10 ..XX.P....OP..AAOP...CO.BB.CDD...... B99 O99 C99 
+13 3 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 O98 
+13 3 10 ..XX......OP..AAOP....OPBB.CDD...C.. B99 O99 P99 
+13 3 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 O99 X99 
+13 3 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
+13 3 10 ...XXP....OP..AAOP....O.BB.CDD...C.. B99 O99 X99 
+13 3 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. B99 P99 A99 
+13 3 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. B99 P99 A98 
+13 3 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. B98 P99 
+13 3 10 ..XXO.....OP..AAOP...C.PBB.CDD...... B99 P99 C99 
+13 3 10 ..XX......OP..AAOP....OPBB.CDD...C.. B99 P99 O99 
+13 3 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 P98 
+13 3 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X99 
+13 3 10 XX..O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X98 
+13 3 10 .XX.OP....OP.AA.OP......BB.CDD...C.. B99 X99 A99 
+13 3 10 .XX.OP....OPAA..OP......BB.CDD...C.. B99 X99 A98 
+13 3 10 .XX.OP....OP..AAOP.......BBCDD...C.. B98 X99 
+13 3 10 .XX.OP....OP..AAOP...C..BB.CDD...... B99 X99 C99 
+13 3 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 X99 O99 
+13 3 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. B99 X99 P99 
+13 3 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 X98 
+13 3 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 X98 
+13 3 10 XX..OP....OP.AA.OP......BB.CDD...C.. B99 X98 A99 
+13 3 10 XX..OP....OPAA..OP......BB.CDD...C.. B99 X98 A98 
+13 3 10 XX..OP....OP..AAOP.......BBCDD...C.. B98 X98 
+13 3 10 XX..OP....OP..AAOP...C..BB.CDD...... B99 X98 C99 
+13 3 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 X98 O99 
+13 3 10 XX..O.....OP..AAOP.....PBB.CDD...C.. B99 X98 P99 
+13 3 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 X97 
+13 3 10 ..XXOP....OP..AAOP......BB.CDD...C.. B99 X96 
+13 3 10 ..XX.P....OP.AA.OP...CO..BBCDD...... C99 O99 A99 
+13 3 10 ..XX.P....OPAA..OP...CO..BBCDD...... C99 O99 A98 
+13 3 10 ..XX.P....OP..AAOP...CO.BB.CDD...... C99 O99 B99 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. C98 O99 
+13 3 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 O98 
+13 3 10 ..XX......OP..AAOP...COP.BBCDD...... C99 O99 P99 
+13 3 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 O99 X99 
+13 3 10 XX...P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
+13 3 10 ...XXP....OP..AAOP...CO..BBCDD...... C99 O99 X99 
+13 3 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... C99 P99 A99 
+13 3 10 ..XXO.....OPAA..OP...C.P.BBCDD...... C99 P99 A98 
+13 3 10 ..XXO.....OP..AAOP...C.PBB.CDD...... C99 P99 B99 
+13 3 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. C98 P99 
+13 3 10 ..XX......OP..AAOP...COP.BBCDD...... C99 P99 O99 
+13 3 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 P98 
+13 3 10 .XX.O.....OP..AAOP...C.P.BBCDD...... C99 P99 X99 
+13 3 10 XX..O.....OP..AAOP...C.P.BBCDD...... C99 P99 X98 
+13 3 10 .XX.OP....OP.AA.OP...C...BBCDD...... C99 X99 A99 
+13 3 10 .XX.OP....OPAA..OP...C...BBCDD...... C99 X99 A98 
+13 3 10 .XX.OP....OP..AAOP...C..BB.CDD...... C99 X99 B99 
+13 3 10 .XX.OP....OP..AAOP.......BBCDD...C.. C98 X99 
+13 3 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 X99 O99 
+13 3 10 .XX.O.....OP..AAOP...C.P.BBCDD...... C99 X99 P99 
+13 3 10 XX..OP....OP..AAOP...C...BBCDD...... C99 X98 
+13 3 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 X98 
+13 3 10 XX..OP....OP.AA.OP...C...BBCDD...... C99 X98 A99 
+13 3 10 XX..OP....OPAA..OP...C...BBCDD...... C99 X98 A98 
+13 3 10 XX..OP....OP..AAOP...C..BB.CDD...... C99 X98 B99 
+13 3 10 XX..OP....OP..AAOP.......BBCDD...C.. C98 X98 
+13 3 10 XX...P....OP..AAOP...CO..BBCDD...... C99 X98 O99 
+13 3 10 XX..O.....OP..AAOP...C.P.BBCDD...... C99 X98 P99 
+13 3 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 X97 
+13 3 10 ..XXOP....OP..AAOP...C...BBCDD...... C99 X96 
+13 3 10 ..XX......OP.AA.OP....OP.BBCDD...C.. O99 P99 A99 
+13 3 10 ..XX......OPAA..OP....OP.BBCDD...C.. O99 P99 A98 
+13 3 10 ..XX......OP..AAOP....OPBB.CDD...C.. O99 P99 B99 
+13 3 10 ..XX......OP..AAOP...COP.BBCDD...... O99 P99 C99 
+13 3 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. O98 P99 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 P98 
+13 3 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X99 
+13 3 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
+13 3 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X99 
+13 3 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
+13 3 10 .XX..P....OP.AA.OP....O..BBCDD...C.. O99 X99 A99 
+13 3 10 .XX..P....OPAA..OP....O..BBCDD...C.. O99 X99 A98 
+13 3 10 .XX..P....OP..AAOP....O.BB.CDD...C.. O99 X99 B99 
+13 3 10 .XX..P....OP..AAOP...CO..BBCDD...... O99 X99 C99 
+13 3 10 .XX.OP....OP..AAOP.......BBCDD...C.. O98 X99 
+13 3 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 X99 P99 
+13 3 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 X98 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 X98 
+13 3 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 X97 
+13 3 10 XX...P....OP.AA.OP....O..BBCDD...C.. O99 X98 A99 
+13 3 10 XX...P....OPAA..OP....O..BBCDD...C.. O99 X98 A98 
+13 3 10 XX...P....OP..AAOP....O.BB.CDD...C.. O99 X98 B99 
+13 3 10 XX...P....OP..AAOP...CO..BBCDD...... O99 X98 C99 
+13 3 10 XX..OP....OP..AAOP.......BBCDD...C.. O98 X98 
+13 3 10 XX........OP..AAOP....OP.BBCDD...C.. O99 X98 P99 
+13 3 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 X97 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 X96 
+13 3 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 X95 
+13 3 10 ...XXP....OP.AA.OP....O..BBCDD...C.. O99 X99 A99 
+13 3 10 ...XXP....OPAA..OP....O..BBCDD...C.. O99 X99 A98 
+13 3 10 ...XXP....OP..AAOP....O.BB.CDD...C.. O99 X99 B99 
+13 3 10 ...XXP....OP..AAOP...CO..BBCDD...... O99 X99 C99 
+13 3 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 X99 P99 
+13 3 10 ..XX.P....OP..AAOP....O..BBCDD...C.. O99 X98 
+13 3 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 X97 
+13 3 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 X96 
+13 3 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. P99 X99 A99 
+13 3 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. P99 X99 A98 
+13 3 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. P99 X99 B99 
+13 3 10 .XX.O.....OP..AAOP...C.P.BBCDD...... P99 X99 C99 
+13 3 10 .XX.......OP..AAOP....OP.BBCDD...C.. P99 X99 O99 
+13 3 10 .XX.OP....OP..AAOP.......BBCDD...C.. P98 X99 
+13 3 10 XX..O.....OP..AAOP.....P.BBCDD...C.. P99 X98 
+13 3 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. P99 X98 
+13 3 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. P99 X98 A99 
+13 3 10 XX..O.....OPAA..OP.....P.BBCDD...C.. P99 X98 A98 
+13 3 10 XX..O.....OP..AAOP.....PBB.CDD...C.. P99 X98 B99 
+13 3 10 XX..O.....OP..AAOP...C.P.BBCDD...... P99 X98 C99 
+13 3 10 XX........OP..AAOP....OP.BBCDD...C.. P99 X98 O99 
+13 3 10 XX..OP....OP..AAOP.......BBCDD...C.. P98 X98 
+13 3 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. P99 X97 
+13 3 10 ..XXO.....OP..AAOP.....P.BBCDD...C.. P99 X96 
+14 4 10 ..XXOP....OPAA..OP...C..BB.CDD...... A98 B99 C99 
+14 4 10 ..XXOP....OP..AAOP...C..BB.CDD...... A98 B99 C99 
+14 4 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 B98 C99 
+19 4 15 ..XXOP....OP.AACOP...C..BB..DD...... A99 B99 C98 
+19 4 15 ..XXOP...COP.AACOP......BB..DD...... A99 B99 C97 
+14 4 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 C98 
+14 4 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 
+14 4 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 P99 
+14 4 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X99 
+14 4 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X98 
+14 4 10 ..XX.P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 
+14 4 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 
+14 4 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 
+14 4 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 C99 
+19 4 15 ..XX.P....OP.AACOP...CO.BB..DD...... A99 B99 O99 C98 
+19 4 15 ..XX.P...COP.AACOP....O.BB..DD...... A99 B99 O99 C97 
+14 4 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 O98 
+14 4 10 ..XX......OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 
+14 4 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X99 
+14 4 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
+14 4 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X99 
+14 4 10 ..XXO.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 
+14 4 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. A98 B99 P99 
+14 4 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 B98 P99 
+14 4 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... A99 B99 P99 C99 
+19 4 15 ..XXO.....OP.AACOP...C.PBB..DD...... A99 B99 P99 C98 
+19 4 15 ..XXO....COP.AACOP.....PBB..DD...... A99 B99 P99 C97 
+14 4 10 ..XX......OP.AA.OP....OPBB.CDD...C.. A99 B99 P99 O99 
+14 4 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 P98 
+14 4 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X99 
+14 4 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X98 
+14 4 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 B99 X99 
+14 4 10 .XX.OP....OP..AAOP......BB.CDD...C.. A98 B99 X99 
+14 4 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 B98 X99 
+14 4 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 X99 C99 
+19 4 15 .XX.OP....OP.AACOP...C..BB..DD...... A99 B99 X99 C98 
+19 4 15 .XX.OP...COP.AACOP......BB..DD...... A99 B99 X99 C97 
+14 4 10 .XXCOP...COP.AA.OP......BB..DD...... A99 B99 X99 C96 
+14 4 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 X99 O99 
+14 4 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 X99 P99 
+14 4 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 
+14 4 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 
+14 4 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
+14 4 10 XX..OP....OP..AAOP......BB.CDD...C.. A98 B99 X98 
+14 4 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 B98 X98 
+14 4 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 X98 C99 
+19 4 15 XX..OP....OP.AACOP...C..BB..DD...... A99 B99 X98 C98 
+19 4 15 XX..OP...COP.AACOP......BB..DD...... A99 B99 X98 C97 
+14 4 10 XX.COP...COP.AA.OP......BB..DD...... A99 B99 X98 C96 
+14 4 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 X98 O99 
+14 4 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 X98 P99 
+14 4 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 X97 
+14 4 10 ..XXOP....OP.AA.OP......BB.CDD...C.. A99 B99 X96 
+14 4 10 ..XX.P....OPAA..OP...CO..BBCDD...... A98 C99 O99 
+14 4 10 ..XX.P....OP..AAOP...CO..BBCDD...... A98 C99 O99 
+14 4 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 B99 
+19 4 15 ..XX.P....OP.AACOP...CO..BB.DD...... A99 C98 O99 
+19 4 15 ..XX.P...COP.AACOP....O..BB.DD...... A99 C97 O99 
+14 4 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 
+14 4 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 O98 
+14 4 10 ..XX......OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 
+14 4 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X99 
+14 4 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
+14 4 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X99 
+14 4 10 ..XXO.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 
+14 4 10 ..XXO.....OP..AAOP...C.P.BBCDD...... A98 C99 P99 
+14 4 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... A99 C99 P99 B99 
+19 4 15 ..XXO.....OP.AACOP...C.P.BB.DD...... A99 C98 P99 
+19 4 15 ..XXO....COP.AACOP.....P.BB.DD...... A99 C97 P99 
+14 4 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 C98 P99 
+14 4 10 ..XX......OP.AA.OP...COP.BBCDD...... A99 C99 P99 O99 
+14 4 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 P98 
+14 4 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X99 
+14 4 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X98 
+14 4 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 C99 X99 
+14 4 10 .XX.OP....OP..AAOP...C...BBCDD...... A98 C99 X99 
+14 4 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 C99 X99 B99 
+19 4 15 .XX.OP....OP.AACOP...C...BB.DD...... A99 C98 X99 
+19 4 15 .XX.OP...COP.AACOP.......BB.DD...... A99 C97 X99 
+14 4 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 C96 X99 
+14 4 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 C98 X99 
+14 4 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 X99 O99 
+14 4 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 C99 X99 P99 
+14 4 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 X98 
+14 4 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 X98 
+14 4 10 XX..OP....OPAA..OP...C...BBCDD...... A98 C99 X98 
+14 4 10 XX..OP....OP..AAOP...C...BBCDD...... A98 C99 X98 
+14 4 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 C99 X98 B99 
+19 4 15 XX..OP....OP.AACOP...C...BB.DD...... A99 C98 X98 
+19 4 15 XX..OP...COP.AACOP.......BB.DD...... A99 C97 X98 
+14 4 10 XX.COP...COP.AA.OP.......BB.DD...... A99 C96 X98 
+14 4 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 C98 X98 
+14 4 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 X98 O99 
+14 4 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 C99 X98 P99 
+14 4 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 X97 
+14 4 10 ..XXOP....OP.AA.OP...C...BBCDD...... A99 C99 X96 
+14 4 10 ..XX......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. A98 O99 P99 
+14 4 10 ..XX......OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 B99 
+14 4 10 ..XX......OP.AA.OP...COP.BBCDD...... A99 O99 P99 C99 
+19 4 15 ..XX......OP.AACOP...COP.BB.DD...... A99 O99 P99 C98 
+19 4 15 ..XX.....COP.AACOP....OP.BB.DD...... A99 O99 P99 C97 
+14 4 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 O98 P99 
+14 4 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 
+14 4 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X99 
+14 4 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
+14 4 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X99 
+14 4 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
+14 4 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
+14 4 10 .XX..P....OP..AAOP....O..BBCDD...C.. A98 O99 X99 
+14 4 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 O99 X99 B99 
+14 4 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 O99 X99 C99 
+19 4 15 .XX..P....OP.AACOP...CO..BB.DD...... A99 O99 X99 C98 
+19 4 15 .XX..P...COP.AACOP....O..BB.DD...... A99 O99 X99 C97 
+14 4 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 O99 X99 C96 
+14 4 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 O98 X99 
+14 4 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 X99 P99 
+14 4 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
+14 4 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
+14 4 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 X97 
+14 4 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
+14 4 10 XX...P....OP..AAOP....O..BBCDD...C.. A98 O99 X98 
+14 4 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 O99 X98 B99 
+14 4 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 O99 X98 C99 
+19 4 15 XX...P....OP.AACOP...CO..BB.DD...... A99 O99 X98 C98 
+19 4 15 XX...P...COP.AACOP....O..BB.DD...... A99 O99 X98 C97 
+14 4 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 O99 X98 C96 
+14 4 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 O98 X98 
+14 4 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 X98 P99 
+14 4 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X97 
+14 4 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 X96 
+14 4 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 X95 
+14 4 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X99 
+14 4 10 ...XXP....OP..AAOP....O..BBCDD...C.. A98 O99 X99 
+14 4 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 O99 X99 B99 
+14 4 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 O99 X99 C99 
+19 4 15 ...XXP....OP.AACOP...CO..BB.DD...... A99 O99 X99 C98 
+19 4 15 ...XXP...COP.AACOP....O..BB.DD...... A99 O99 X99 C97 
+14 4 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 X99 P99 
+14 4 10 ..XX.P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 
+14 4 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X97 
+14 4 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X96 
+14 4 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X99 
+14 4 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. A98 P99 X99 
+14 4 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 P99 X99 B99 
+14 4 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X99 C99 
+19 4 15 .XX.O.....OP.AACOP...C.P.BB.DD...... A99 P99 X99 C98 
+19 4 15 .XX.O....COP.AACOP.....P.BB.DD...... A99 P99 X99 C97 
+14 4 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 P99 X99 C96 
+14 4 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 P99 X99 O99 
+14 4 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 P98 X99 
+14 4 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 
+14 4 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 
+14 4 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
+14 4 10 XX..O.....OP..AAOP.....P.BBCDD...C.. A98 P99 X98 
+14 4 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 P99 X98 B99 
+14 4 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X98 C99 
+19 4 15 XX..O.....OP.AACOP...C.P.BB.DD...... A99 P99 X98 C98 
+19 4 15 XX..O....COP.AACOP.....P.BB.DD...... A99 P99 X98 C97 
+14 4 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 P99 X98 C96 
+14 4 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 P99 X98 O99 
+14 4 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 P98 X98 
+14 4 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X97 
+14 4 10 ..XXO.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X96 
+14 4 10 .XXCOP...COPAA..OP.......BB.DD...... A98 X99 C96 
+14 4 10 .XXCOP...COP..AAOP.......BB.DD...... A98 X99 C96 
+14 4 10 .XXCOP...COP.AA.OP......BB..DD...... A99 X99 C96 B99 
+14 4 10 .XXCOP...COP.AA.OP........BBDD...... A99 X99 C96 B99 
+19 4 15 .XX.OP...COP.AACOP.......BB.DD...... A99 X99 C95 
+19 4 15 .XX.OP....OP.AACOP...C...BB.DD...... A99 X99 C94 
+14 4 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 X99 C93 
+14 4 10 .XX.OP....OP.AA.OP.......BBCDD...C.. A99 X99 C92 
+14 4 10 .XXCOP...COP.AA.OP.......BBDD....... A99 X99 C96 D99 
+14 4 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 X99 C96 O99 
+14 4 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 X99 C96 P99 
+14 4 10 XX.COP...COP.AA.OP.......BB.DD...... A99 X98 C96 
+14 4 10 XX.COP...COPAA..OP.......BB.DD...... A98 X98 C96 
+14 4 10 XX.COP...COP..AAOP.......BB.DD...... A98 X98 C96 
+14 4 10 XX.COP...COP.AA.OP......BB..DD...... A99 X98 C96 B99 
+14 4 10 XX.COP...COP.AA.OP........BBDD...... A99 X98 C96 B99 
+19 4 15 XX..OP...COP.AACOP.......BB.DD...... A99 X98 C95 
+19 4 15 XX..OP....OP.AACOP...C...BB.DD...... A99 X98 C94 
+14 4 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 X98 C93 
+14 4 10 XX..OP....OP.AA.OP.......BBCDD...C.. A99 X98 C92 
+14 4 10 XX.COP...COP.AA.OP.......BBDD....... A99 X98 C96 D99 
+14 4 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 X98 C96 O99 
+14 4 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 X98 C96 P99 
+14 4 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X97 C96 
+14 4 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A97 B99 C99 
+14 4 10 ..XXOP....OP..AAOP...C..BB.CDD...... A96 B99 C99 
+14 4 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 B98 C99 
+19 4 15 ..XXOP....OPAA.COP...C..BB..DD...... A98 B99 C98 
+19 4 15 ..XXOP...COPAA.COP......BB..DD...... A98 B99 C97 
+14 4 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 C98 
+14 4 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 B99 C99 O99 
+14 4 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 B99 C99 P99 
+14 4 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X99 
+14 4 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X98 
+14 4 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A97 B99 O99 
+14 4 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. A96 B99 O99 
+14 4 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 B98 O99 
+14 4 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 B99 O99 C99 
+19 4 15 ..XX.P....OPAA.COP...CO.BB..DD...... A98 B99 O99 C98 
+19 4 15 ..XX.P...COPAA.COP....O.BB..DD...... A98 B99 O99 C97 
+14 4 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 O98 
+14 4 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 B99 O99 P99 
+14 4 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
+14 4 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X98 
+14 4 10 ...XXP....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
+14 4 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A97 B99 P99 
+14 4 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. A96 B99 P99 
+14 4 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 B98 P99 
+14 4 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 B99 P99 C99 
+19 4 15 ..XXO.....OPAA.COP...C.PBB..DD...... A98 B99 P99 C98 
+19 4 15 ..XXO....COPAA.COP.....PBB..DD...... A98 B99 P99 C97 
+14 4 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 B99 P99 O99 
+14 4 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 P98 
+14 4 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X99 
+14 4 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X98 
+14 4 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A97 B99 X99 
+14 4 10 .XX.OP....OP..AAOP......BB.CDD...C.. A96 B99 X99 
+14 4 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 B98 X99 
+14 4 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 B99 X99 C99 
+19 4 15 .XX.OP....OPAA.COP...C..BB..DD...... A98 B99 X99 C98 
+19 4 15 .XX.OP...COPAA.COP......BB..DD...... A98 B99 X99 C97 
+14 4 10 .XXCOP...COPAA..OP......BB..DD...... A98 B99 X99 C96 
+14 4 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 B99 X99 O99 
+14 4 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 B99 X99 P99 
+14 4 10 XX..OP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
+14 4 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 X98 
+14 4 10 XX..OP....OP.AA.OP......BB.CDD...C.. A97 B99 X98 
+14 4 10 XX..OP....OP..AAOP......BB.CDD...C.. A96 B99 X98 
+14 4 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 B98 X98 
+14 4 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 B99 X98 C99 
+19 4 15 XX..OP....OPAA.COP...C..BB..DD...... A98 B99 X98 C98 
+19 4 15 XX..OP...COPAA.COP......BB..DD...... A98 B99 X98 C97 
+14 4 10 XX.COP...COPAA..OP......BB..DD...... A98 B99 X98 C96 
+14 4 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 B99 X98 O99 
+14 4 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 B99 X98 P99 
+14 4 10 .XX.OP....OPAA..OP......BB.CDD...C.. A98 B99 X97 
+14 4 10 ..XXOP....OPAA..OP......BB.CDD...C.. A98 B99 X96 
+14 4 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A97 C99 O99 
+14 4 10 ..XX.P....OP..AAOP...CO..BBCDD...... A96 C99 O99 
+14 4 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 C99 O99 B99 
+19 4 15 ..XX.P....OPAA.COP...CO..BB.DD...... A98 C98 O99 
+19 4 15 ..XX.P...COPAA.COP....O..BB.DD...... A98 C97 O99 
+14 4 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 C98 O99 
+14 4 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 O98 
+14 4 10 ..XX......OPAA..OP...COP.BBCDD...... A98 C99 O99 P99 
+14 4 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
+14 4 10 XX...P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X98 
+14 4 10 ...XXP....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
+14 4 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A97 C99 P99 
+14 4 10 ..XXO.....OP..AAOP...C.P.BBCDD...... A96 C99 P99 
+14 4 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 C99 P99 B99 
+19 4 15 ..XXO.....OPAA.COP...C.P.BB.DD...... A98 C98 P99 
+19 4 15 ..XXO....COPAA.COP.....P.BB.DD...... A98 C97 P99 
+14 4 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 C98 P99 
+14 4 10 ..XX......OPAA..OP...COP.BBCDD...... A98 C99 P99 O99 
+14 4 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 P98 
+14 4 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X99 
+14 4 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X98 
+14 4 10 .XX.OP....OP.AA.OP...C...BBCDD...... A97 C99 X99 
+14 4 10 .XX.OP....OP..AAOP...C...BBCDD...... A96 C99 X99 
+14 4 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 C99 X99 B99 
+19 4 15 .XX.OP....OPAA.COP...C...BB.DD...... A98 C98 X99 
+19 4 15 .XX.OP...COPAA.COP.......BB.DD...... A98 C97 X99 
+14 4 10 .XXCOP...COPAA..OP.......BB.DD...... A98 C96 X99 
+14 4 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 C98 X99 
+14 4 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 C99 X99 O99 
+14 4 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 C99 X99 P99 
+14 4 10 XX..OP....OPAA..OP...C...BBCDD...... A98 C99 X98 
+14 4 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 X98 
+14 4 10 XX..OP....OP.AA.OP...C...BBCDD...... A97 C99 X98 
+14 4 10 XX..OP....OP..AAOP...C...BBCDD...... A96 C99 X98 
+14 4 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 C99 X98 B99 
+19 4 15 XX..OP....OPAA.COP...C...BB.DD...... A98 C98 X98 
+19 4 15 XX..OP...COPAA.COP.......BB.DD...... A98 C97 X98 
+14 4 10 XX.COP...COPAA..OP.......BB.DD...... A98 C96 X98 
+14 4 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 C98 X98 
+14 4 10 XX...P....OPAA..OP...CO..BBCDD...... A98 C99 X98 O99 
+14 4 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 C99 X98 P99 
+14 4 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 C99 X97 
+14 4 10 ..XXOP....OPAA..OP...C...BBCDD...... A98 C99 X96 
+14 4 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A97 O99 P99 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. A96 O99 P99 
+14 4 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 O99 P99 B99 
+14 4 10 ..XX......OPAA..OP...COP.BBCDD...... A98 O99 P99 C99 
+19 4 15 ..XX......OPAA.COP...COP.BB.DD...... A98 O99 P99 C98 
+19 4 15 ..XX.....COPAA.COP....OP.BB.DD...... A98 O99 P99 C97 
+14 4 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 O98 P99 
+14 4 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 P98 
+14 4 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
+14 4 10 XX........OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
+14 4 10 ...XX.....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
+14 4 10 ....XX....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
+14 4 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A97 O99 X99 
+14 4 10 .XX..P....OP..AAOP....O..BBCDD...C.. A96 O99 X99 
+14 4 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 O99 X99 B99 
+14 4 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 O99 X99 C99 
+19 4 15 .XX..P....OPAA.COP...CO..BB.DD...... A98 O99 X99 C98 
+19 4 15 .XX..P...COPAA.COP....O..BB.DD...... A98 O99 X99 C97 
+14 4 10 .XXC.P...COPAA..OP....O..BB.DD...... A98 O99 X99 C96 
+14 4 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 O98 X99 
+14 4 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 O99 X99 P99 
+14 4 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
+14 4 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
+14 4 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X97 
+14 4 10 XX...P....OP.AA.OP....O..BBCDD...C.. A97 O99 X98 
+14 4 10 XX...P....OP..AAOP....O..BBCDD...C.. A96 O99 X98 
+14 4 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 O99 X98 B99 
+14 4 10 XX...P....OPAA..OP...CO..BBCDD...... A98 O99 X98 C99 
+19 4 15 XX...P....OPAA.COP...CO..BB.DD...... A98 O99 X98 C98 
+19 4 15 XX...P...COPAA.COP....O..BB.DD...... A98 O99 X98 C97 
+14 4 10 XX.C.P...COPAA..OP....O..BB.DD...... A98 O99 X98 C96 
+14 4 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 O98 X98 
+14 4 10 XX........OPAA..OP....OP.BBCDD...C.. A98 O99 X98 P99 
+14 4 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X97 
+14 4 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 X96 
+14 4 10 ...XXP....OPAA..OP....O..BBCDD...C.. A98 O99 X95 
+14 4 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A97 O99 X99 
+14 4 10 ...XXP....OP..AAOP....O..BBCDD...C.. A96 O99 X99 
+14 4 10 ...XXP....OPAA..OP....O.BB.CDD...C.. A98 O99 X99 B99 
+14 4 10 ...XXP....OPAA..OP...CO..BBCDD...... A98 O99 X99 C99 
+19 4 15 ...XXP....OPAA.COP...CO..BB.DD...... A98 O99 X99 C98 
+19 4 15 ...XXP...COPAA.COP....O..BB.DD...... A98 O99 X99 C97 
+14 4 10 ...XX.....OPAA..OP....OP.BBCDD...C.. A98 O99 X99 P99 
+14 4 10 ..XX.P....OPAA..OP....O..BBCDD...C.. A98 O99 X98 
+14 4 10 .XX..P....OPAA..OP....O..BBCDD...C.. A98 O99 X97 
+14 4 10 XX...P....OPAA..OP....O..BBCDD...C.. A98 O99 X96 
+14 4 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A97 P99 X99 
+14 4 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. A96 P99 X99 
+14 4 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 P99 X99 B99 
+14 4 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 P99 X99 C99 
+19 4 15 .XX.O.....OPAA.COP...C.P.BB.DD...... A98 P99 X99 C98 
+19 4 15 .XX.O....COPAA.COP.....P.BB.DD...... A98 P99 X99 C97 
+14 4 10 .XXCO....COPAA..OP.....P.BB.DD...... A98 P99 X99 C96 
+14 4 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 P99 X99 O99 
+14 4 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 P98 X99 
+14 4 10 XX..O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
+14 4 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 X98 
+14 4 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A97 P99 X98 
+14 4 10 XX..O.....OP..AAOP.....P.BBCDD...C.. A96 P99 X98 
+14 4 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 P99 X98 B99 
+14 4 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 P99 X98 C99 
+19 4 15 XX..O.....OPAA.COP...C.P.BB.DD...... A98 P99 X98 C98 
+19 4 15 XX..O....COPAA.COP.....P.BB.DD...... A98 P99 X98 C97 
+14 4 10 XX.CO....COPAA..OP.....P.BB.DD...... A98 P99 X98 C96 
+14 4 10 XX........OPAA..OP....OP.BBCDD...C.. A98 P99 X98 O99 
+14 4 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 P98 X98 
+14 4 10 .XX.O.....OPAA..OP.....P.BBCDD...C.. A98 P99 X97 
+14 4 10 ..XXO.....OPAA..OP.....P.BBCDD...C.. A98 P99 X96 
+14 4 10 .XXCOP...COP.AA.OP.......BB.DD...... A97 X99 C96 
+14 4 10 .XXCOP...COP..AAOP.......BB.DD...... A96 X99 C96 
+14 4 10 .XXCOP...COPAA..OP......BB..DD...... A98 X99 C96 B99 
+14 4 10 .XXCOP...COPAA..OP........BBDD...... A98 X99 C96 B99 
+19 4 15 .XX.OP...COPAA.COP.......BB.DD...... A98 X99 C95 
+19 4 15 .XX.OP....OPAA.COP...C...BB.DD...... A98 X99 C94 
+14 4 10 .XX.OP....OPAA..OP...C...BBCDD...... A98 X99 C93 
+14 4 10 .XX.OP....OPAA..OP.......BBCDD...C.. A98 X99 C92 
+14 4 10 .XXCOP...COPAA..OP.......BBDD....... A98 X99 C96 D99 
+14 4 10 .XXC.P...COPAA..OP....O..BB.DD...... A98 X99 C96 O99 
+14 4 10 .XXCO....COPAA..OP.....P.BB.DD...... A98 X99 C96 P99 
+14 4 10 XX.COP...COPAA..OP.......BB.DD...... A98 X98 C96 
+14 4 10 XX.COP...COP.AA.OP.......BB.DD...... A97 X98 C96 
+14 4 10 XX.COP...COP..AAOP.......BB.DD...... A96 X98 C96 
+14 4 10 XX.COP...COPAA..OP......BB..DD...... A98 X98 C96 B99 
+14 4 10 XX.COP...COPAA..OP........BBDD...... A98 X98 C96 B99 
+19 4 15 XX..OP...COPAA.COP.......BB.DD...... A98 X98 C95 
+19 4 15 XX..OP....OPAA.COP...C...BB.DD...... A98 X98 C94 
+14 4 10 XX..OP....OPAA..OP...C...BBCDD...... A98 X98 C93 
+14 4 10 XX..OP....OPAA..OP.......BBCDD...C.. A98 X98 C92 
+14 4 10 XX.COP...COPAA..OP.......BBDD....... A98 X98 C96 D99 
+14 4 10 XX.C.P...COPAA..OP....O..BB.DD...... A98 X98 C96 O99 
+14 4 10 XX.CO....COPAA..OP.....P.BB.DD...... A98 X98 C96 P99 
+14 4 10 .XXCOP...COPAA..OP.......BB.DD...... A98 X97 C96 
+14 4 10 ..XX.P....OP.AA.OP...CO.BB.CDD...... B99 C99 O99 A99 
+14 4 10 ..XX.P....OPAA..OP...CO.BB.CDD...... B99 C99 O99 A98 
+14 4 10 ..XX.P....OP..AAOP...CO..BBCDD...... B98 C99 O99 
+14 4 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 C98 O99 
+14 4 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 O98 
+14 4 10 ..XX......OP..AAOP...COPBB.CDD...... B99 C99 O99 P99 
+14 4 10 .XX..P....OP..AAOP...CO.BB.CDD...... B99 C99 O99 X99 
+14 4 10 XX...P....OP..AAOP...CO.BB.CDD...... B99 C99 O99 X98 
+14 4 10 ...XXP....OP..AAOP...CO.BB.CDD...... B99 C99 O99 X99 
+14 4 10 ..XXO.....OP.AA.OP...C.PBB.CDD...... B99 C99 P99 A99 
+14 4 10 ..XXO.....OPAA..OP...C.PBB.CDD...... B99 C99 P99 A98 
+14 4 10 ..XXO.....OP..AAOP...C.P.BBCDD...... B98 C99 P99 
+14 4 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 C98 P99 
+14 4 10 ..XX......OP..AAOP...COPBB.CDD...... B99 C99 P99 O99 
+14 4 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 P98 
+14 4 10 .XX.O.....OP..AAOP...C.PBB.CDD...... B99 C99 P99 X99 
+14 4 10 XX..O.....OP..AAOP...C.PBB.CDD...... B99 C99 P99 X98 
+14 4 10 .XX.OP....OP.AA.OP...C..BB.CDD...... B99 C99 X99 A99 
+14 4 10 .XX.OP....OPAA..OP...C..BB.CDD...... B99 C99 X99 A98 
+14 4 10 .XX.OP....OP..AAOP...C...BBCDD...... B98 C99 X99 
+14 4 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 C98 X99 
+14 4 10 .XX..P....OP..AAOP...CO.BB.CDD...... B99 C99 X99 O99 
+14 4 10 .XX.O.....OP..AAOP...C.PBB.CDD...... B99 C99 X99 P99 
+14 4 10 XX..OP....OP..AAOP...C..BB.CDD...... B99 C99 X98 
+14 4 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 X98 
+14 4 10 XX..OP....OP.AA.OP...C..BB.CDD...... B99 C99 X98 A99 
+14 4 10 XX..OP....OPAA..OP...C..BB.CDD...... B99 C99 X98 A98 
+14 4 10 XX..OP....OP..AAOP...C...BBCDD...... B98 C99 X98 
+14 4 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 C98 X98 
+14 4 10 XX...P....OP..AAOP...CO.BB.CDD...... B99 C99 X98 O99 
+14 4 10 XX..O.....OP..AAOP...C.PBB.CDD...... B99 C99 X98 P99 
+14 4 10 .XX.OP....OP..AAOP...C..BB.CDD...... B99 C99 X97 
+14 4 10 ..XXOP....OP..AAOP...C..BB.CDD...... B99 C99 X96 
+14 4 10 ..XX......OP.AA.OP....OPBB.CDD...C.. B99 O99 P99 A99 
+14 4 10 ..XX......OPAA..OP....OPBB.CDD...C.. B99 O99 P99 A98 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. B98 O99 P99 
+14 4 10 ..XX......OP..AAOP...COPBB.CDD...... B99 O99 P99 C99 
+14 4 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 O98 P99 
+14 4 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 P98 
+14 4 10 .XX.......OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X99 
+14 4 10 XX........OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X98 
+14 4 10 ...XX.....OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X99 
+14 4 10 ....XX....OP..AAOP....OPBB.CDD...C.. B99 O99 P99 X98 
+14 4 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. B99 O99 X99 A99 
+14 4 10 .XX..P....OPAA..OP....O.BB.CDD...C.. B99 O99 X99 A98 
+14 4 10 .XX..P....OP..AAOP....O..BBCDD...C.. B98 O99 X99 
+14 4 10 .XX..P....OP..AAOP...CO.BB.CDD...... B99 O99 X99 C99 
+14 4 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 O98 X99 
+14 4 10 .XX.......OP..AAOP....OPBB.CDD...C.. B99 O99 X99 P99 
+14 4 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
+14 4 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
+14 4 10 ...XXP....OP..AAOP....O.BB.CDD...C.. B99 O99 X97 
+14 4 10 XX...P....OP.AA.OP....O.BB.CDD...C.. B99 O99 X98 A99 
+14 4 10 XX...P....OPAA..OP....O.BB.CDD...C.. B99 O99 X98 A98 
+14 4 10 XX...P....OP..AAOP....O..BBCDD...C.. B98 O99 X98 
+14 4 10 XX...P....OP..AAOP...CO.BB.CDD...... B99 O99 X98 C99 
+14 4 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 O98 X98 
+14 4 10 XX........OP..AAOP....OPBB.CDD...C.. B99 O99 X98 P99 
+14 4 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 O99 X97 
+14 4 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 X96 
+14 4 10 ...XXP....OP..AAOP....O.BB.CDD...C.. B99 O99 X95 
+14 4 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. B99 O99 X99 A99 
+14 4 10 ...XXP....OPAA..OP....O.BB.CDD...C.. B99 O99 X99 A98 
+14 4 10 ...XXP....OP..AAOP....O..BBCDD...C.. B98 O99 X99 
+14 4 10 ...XXP....OP..AAOP...CO.BB.CDD...... B99 O99 X99 C99 
+14 4 10 ...XX.....OP..AAOP....OPBB.CDD...C.. B99 O99 X99 P99 
+14 4 10 ..XX.P....OP..AAOP....O.BB.CDD...C.. B99 O99 X98 
+14 4 10 .XX..P....OP..AAOP....O.BB.CDD...C.. B99 O99 X97 
+14 4 10 XX...P....OP..AAOP....O.BB.CDD...C.. B99 O99 X96 
+14 4 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. B99 P99 X99 A99 
+14 4 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. B99 P99 X99 A98 
+14 4 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. B98 P99 X99 
+14 4 10 .XX.O.....OP..AAOP...C.PBB.CDD...... B99 P99 X99 C99 
+14 4 10 .XX.......OP..AAOP....OPBB.CDD...C.. B99 P99 X99 O99 
+14 4 10 .XX.OP....OP..AAOP......BB.CDD...C.. B99 P98 X99 
+14 4 10 XX..O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X98 
+14 4 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 P99 X98 
+14 4 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. B99 P99 X98 A99 
+14 4 10 XX..O.....OPAA..OP.....PBB.CDD...C.. B99 P99 X98 A98 
+14 4 10 XX..O.....OP..AAOP.....P.BBCDD...C.. B98 P99 X98 
+14 4 10 XX..O.....OP..AAOP...C.PBB.CDD...... B99 P99 X98 C99 
+14 4 10 XX........OP..AAOP....OPBB.CDD...C.. B99 P99 X98 O99 
+14 4 10 XX..OP....OP..AAOP......BB.CDD...C.. B99 P98 X98 
+14 4 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. B99 P99 X97 
+14 4 10 ..XXO.....OP..AAOP.....PBB.CDD...C.. B99 P99 X96 
+14 4 10 ..XX......OP.AA.OP...COP.BBCDD...... C99 O99 P99 A99 
+14 4 10 ..XX......OPAA..OP...COP.BBCDD...... C99 O99 P99 A98 
+14 4 10 ..XX......OP..AAOP...COPBB.CDD...... C99 O99 P99 B99 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. C98 O99 P99 
+14 4 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 O98 P99 
+14 4 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 P98 
+14 4 10 .XX.......OP..AAOP...COP.BBCDD...... C99 O99 P99 X99 
+14 4 10 XX........OP..AAOP...COP.BBCDD...... C99 O99 P99 X98 
+14 4 10 ...XX.....OP..AAOP...COP.BBCDD...... C99 O99 P99 X99 
+14 4 10 ....XX....OP..AAOP...COP.BBCDD...... C99 O99 P99 X98 
+14 4 10 .XX..P....OP.AA.OP...CO..BBCDD...... C99 O99 X99 A99 
+14 4 10 .XX..P....OPAA..OP...CO..BBCDD...... C99 O99 X99 A98 
+14 4 10 .XX..P....OP..AAOP...CO.BB.CDD...... C99 O99 X99 B99 
+14 4 10 .XX..P....OP..AAOP....O..BBCDD...C.. C98 O99 X99 
+14 4 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 O98 X99 
+14 4 10 .XX.......OP..AAOP...COP.BBCDD...... C99 O99 X99 P99 
+14 4 10 XX...P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
+14 4 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
+14 4 10 ...XXP....OP..AAOP...CO..BBCDD...... C99 O99 X97 
+14 4 10 XX...P....OP.AA.OP...CO..BBCDD...... C99 O99 X98 A99 
+14 4 10 XX...P....OPAA..OP...CO..BBCDD...... C99 O99 X98 A98 
+14 4 10 XX...P....OP..AAOP...CO.BB.CDD...... C99 O99 X98 B99 
+14 4 10 XX...P....OP..AAOP....O..BBCDD...C.. C98 O99 X98 
+14 4 10 XX..OP....OP..AAOP...C...BBCDD...... C99 O98 X98 
+14 4 10 XX........OP..AAOP...COP.BBCDD...... C99 O99 X98 P99 
+14 4 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 O99 X97 
+14 4 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 X96 
+14 4 10 ...XXP....OP..AAOP...CO..BBCDD...... C99 O99 X95 
+14 4 10 ...XXP....OP.AA.OP...CO..BBCDD...... C99 O99 X99 A99 
+14 4 10 ...XXP....OPAA..OP...CO..BBCDD...... C99 O99 X99 A98 
+14 4 10 ...XXP....OP..AAOP...CO.BB.CDD...... C99 O99 X99 B99 
+14 4 10 ...XXP....OP..AAOP....O..BBCDD...C.. C98 O99 X99 
+14 4 10 ...XX.....OP..AAOP...COP.BBCDD...... C99 O99 X99 P99 
+14 4 10 ..XX.P....OP..AAOP...CO..BBCDD...... C99 O99 X98 
+14 4 10 .XX..P....OP..AAOP...CO..BBCDD...... C99 O99 X97 
+14 4 10 XX...P....OP..AAOP...CO..BBCDD...... C99 O99 X96 
+14 4 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... C99 P99 X99 A99 
+14 4 10 .XX.O.....OPAA..OP...C.P.BBCDD...... C99 P99 X99 A98 
+14 4 10 .XX.O.....OP..AAOP...C.PBB.CDD...... C99 P99 X99 B99 
+14 4 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. C98 P99 X99 
+14 4 10 .XX.......OP..AAOP...COP.BBCDD...... C99 P99 X99 O99 
+14 4 10 .XX.OP....OP..AAOP...C...BBCDD...... C99 P98 X99 
+14 4 10 XX..O.....OP..AAOP...C.P.BBCDD...... C99 P99 X98 
+14 4 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 P99 X98 
+14 4 10 XX..O.....OP.AA.OP...C.P.BBCDD...... C99 P99 X98 A99 
+14 4 10 XX..O.....OPAA..OP...C.P.BBCDD...... C99 P99 X98 A98 
+14 4 10 XX..O.....OP..AAOP...C.PBB.CDD...... C99 P99 X98 B99 
+14 4 10 XX..O.....OP..AAOP.....P.BBCDD...C.. C98 P99 X98 
+14 4 10 XX........OP..AAOP...COP.BBCDD...... C99 P99 X98 O99 
+14 4 10 XX..OP....OP..AAOP...C...BBCDD...... C99 P98 X98 
+14 4 10 .XX.O.....OP..AAOP...C.P.BBCDD...... C99 P99 X97 
+14 4 10 ..XXO.....OP..AAOP...C.P.BBCDD...... C99 P99 X96 
+14 4 10 .XX.......OP.AA.OP....OP.BBCDD...C.. O99 P99 X99 A99 
+14 4 10 .XX.......OPAA..OP....OP.BBCDD...C.. O99 P99 X99 A98 
+14 4 10 .XX.......OP..AAOP....OPBB.CDD...C.. O99 P99 X99 B99 
+14 4 10 .XX.......OP..AAOP...COP.BBCDD...... O99 P99 X99 C99 
+14 4 10 .XX.O.....OP..AAOP.....P.BBCDD...C.. O98 P99 X99 
+14 4 10 .XX..P....OP..AAOP....O..BBCDD...C.. O99 P98 X99 
+14 4 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
+14 4 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
+14 4 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
+14 4 10 XX........OP.AA.OP....OP.BBCDD...C.. O99 P99 X98 A99 
+14 4 10 XX........OPAA..OP....OP.BBCDD...C.. O99 P99 X98 A98 
+14 4 10 XX........OP..AAOP....OPBB.CDD...C.. O99 P99 X98 B99 
+14 4 10 XX........OP..AAOP...COP.BBCDD...... O99 P99 X98 C99 
+14 4 10 XX..O.....OP..AAOP.....P.BBCDD...C.. O98 P99 X98 
+14 4 10 XX...P....OP..AAOP....O..BBCDD...C.. O99 P98 X98 
+14 4 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
+14 4 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X95 
+14 4 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X94 
+14 4 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. O99 P99 X99 A99 
+14 4 10 ...XX.....OPAA..OP....OP.BBCDD...C.. O99 P99 X99 A98 
+14 4 10 ...XX.....OP..AAOP....OPBB.CDD...C.. O99 P99 X99 B99 
+14 4 10 ...XX.....OP..AAOP...COP.BBCDD...... O99 P99 X99 C99 
+14 4 10 ...XXP....OP..AAOP....O..BBCDD...C.. O99 P98 X99 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
+14 4 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
+14 4 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
+14 4 10 ....XX....OP..AAOP....OP.BBCDD...C.. O99 P99 X98 
+14 4 10 ....XX....OP.AA.OP....OP.BBCDD...C.. O99 P99 X98 A99 
+14 4 10 ....XX....OPAA..OP....OP.BBCDD...C.. O99 P99 X98 A98 
+14 4 10 ....XX....OP..AAOP....OPBB.CDD...C.. O99 P99 X98 B99 
+14 4 10 ....XX....OP..AAOP...COP.BBCDD...... O99 P99 X98 C99 
+14 4 10 ...XX.....OP..AAOP....OP.BBCDD...C.. O99 P99 X97 
+14 4 10 ..XX......OP..AAOP....OP.BBCDD...C.. O99 P99 X96 
+14 4 10 .XX.......OP..AAOP....OP.BBCDD...C.. O99 P99 X95 
+14 4 10 XX........OP..AAOP....OP.BBCDD...C.. O99 P99 X94 
+15 5 10 ..XX.P....OPAA..OP...CO.BB.CDD...... A98 B99 C99 O99 
+15 5 10 ..XX.P....OP..AAOP...CO.BB.CDD...... A98 B99 C99 O99 
+15 5 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 B98 C99 O99 
+20 5 15 ..XX.P....OP.AACOP...CO.BB..DD...... A99 B99 C98 O99 
+20 5 15 ..XX.P...COP.AACOP....O.BB..DD...... A99 B99 C97 O99 
+15 5 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 C98 O99 
+15 5 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 O98 
+15 5 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 B99 C99 O99 P99 
+15 5 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 X99 
+15 5 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 X98 
+15 5 10 ...XXP....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 O99 X99 
+15 5 10 ..XXO.....OPAA..OP...C.PBB.CDD...... A98 B99 C99 P99 
+15 5 10 ..XXO.....OP..AAOP...C.PBB.CDD...... A98 B99 C99 P99 
+15 5 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 B98 C99 P99 
+20 5 15 ..XXO.....OP.AACOP...C.PBB..DD...... A99 B99 C98 P99 
+20 5 15 ..XXO....COP.AACOP.....PBB..DD...... A99 B99 C97 P99 
+15 5 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 C98 P99 
+15 5 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 B99 C99 P99 O99 
+15 5 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 P98 
+15 5 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 P99 X99 
+15 5 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 P99 X98 
+15 5 10 .XX.OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X99 
+15 5 10 .XX.OP....OP..AAOP...C..BB.CDD...... A98 B99 C99 X99 
+15 5 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 B98 C99 X99 
+20 5 15 .XX.OP....OP.AACOP...C..BB..DD...... A99 B99 C98 X99 
+20 5 15 .XX.OP...COP.AACOP......BB..DD...... A99 B99 C97 X99 
+15 5 10 .XXCOP...COP.AA.OP......BB..DD...... A99 B99 C96 X99 
+15 5 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 C98 X99 
+15 5 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 X99 O99 
+15 5 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 X99 P99 
+15 5 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X98 
+15 5 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X98 
+15 5 10 XX..OP....OPAA..OP...C..BB.CDD...... A98 B99 C99 X98 
+15 5 10 XX..OP....OP..AAOP...C..BB.CDD...... A98 B99 C99 X98 
+15 5 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 B98 C99 X98 
+20 5 15 XX..OP....OP.AACOP...C..BB..DD...... A99 B99 C98 X98 
+20 5 15 XX..OP...COP.AACOP......BB..DD...... A99 B99 C97 X98 
+15 5 10 XX.COP...COP.AA.OP......BB..DD...... A99 B99 C96 X98 
+15 5 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 C98 X98 
+15 5 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 B99 C99 X98 O99 
+15 5 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 B99 C99 X98 P99 
+15 5 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X97 
+15 5 10 ..XXOP....OP.AA.OP...C..BB.CDD...... A99 B99 C99 X96 
+15 5 10 ..XX......OPAA..OP....OPBB.CDD...C.. A98 B99 O99 P99 
+15 5 10 ..XX......OP..AAOP....OPBB.CDD...C.. A98 B99 O99 P99 
+15 5 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 B98 O99 P99 
+15 5 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 B99 O99 P99 C99 
+20 5 15 ..XX......OP.AACOP...COPBB..DD...... A99 B99 O99 P99 C98 
+20 5 15 ..XX.....COP.AACOP....OPBB..DD...... A99 B99 O99 P99 C97 
+15 5 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 O98 P99 
+15 5 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 P98 
+15 5 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X99 
+15 5 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X98 
+15 5 10 ...XX.....OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X99 
+15 5 10 ....XX....OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 P99 X98 
+15 5 10 .XX..P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
+15 5 10 .XX..P....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 X99 
+15 5 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 X99 
+15 5 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 X99 C99 
+20 5 15 .XX..P....OP.AACOP...CO.BB..DD...... A99 B99 O99 X99 C98 
+20 5 15 .XX..P...COP.AACOP....O.BB..DD...... A99 B99 O99 X99 C97 
+15 5 10 .XXC.P...COP.AA.OP....O.BB..DD...... A99 B99 O99 X99 C96 
+15 5 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 O98 X99 
+15 5 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 X99 P99 
+15 5 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
+15 5 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
+15 5 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X97 
+15 5 10 XX...P....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X98 
+15 5 10 XX...P....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 X98 
+15 5 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 X98 
+15 5 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 X98 C99 
+20 5 15 XX...P....OP.AACOP...CO.BB..DD...... A99 B99 O99 X98 C98 
+20 5 15 XX...P...COP.AACOP....O.BB..DD...... A99 B99 O99 X98 C97 
+15 5 10 XX.C.P...COP.AA.OP....O.BB..DD...... A99 B99 O99 X98 C96 
+15 5 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 O98 X98 
+15 5 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 X98 P99 
+15 5 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X97 
+15 5 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X96 
+15 5 10 ...XXP....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X95 
+15 5 10 ...XXP....OPAA..OP....O.BB.CDD...C.. A98 B99 O99 X99 
+15 5 10 ...XXP....OP..AAOP....O.BB.CDD...C.. A98 B99 O99 X99 
+15 5 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 B98 O99 X99 
+15 5 10 ...XXP....OP.AA.OP...CO.BB.CDD...... A99 B99 O99 X99 C99 
+20 5 15 ...XXP....OP.AACOP...CO.BB..DD...... A99 B99 O99 X99 C98 
+20 5 15 ...XXP...COP.AACOP....O.BB..DD...... A99 B99 O99 X99 C97 
+15 5 10 ...XX.....OP.AA.OP....OPBB.CDD...C.. A99 B99 O99 X99 P99 
+15 5 10 ..XX.P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X98 
+15 5 10 .XX..P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X97 
+15 5 10 XX...P....OP.AA.OP....O.BB.CDD...C.. A99 B99 O99 X96 
+15 5 10 .XX.O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X99 
+15 5 10 .XX.O.....OP..AAOP.....PBB.CDD...C.. A98 B99 P99 X99 
+15 5 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 B98 P99 X99 
+15 5 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 B99 P99 X99 C99 
+20 5 15 .XX.O.....OP.AACOP...C.PBB..DD...... A99 B99 P99 X99 C98 
+20 5 15 .XX.O....COP.AACOP.....PBB..DD...... A99 B99 P99 X99 C97 
+15 5 10 .XXCO....COP.AA.OP.....PBB..DD...... A99 B99 P99 X99 C96 
+15 5 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 B99 P99 X99 O99 
+15 5 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 P98 X99 
+15 5 10 XX..O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X98 
+15 5 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X98 
+15 5 10 XX..O.....OPAA..OP.....PBB.CDD...C.. A98 B99 P99 X98 
+15 5 10 XX..O.....OP..AAOP.....PBB.CDD...C.. A98 B99 P99 X98 
+15 5 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 B98 P99 X98 
+15 5 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 B99 P99 X98 C99 
+20 5 15 XX..O.....OP.AACOP...C.PBB..DD...... A99 B99 P99 X98 C98 
+20 5 15 XX..O....COP.AACOP.....PBB..DD...... A99 B99 P99 X98 C97 
+15 5 10 XX.CO....COP.AA.OP.....PBB..DD...... A99 B99 P99 X98 C96 
+15 5 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 B99 P99 X98 O99 
+15 5 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 P98 X98 
+15 5 10 .XX.O.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X97 
+15 5 10 ..XXO.....OP.AA.OP.....PBB.CDD...C.. A99 B99 P99 X96 
+15 5 10 .XXCOP...COPAA..OP......BB..DD...... A98 B99 X99 C96 
+15 5 10 .XXCOP...COP..AAOP......BB..DD...... A98 B99 X99 C96 
+15 5 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 B98 X99 C96 
+15 5 10 .XXCOP...COP.AA.OP........BBDD...... A99 B97 X99 C96 
+20 5 15 .XX.OP...COP.AACOP......BB..DD...... A99 B99 X99 C95 
+20 5 15 .XX.OP....OP.AACOP...C..BB..DD...... A99 B99 X99 C94 
+15 5 10 .XX.OP....OP.AA.OP...C..BB.CDD...... A99 B99 X99 C93 
+15 5 10 .XX.OP....OP.AA.OP......BB.CDD...C.. A99 B99 X99 C92 
+15 5 10 .XXCOP...COP.AA.OP......BB.DD....... A99 B99 X99 C96 D99 
+15 5 10 .XXCOP...COP.AA.OP......BBDD........ A99 B99 X99 C96 D98 
+15 5 10 .XXC.P...COP.AA.OP....O.BB..DD...... A99 B99 X99 C96 O99 
+15 5 10 .XXCO....COP.AA.OP.....PBB..DD...... A99 B99 X99 C96 P99 
+15 5 10 XX.COP...COP.AA.OP......BB..DD...... A99 B99 X98 C96 
+15 5 10 XX.COP...COPAA..OP......BB..DD...... A98 B99 X98 C96 
+15 5 10 XX.COP...COP..AAOP......BB..DD...... A98 B99 X98 C96 
+15 5 10 XX.COP...COP.AA.OP.......BB.DD...... A99 B98 X98 C96 
+15 5 10 XX.COP...COP.AA.OP........BBDD...... A99 B97 X98 C96 
+20 5 15 XX..OP...COP.AACOP......BB..DD...... A99 B99 X98 C95 
+20 5 15 XX..OP....OP.AACOP...C..BB..DD...... A99 B99 X98 C94 
+15 5 10 XX..OP....OP.AA.OP...C..BB.CDD...... A99 B99 X98 C93 
+15 5 10 XX..OP....OP.AA.OP......BB.CDD...C.. A99 B99 X98 C92 
+15 5 10 XX.COP...COP.AA.OP......BB.DD....... A99 B99 X98 C96 D99 
+15 5 10 XX.COP...COP.AA.OP......BBDD........ A99 B99 X98 C96 D98 
+15 5 10 XX.C.P...COP.AA.OP....O.BB..DD...... A99 B99 X98 C96 O99 
+15 5 10 XX.CO....COP.AA.OP.....PBB..DD...... A99 B99 X98 C96 P99 
+15 5 10 .XXCOP...COP.AA.OP......BB..DD...... A99 B99 X97 C96 
+15 5 10 ..XX......OPAA..OP...COP.BBCDD...... A98 C99 O99 P99 
+15 5 10 ..XX......OP..AAOP...COP.BBCDD...... A98 C99 O99 P99 
+15 5 10 ..XX......OP.AA.OP...COPBB.CDD...... A99 C99 O99 P99 B99 
+20 5 15 ..XX......OP.AACOP...COP.BB.DD...... A99 C98 O99 P99 
+20 5 15 ..XX.....COP.AACOP....OP.BB.DD...... A99 C97 O99 P99 
+15 5 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 C98 O99 P99 
+15 5 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 O98 P99 
+15 5 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 P98 
+15 5 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X99 
+15 5 10 XX........OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X98 
+15 5 10 ...XX.....OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X99 
+15 5 10 ....XX....OP.AA.OP...COP.BBCDD...... A99 C99 O99 P99 X98 
+15 5 10 .XX..P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
+15 5 10 .XX..P....OP..AAOP...CO..BBCDD...... A98 C99 O99 X99 
+15 5 10 .XX..P....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 X99 B99 
+20 5 15 .XX..P....OP.AACOP...CO..BB.DD...... A99 C98 O99 X99 
+20 5 15 .XX..P...COP.AACOP....O..BB.DD...... A99 C97 O99 X99 
+15 5 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 C96 O99 X99 
+15 5 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 X99 
+15 5 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 O98 X99 
+15 5 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 C99 O99 X99 P99 
+15 5 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
+15 5 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
+15 5 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X97 
+15 5 10 XX...P....OPAA..OP...CO..BBCDD...... A98 C99 O99 X98 
+15 5 10 XX...P....OP..AAOP...CO..BBCDD...... A98 C99 O99 X98 
+15 5 10 XX...P....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 X98 B99 
+20 5 15 XX...P....OP.AACOP...CO..BB.DD...... A99 C98 O99 X98 
+20 5 15 XX...P...COP.AACOP....O..BB.DD...... A99 C97 O99 X98 
+15 5 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 C96 O99 X98 
+15 5 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 X98 
+15 5 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 O98 X98 
+15 5 10 XX........OP.AA.OP...COP.BBCDD...... A99 C99 O99 X98 P99 
+15 5 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X97 
+15 5 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X96 
+15 5 10 ...XXP....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X95 
+15 5 10 ...XXP....OPAA..OP...CO..BBCDD...... A98 C99 O99 X99 
+15 5 10 ...XXP....OP..AAOP...CO..BBCDD...... A98 C99 O99 X99 
+15 5 10 ...XXP....OP.AA.OP...CO.BB.CDD...... A99 C99 O99 X99 B99 
+20 5 15 ...XXP....OP.AACOP...CO..BB.DD...... A99 C98 O99 X99 
+20 5 15 ...XXP...COP.AACOP....O..BB.DD...... A99 C97 O99 X99 
+15 5 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 C98 O99 X99 
+15 5 10 ...XX.....OP.AA.OP...COP.BBCDD...... A99 C99 O99 X99 P99 
+15 5 10 ..XX.P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X98 
+15 5 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X97 
+15 5 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 C99 O99 X96 
+15 5 10 .XX.O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X99 
+15 5 10 .XX.O.....OP..AAOP...C.P.BBCDD...... A98 C99 P99 X99 
+15 5 10 .XX.O.....OP.AA.OP...C.PBB.CDD...... A99 C99 P99 X99 B99 
+20 5 15 .XX.O.....OP.AACOP...C.P.BB.DD...... A99 C98 P99 X99 
+20 5 15 .XX.O....COP.AACOP.....P.BB.DD...... A99 C97 P99 X99 
+15 5 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 C96 P99 X99 
+15 5 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 C98 P99 X99 
+15 5 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 C99 P99 X99 O99 
+15 5 10 .XX.OP....OP.AA.OP...C...BBCDD...... A99 C99 P98 X99 
+15 5 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X98 
+15 5 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X98 
+15 5 10 XX..O.....OPAA..OP...C.P.BBCDD...... A98 C99 P99 X98 
+15 5 10 XX..O.....OP..AAOP...C.P.BBCDD...... A98 C99 P99 X98 
+15 5 10 XX..O.....OP.AA.OP...C.PBB.CDD...... A99 C99 P99 X98 B99 
+20 5 15 XX..O.....OP.AACOP...C.P.BB.DD...... A99 C98 P99 X98 
+20 5 15 XX..O....COP.AACOP.....P.BB.DD...... A99 C97 P99 X98 
+15 5 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 C96 P99 X98 
+15 5 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 C98 P99 X98 
+15 5 10 XX........OP.AA.OP...COP.BBCDD...... A99 C99 P99 X98 O99 
+15 5 10 XX..OP....OP.AA.OP...C...BBCDD...... A99 C99 P98 X98 
+15 5 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X97 
+15 5 10 ..XXO.....OP.AA.OP...C.P.BBCDD...... A99 C99 P99 X96 
+15 5 10 .XX.......OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
+15 5 10 .XX.......OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X99 
+15 5 10 .XX.......OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X99 B99 
+15 5 10 .XX.......OP.AA.OP...COP.BBCDD...... A99 O99 P99 X99 C99 
+20 5 15 .XX.......OP.AACOP...COP.BB.DD...... A99 O99 P99 X99 C98 
+20 5 15 .XX......COP.AACOP....OP.BB.DD...... A99 O99 P99 X99 C97 
+15 5 10 .XXC.....COP.AA.OP....OP.BB.DD...... A99 O99 P99 X99 C96 
+15 5 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 O98 P99 X99 
+15 5 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 X99 
+15 5 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
+15 5 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
+15 5 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
+15 5 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
+15 5 10 XX........OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
+15 5 10 XX........OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X98 
+15 5 10 XX........OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X98 B99 
+15 5 10 XX........OP.AA.OP...COP.BBCDD...... A99 O99 P99 X98 C99 
+20 5 15 XX........OP.AACOP...COP.BB.DD...... A99 O99 P99 X98 C98 
+20 5 15 XX.......COP.AACOP....OP.BB.DD...... A99 O99 P99 X98 C97 
+15 5 10 XX.C.....COP.AA.OP....OP.BB.DD...... A99 O99 P99 X98 C96 
+15 5 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 O98 P99 X98 
+15 5 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 X98 
+15 5 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
+15 5 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
+15 5 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X95 
+15 5 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X94 
+15 5 10 ...XX.....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X99 
+15 5 10 ...XX.....OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X99 
+15 5 10 ...XX.....OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X99 B99 
+15 5 10 ...XX.....OP.AA.OP...COP.BBCDD...... A99 O99 P99 X99 C99 
+20 5 15 ...XX.....OP.AACOP...COP.BB.DD...... A99 O99 P99 X99 C98 
+20 5 15 ...XX....COP.AACOP....OP.BB.DD...... A99 O99 P99 X99 C97 
+15 5 10 ...XXP....OP.AA.OP....O..BBCDD...C.. A99 O99 P98 X99 
+15 5 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
+15 5 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
+15 5 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
+15 5 10 ....XX....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X98 
+15 5 10 ....XX....OPAA..OP....OP.BBCDD...C.. A98 O99 P99 X98 
+15 5 10 ....XX....OP..AAOP....OP.BBCDD...C.. A98 O99 P99 X98 
+15 5 10 ....XX....OP.AA.OP....OPBB.CDD...C.. A99 O99 P99 X98 B99 
+15 5 10 ....XX....OP.AA.OP...COP.BBCDD...... A99 O99 P99 X98 C99 
+20 5 15 ....XX....OP.AACOP...COP.BB.DD...... A99 O99 P99 X98 C98 
+20 5 15 ....XX...COP.AACOP....OP.BB.DD...... A99 O99 P99 X98 C97 
+15 5 10 ...CXX...COP.AA.OP....OP.BB.DD...... A99 O99 P99 X98 C96 
+15 5 10 ...XX.....OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X97 
+15 5 10 ..XX......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X96 
+15 5 10 .XX.......OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X95 
+15 5 10 XX........OP.AA.OP....OP.BBCDD...C.. A99 O99 P99 X94 
+15 5 10 .XXC.P...COPAA..OP....O..BB.DD...... A98 O99 X99 C96 
+15 5 10 .XXC.P...COP..AAOP....O..BB.DD...... A98 O99 X99 C96 
+15 5 10 .XXC.P...COP.AA.OP....O.BB..DD...... A99 O99 X99 C96 B99 
+15 5 10 .XXC.P...COP.AA.OP....O...BBDD...... A99 O99 X99 C96 B99 
+20 5 15 .XX..P...COP.AACOP....O..BB.DD...... A99 O99 X99 C95 
+20 5 15 .XX..P....OP.AACOP...CO..BB.DD...... A99 O99 X99 C94 
+15 5 10 .XX..P....OP.AA.OP...CO..BBCDD...... A99 O99 X99 C93 
+15 5 10 .XX..P....OP.AA.OP....O..BBCDD...C.. A99 O99 X99 C92 
+15 5 10 .XXC.P...COP.AA.OP....O..BBDD....... A99 O99 X99 C96 D99 
+15 5 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 O98 X99 C96 
+15 5 10 .XXC.....COP.AA.OP....OP.BB.DD...... A99 O99 X99 C96 P99 
+15 5 10 XX.C.P...COP.AA.OP....O..BB.DD...... A99 O99 X98 C96 
+15 5 10 XX.C.P...COPAA..OP....O..BB.DD...... A98 O99 X98 C96 
+15 5 10 XX.C.P...COP..AAOP....O..BB.DD...... A98 O99 X98 C96 
+15 5 10 XX.C.P...COP.AA.OP....O.BB..DD...... A99 O99 X98 C96 B99 
+15 5 10 XX.C.P...COP.AA.OP....O...BBDD...... A99 O99 X98 C96 B99 
+20 5 15 XX...P...COP.AACOP....O..BB.DD...... A99 O99 X98 C95 
+20 5 15 XX...P....OP.AACOP...CO..BB.DD...... A99 O99 X98 C94 
+15 5 10 XX...P....OP.AA.OP...CO..BBCDD...... A99 O99 X98 C93 
+15 5 10 XX...P....OP.AA.OP....O..BBCDD...C.. A99 O99 X98 C92 
+15 5 10 XX.C.P...COP.AA.OP....O..BBDD....... A99 O99 X98 C96 D99 
+15 5 10 XX.COP...COP.AA.OP.......BB.DD...... A99 O98 X98 C96 
+15 5 10 XX.C.....COP.AA.OP....OP.BB.DD...... A99 O99 X98 C96 P99 
+15 5 10 .XXC.P...COP.AA.OP....O..BB.DD...... A99 O99 X97 C96 
+15 5 10 .XXCO....COPAA..OP.....P.BB.DD...... A98 P99 X99 C96 
+15 5 10 .XXCO....COP..AAOP.....P.BB.DD...... A98 P99 X99 C96 
+15 5 10 .XXCO....COP.AA.OP.....PBB..DD...... A99 P99 X99 C96 B99 
+15 5 10 .XXCO....COP.AA.OP.....P..BBDD...... A99 P99 X99 C96 B99 
+20 5 15 .XX.O....COP.AACOP.....P.BB.DD...... A99 P99 X99 C95 
+20 5 15 .XX.O.....OP.AACOP...C.P.BB.DD...... A99 P99 X99 C94 
+15 5 10 .XX.O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X99 C93 
+15 5 10 .XX.O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X99 C92 
+15 5 10 .XXCO....COP.AA.OP.....P.BBDD....... A99 P99 X99 C96 D99 
+15 5 10 .XXC.....COP.AA.OP....OP.BB.DD...... A99 P99 X99 C96 O99 
+15 5 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 P98 X99 C96 
+15 5 10 XX.CO....COP.AA.OP.....P.BB.DD...... A99 P99 X98 C96 
+15 5 10 XX.CO....COPAA..OP.....P.BB.DD...... A98 P99 X98 C96 
+15 5 10 XX.CO....COP..AAOP.....P.BB.DD...... A98 P99 X98 C96 
+15 5 10 XX.CO....COP.AA.OP.....PBB..DD...... A99 P99 X98 C96 B99 
+15 5 10 XX.CO....COP.AA.OP.....P..BBDD...... A99 P99 X98 C96 B99 
+20 5 15 XX..O....COP.AACOP.....P.BB.DD...... A99 P99 X98 C95 
+20 5 15 XX..O.....OP.AACOP...C.P.BB.DD...... A99 P99 X98 C94 
+15 5 10 XX..O.....OP.AA.OP...C.P.BBCDD...... A99 P99 X98 C93 
+15 5 10 XX..O.....OP.AA.OP.....P.BBCDD...C.. A99 P99 X98 C92 
+15 5 10 XX.CO....COP.AA.OP.....P.BBDD....... A99 P99 X98 C96 D99 
+15 5 10 XX.C.....COP.AA.OP....OP.BB.DD...... A99 P99 X98 C96 O99 
+15 5 10 XX.COP...COP.AA.OP.......BB.DD...... A99 P98 X98 C96 
+15 5 10 .XXCO....COP.AA.OP.....P.BB.DD...... A99 P99 X97 C96 
+15 5 10 .XXCOP...COP.AA.OP.......BB.DD...... A97 X99 C96 
+15 5 10 .XXCOP...COPAA..OP.......BB.DD...... A96 X99 C96 
+15 5 10 .XXCOP...COP..AAOP......BB..DD...... A98 X99 C96 B99 
+15 5 10 .XXCOP...COP..AAOP........BBDD...... A98 X99 C96 B99 
+15 5 10 .XXCOP...COP..AAOP.......BBDD....... A98 X99 C96 D99 
+15 5 10 .XXC.P...COP..AAOP....O..BB.DD...... A98 X99 C96 O99 
+15 5 10 .XXCO....COP..AAOP.....P.BB.DD...... A98 X99 C96 P99 
+15 5 10 XX.COP...COP..AAOP.......BB.DD...... A98 X98 C96 
+15 5 10 .XXCOP...COPAA..OP........BBDD...... A98 X99 C96 B99 
+15 5 10 .XXCOP...COP..AAOP........BBDD...... A98 X99 C96 B99 
+15 5 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X99 C96 B98 
+15 5 10 .XXCOP...COP.AA.OP......BB..DD...... A99 X99 C96 B97 
+20 5 15 .XX.OP...COP.AACOP........BBDD...... A99 X99 C95 B99 
+20 5 15 .XX.OP....OP.AACOP...C....BBDD...... A99 X99 C94 B99 
+15 5 10 .XXC.P...COP.AA.OP....O...BBDD...... A99 X99 C96 B99 O99 
+15 5 10 .XXCO....COP.AA.OP.....P..BBDD...... A99 X99 C96 B99 P99 
+15 5 10 XX.COP...COP.AA.OP........BBDD...... A99 X98 C96 B99 
+15 5 10 .XXCOP...COPAA..OP.......BBDD....... A98 X99 C96 D99 
+15 5 10 .XXCOP...COP..AAOP.......BBDD....... A98 X99 C96 D99 
+15 5 10 .XXCOP...COP.AA.OP......BB.DD....... A99 X99 C96 D99 B99 
+20 5 15 .XX.OP...COP.AACOP.......BBDD....... A99 X99 C95 D99 
+20 5 15 .XX.OP....OP.AACOP...C...BBDD....... A99 X99 C94 D99 
+15 5 10 .XXCOP...COP.AA.OP.......BB.DD...... A99 X99 C96 D98 
+15 5 10 .XXC.P...COP.AA.OP....O..BBDD....... A99 X99 C96 D99 O99 
+15 5 10 .XXCO....COP.AA.OP.....P.BBDD....... A99 X99 C96 D99 P99 
+15 5 10 .XXCO....CO..AA.OP.....P.BBDDP...... A99 X99 C96 D99 P98 
+10 5 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X99 C96 D99 P97 
+15 5 10 XX.COP...COP.AA.OP.......BBDD....... A99 X98 C96 D99 
+11 6 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X99 C96 D99 P97 
+11 6 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X99 C96 D99 P97 
+11 6 5 .XXCO....CO..AA.O......PBB.DDP.....P A99 X99 C96 D99 P97 B99 
+16 6 10 .XX.O....CO..AACO......P.BBDDP.....P A99 X99 C95 D99 P97 
+16 6 10 .XX.O.....O..AACO....C.P.BBDDP.....P A99 X99 C94 D99 P97 
+11 6 5 .XXC.....CO..AA.O.....OP.BBDDP.....P A99 X99 C96 D99 P97 O99 
+16 6 10 .XXCO....CO..AA.OP.....P.BBDDP...... A99 X99 C96 D99 P96 
+16 6 10 .XXCO....COP.AA.OP.....P.BBDD....... A99 X99 C96 D99 P95 
+16 6 10 .XXCOP...COP.AA.OP.......BBDD....... A99 X99 C96 D99 P94 
+11 6 5 XX.CO....CO..AA.O......P.BBDDP.....P A99 X98 C96 D99 P97 
+12 7 5 .XXCO....CO..AA.O......P.BBDDP.....P A97 X99 C96 D99 P97 
+12 7 5 .XXCO....CO...AAO......P.BBDDP.....P A96 X99 C96 D99 P97 
+12 7 5 .XXCO....CO.AA..O......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
+17 7 10 .XX.O....CO.AA.CO......P.BBDDP.....P A98 X99 C95 D99 P97 
+17 7 10 .XX.O.....O.AA.CO....C.P.BBDDP.....P A98 X99 C94 D99 P97 
+12 7 5 .XXC.....CO.AA..O.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
+17 7 10 .XXCO....CO.AA..OP.....P.BBDDP...... A98 X99 C96 D99 P96 
+17 7 10 .XXCO....COPAA..OP.....P.BBDD....... A98 X99 C96 D99 P95 
+17 7 10 .XXCOP...COPAA..OP.......BBDD....... A98 X99 C96 D99 P94 
+12 7 5 XX.CO....CO.AA..O......P.BBDDP.....P A98 X98 C96 D99 P97 
+12 7 5 .XXCO....CO..AA.O......P.BBDDP.....P A97 X99 C96 D99 P97 
+12 7 5 .XXCO....CO.AA..O......P.BBDDP.....P A96 X99 C96 D99 P97 
+12 7 5 .XXCO....CO...AAO......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
+12 7 5 .XXC.....CO...AAO.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
+17 7 10 .XXCO....CO...AAOP.....P.BBDDP...... A98 X99 C96 D99 P96 
+17 7 10 .XXCO....COP..AAOP.....P.BBDD....... A98 X99 C96 D99 P95 
+17 7 10 .XXCOP...COP..AAOP.......BBDD....... A98 X99 C96 D99 P94 
+12 7 5 XX.CO....CO...AAO......P.BBDDP.....P A98 X98 C96 D99 P97 
+12 7 5 .XXCO....CO.AA..O......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
+12 7 5 .XXCO....CO...AAO......PBB.DDP.....P A98 X99 C96 D99 P97 B99 
+12 7 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X99 C96 D99 P97 B98 
+17 7 10 .XX.O....CO..AACO......PBB.DDP.....P A99 X99 C95 D99 P97 B99 
+17 7 10 .XX.O.....O..AACO....C.PBB.DDP.....P A99 X99 C94 D99 P97 B99 
+12 7 5 .XXCO....CO..AA.O......PBBDD.P.....P A99 X99 C96 D98 P97 B99 
+12 7 5 .XXC.....CO..AA.O.....OPBB.DDP.....P A99 X99 C96 D99 P97 B99 O99 
+17 7 10 .XXCO....CO..AA.OP.....PBB.DDP...... A99 X99 C96 D99 P96 B99 
+17 7 10 .XXCO....COP.AA.OP.....PBB.DD....... A99 X99 C96 D99 P95 B99 
+17 7 10 .XXCOP...COP.AA.OP......BB.DD....... A99 X99 C96 D99 P94 B99 
+12 7 5 XX.CO....CO..AA.O......PBB.DDP.....P A99 X98 C96 D99 P97 B99 
+12 7 5 .XXC.....CO.AA..O.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
+12 7 5 .XXC.....CO...AAO.....OP.BBDDP.....P A98 X99 C96 D99 P97 O99 
+12 7 5 .XXC.....CO..AA.O.....OPBB.DDP.....P A99 X99 C96 D99 P97 O99 B99 
+17 7 10 .XX......CO..AACO.....OP.BBDDP.....P A99 X99 C95 D99 P97 O99 
+17 7 10 .XX.......O..AACO....COP.BBDDP.....P A99 X99 C94 D99 P97 O99 
+12 7 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X99 C96 D99 P97 O98 
+17 7 10 .XXC.....CO..AA.OP....OP.BBDDP...... A99 X99 C96 D99 P96 O99 
+17 7 10 .XXC.....COP.AA.OP....OP.BBDD....... A99 X99 C96 D99 P95 O99 
+17 7 10 .XXC.P...COP.AA.OP....O..BBDD....... A99 X99 C96 D99 P94 O99 
+12 7 5 XX.C.....CO..AA.O.....OP.BBDDP.....P A99 X98 C96 D99 P97 O99 
+12 7 5 XX.CO....CO.AA..O......P.BBDDP.....P A98 X98 C96 D99 P97 
+12 7 5 XX.CO....CO...AAO......P.BBDDP.....P A98 X98 C96 D99 P97 
+12 7 5 XX.CO....CO..AA.O......PBB.DDP.....P A99 X98 C96 D99 P97 B99 
+17 7 10 XX..O....CO..AACO......P.BBDDP.....P A99 X98 C95 D99 P97 
+17 7 10 XX..O.....O..AACO....C.P.BBDDP.....P A99 X98 C94 D99 P97 
+12 7 5 XX.C.....CO..AA.O.....OP.BBDDP.....P A99 X98 C96 D99 P97 O99 
+17 7 10 XX.CO....CO..AA.OP.....P.BBDDP...... A99 X98 C96 D99 P96 
+17 7 10 XX.CO....COP.AA.OP.....P.BBDD....... A99 X98 C96 D99 P95 
+17 7 10 XX.COP...COP.AA.OP.......BBDD....... A99 X98 C96 D99 P94 
+12 7 5 .XXCO....CO..AA.O......P.BBDDP.....P A99 X97 C96 D99 P97 
+13 8 5 .XXCO....CO..AA.O......PBB.DDP.....P A97 X99 C96 D99 P97 B99 
+13 8 5 .XXCO....CO...AAO......PBB.DDP.....P A96 X99 C96 D99 P97 B99 
+13 8 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X99 C96 D99 P97 B98 
+18 8 10 .XX.O....CO.AA.CO......PBB.DDP.....P A98 X99 C95 D99 P97 B99 
+18 8 10 .XX.O.....O.AA.CO....C.PBB.DDP.....P A98 X99 C94 D99 P97 B99 
+13 8 5 .XXCO....CO.AA..O......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
+13 8 5 .XXC.....CO.AA..O.....OPBB.DDP.....P A98 X99 C96 D99 P97 B99 O99 
+18 8 10 .XXCO....CO.AA..OP.....PBB.DDP...... A98 X99 C96 D99 P96 B99 
+18 8 10 .XXCO....COPAA..OP.....PBB.DD....... A98 X99 C96 D99 P95 B99 
+18 8 10 .XXCOP...COPAA..OP......BB.DD....... A98 X99 C96 D99 P94 B99 
+13 8 5 XX.CO....CO.AA..O......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
+13 8 5 .XXC.....CO..AA.O.....OP.BBDDP.....P A97 X99 C96 D99 P97 O99 
+13 8 5 .XXC.....CO...AAO.....OP.BBDDP.....P A96 X99 C96 D99 P97 O99 
+13 8 5 .XXC.....CO.AA..O.....OPBB.DDP.....P A98 X99 C96 D99 P97 O99 B99 
+18 8 10 .XX......CO.AA.CO.....OP.BBDDP.....P A98 X99 C95 D99 P97 O99 
+18 8 10 .XX.......O.AA.CO....COP.BBDDP.....P A98 X99 C94 D99 P97 O99 
+13 8 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X99 C96 D99 P97 O98 
+18 8 10 .XXC.....CO.AA..OP....OP.BBDDP...... A98 X99 C96 D99 P96 O99 
+18 8 10 .XXC.....COPAA..OP....OP.BBDD....... A98 X99 C96 D99 P95 O99 
+18 8 10 .XXC.P...COPAA..OP....O..BBDD....... A98 X99 C96 D99 P94 O99 
+13 8 5 XX.C.....CO.AA..O.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
+13 8 5 XX.CO....CO..AA.O......P.BBDDP.....P A97 X98 C96 D99 P97 
+13 8 5 XX.CO....CO...AAO......P.BBDDP.....P A96 X98 C96 D99 P97 
+13 8 5 XX.CO....CO.AA..O......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
+18 8 10 XX..O....CO.AA.CO......P.BBDDP.....P A98 X98 C95 D99 P97 
+18 8 10 XX..O.....O.AA.CO....C.P.BBDDP.....P A98 X98 C94 D99 P97 
+13 8 5 XX.C.....CO.AA..O.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
+18 8 10 XX.CO....CO.AA..OP.....P.BBDDP...... A98 X98 C96 D99 P96 
+18 8 10 XX.CO....COPAA..OP.....P.BBDD....... A98 X98 C96 D99 P95 
+18 8 10 XX.COP...COPAA..OP.......BBDD....... A98 X98 C96 D99 P94 
+13 8 5 .XXCO....CO.AA..O......P.BBDDP.....P A98 X97 C96 D99 P97 
+13 8 5 .XXCO....CO..AA.O......PBB.DDP.....P A97 X99 C96 D99 P97 B99 
+13 8 5 .XXCO....CO.AA..O......PBB.DDP.....P A96 X99 C96 D99 P97 B99 
+13 8 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X99 C96 D99 P97 B98 
+13 8 5 .XXCO....CO...AAO......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
+13 8 5 .XXC.....CO...AAO.....OPBB.DDP.....P A98 X99 C96 D99 P97 B99 O99 
+18 8 10 .XXCO....CO...AAOP.....PBB.DDP...... A98 X99 C96 D99 P96 B99 
+18 8 10 .XXCO....COP..AAOP.....PBB.DD....... A98 X99 C96 D99 P95 B99 
+18 8 10 .XXCOP...COP..AAOP......BB.DD....... A98 X99 C96 D99 P94 B99 
+13 8 5 XX.CO....CO...AAO......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
+13 8 5 .XXC.....CO..AA.O.....OP.BBDDP.....P A97 X99 C96 D99 P97 O99 
+13 8 5 .XXC.....CO.AA..O.....OP.BBDDP.....P A96 X99 C96 D99 P97 O99 
+13 8 5 .XXC.....CO...AAO.....OPBB.DDP.....P A98 X99 C96 D99 P97 O99 B99 
+13 8 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X99 C96 D99 P97 O98 
+18 8 10 .XXC.....CO...AAOP....OP.BBDDP...... A98 X99 C96 D99 P96 O99 
+18 8 10 .XXC.....COP..AAOP....OP.BBDD....... A98 X99 C96 D99 P95 O99 
+18 8 10 .XXC.P...COP..AAOP....O..BBDD....... A98 X99 C96 D99 P94 O99 
+13 8 5 XX.C.....CO...AAO.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
+13 8 5 XX.CO....CO..AA.O......P.BBDDP.....P A97 X98 C96 D99 P97 
+13 8 5 XX.CO....CO.AA..O......P.BBDDP.....P A96 X98 C96 D99 P97 
+13 8 5 XX.CO....CO...AAO......PBB.DDP.....P A98 X98 C96 D99 P97 B99 
+13 8 5 XX.C.....CO...AAO.....OP.BBDDP.....P A98 X98 C96 D99 P97 O99 
+18 8 10 XX.CO....CO...AAOP.....P.BBDDP...... A98 X98 C96 D99 P96 
+18 8 10 XX.CO....COP..AAOP.....P.BBDD....... A98 X98 C96 D99 P95 
+18 8 10 XX.COP...COP..AAOP.......BBDD....... A98 X98 C96 D99 P94 
+13 8 5 .XXCO....CO...AAO......P.BBDDP.....P A98 X97 C96 D99 P97 
+13 8 5 .XXCO....CO.AA..O......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
+13 8 5 .XXCO....CO...AAO......PBBDD.P.....P A98 X99 C96 D98 P97 B99 
+18 8 10 .XX.O....CO..AACO......PBBDD.P.....P A99 X99 C95 D98 P97 B99 
+18 8 10 .XX.O.....O..AACO....C.PBBDD.P.....P A99 X99 C94 D98 P97 B99 
+13 8 5 .XXCO....CO..AA.O......PBB.DDP.....P A99 X99 C96 D97 P97 B99 
+13 8 5 .XXC.....CO..AA.O.....OPBBDD.P.....P A99 X99 C96 D98 P97 B99 O99 
+13 8 5 .XXC.....C...AA.O.....OPBBDDOP.....P A99 X99 C96 D98 P97 B99 O98 
+8 8 0 .XXC.....C...AA.......OPBBDDOP....OP A99 X99 C96 D98 P97 B99 O97 
+18 8 10 .XXCO....CO..AA.OP.....PBBDD.P...... A99 X99 C96 D98 P96 B99 
+18 8 10 .XXCO....COP.AA.OP.....PBBDD........ A99 X99 C96 D98 P95 B99 
+18 8 10 .XXCOP...COP.AA.OP......BBDD........ A99 X99 C96 D98 P94 B99 
+13 8 5 XX.CO....CO..AA.O......PBBDD.P.....P A99 X98 C96 D98 P97 B99 
+9 9 0 .XXC.....C..AA........OPBBDDOP....OP A98 X99 C96 D98 P97 B99 O97 
+9 9 0 .XXC.....C....AA......OPBBDDOP....OP A98 X99 C96 D98 P97 B99 O97 
+9 9 0 .XXC.....C.....AA.....OPBBDDOP....OP A97 X99 C96 D98 P97 B99 O97 
+9 9 0 .XXC.....C......AA....OPBBDDOP....OP A96 X99 C96 D98 P97 B99 O97 

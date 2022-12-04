@@ -12,7 +12,7 @@ DDEEC.
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, G:100, O:100, P:100, X:100
 
-Runtime: 15.228161811828613 seconds
+Runtime: 8.4222412109375 seconds
 Search path length: 2715 states
 Solution path length: 10 moves
 Solution path: C up 1; E right 2; F left 1; G right 1; O down 3; P down 3; B left 2; X left 2; C up 2; A right 4

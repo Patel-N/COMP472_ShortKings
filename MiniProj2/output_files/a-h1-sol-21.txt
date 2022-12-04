@@ -1,43 +1,40 @@
 --------------------------------------------------------------------------------
 
-Initial board configuration:  .XXBCC.DDBEF..AAEF..GOOOHHG.I..PPPI.
+Initial board configuration:  ....O.XX..O..BAAO..B.....CCDEE...D..
 
 ! 
-.XXBCC
-.DDBEF
-..AAEF
-..GOOO
-HHG.I.
-.PPPI.
+....O.
+XX..O.
+.BAAO.
+.B....
+.CCDEE
+...D..
 
-Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, G:100, H:100, I:100, O:100, P:100, X:100
+Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, X:100
 
-Runtime: 175.23658323287964 seconds
-Search path length: 6814 states
-Solution path length: 13 moves
-Solution path: A left 2; D left 1; X left 1; G up 3; O left 3; F down 3; P left 1; B down 4; O right 3; G down 3; C left 2; E up 1; A right 4
+Runtime: 0.07506489753723145 seconds
+Search path length: 97 states
+Solution path length: 10 moves
+Solution path: C left 1; X right 2; B up 2; A left 1; D up 2; E left 2; O down 3; X right 2; D up 2; A right 3
 
-A  left 2       98 .XXBCC.DDBEFAA..EF..GOOOHHG.I..PPPI. A98 
-D  left 1       99 .XXBCCDD.BEFAA..EF..GOOOHHG.I..PPPI. A98 D99 
-X  left 1       99 XX.BCCDD.BEFAA..EF..GOOOHHG.I..PPPI. A98 D99 X99 
-G    up 3       97 XXGBCCDDGBEFAA..EF...OOOHH..I..PPPI. A98 D99 X99 G97 
-O  left 3       97 XXGBCCDDGBEFAA..EFOOO...HH..I..PPPI. A98 D99 X99 G97 O97 
-F  down 3       97 XXGBCCDDGBE.AA..E.OOO...HH..IF.PPPIF A98 D99 X99 G97 O97 F97 
-P  left 1       99 XXGBCCDDGBE.AA..E.OOO...HH..IFPPP.IF A98 D99 X99 G97 O97 F97 P99 
-B  down 4       96 XXG.CCDDG.E.AA..E.OOO...HH.BIFPPPBIF A98 D99 X99 G97 O97 F97 P99 B96 
-O right 3       94 XXG.CCDDG.E.AA..E....OOOHH.BIFPPPBIF A98 D99 X99 G97 O94 F97 P99 B96 
-G  down 3       94 XX..CCDD..E.AA..E...GOOOHHGBIFPPPBIF A98 D99 X99 G94 O94 F97 P99 B96 
-C  left 2       98 XXCC..DD..E.AA..E...GOOOHHGBIFPPPBIF A98 D99 X99 G94 O94 F97 P99 B96 C98 
-E    up 1       99 XXCCE.DD..E.AA......GOOOHHGBIFPPPBIF A98 D99 X99 G94 O94 F97 P99 B96 C98 E99 
-A right 4       94 XXCCE.DD..E.....AA..GOOOHHGBIFPPPBIF A94 D99 X99 G94 O94 F97 P99 B96 C98 E99 
+C  left 1       99 ....O.XX..O..BAAO..B....CC.DEE...D.. C99 
+X right 2       98 ....O...XXO..BAAO..B....CC.DEE...D.. C99 X98 
+B    up 2       98 .B..O..BXXO...AAO.......CC.DEE...D.. C99 X98 B98 
+A  left 1       99 .B..O..BXXO..AA.O.......CC.DEE...D.. C99 X98 B98 A99 
+D    up 2       98 .B..O..BXXO..AADO....D..CC..EE...... C99 X98 B98 A99 D98 
+E  left 2       98 .B..O..BXXO..AADO....D..CCEE........ C99 X98 B98 A99 D98 E98 
+O  down 3       97 .B.....BXX...AAD.....DO.CCEEO.....O. C99 X98 B98 A99 D98 E98 O97 
+X right 2       96 .B.....B..XX.AAD.....DO.CCEEO.....O. C99 X96 B98 A99 D98 E98 O97 
+D    up 2       96 .B.D...B.DXX.AA.......O.CCEEO.....O. C99 X96 B98 A99 D96 E98 O97 
+A right 3       96 .B.D...B.DXX....AA....O.CCEEO.....O. C99 X96 B98 A96 D96 E98 O97 
 
-! A94 D99 X99 G94 O94 F97 P99 B96 C98 E99 
-XXCCE.
-DD..E.
+! C99 X96 B98 A96 D96 E98 O97 
+.B.D..
+.B.DXX
 ....AA
-..GOOO
-HHGBIF
-PPPBIF
+....O.
+CCEEO.
+....O.
 
 
 --------------------------------------------------------------------------------

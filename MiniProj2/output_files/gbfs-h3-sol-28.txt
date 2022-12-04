@@ -12,7 +12,7 @@ AA..XB
 
 Car fuel available: A:100, B:100, C:100, X:100
 
-Runtime: 0.003715038299560547 seconds
+Runtime: 0.0025017261505126953 seconds
 Search path length: 19 states
 Solution path length: 3 moves
 Solution path: B up 2; X up 1; A right 4

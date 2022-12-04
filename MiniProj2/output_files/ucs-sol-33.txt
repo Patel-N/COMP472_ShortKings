@@ -12,7 +12,7 @@ Initial board configuration:  .XXBCC...BDO..AADO.....O.PPPE.....E.
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, P:100, X:100
 
-Runtime: 4.262239933013916 seconds
+Runtime: 2.6222546100616455 seconds
 Search path length: 1135 states
 Solution path length: 8 moves
 Solution path: A left 1; O down 2; P left 1; B down 3; X left 1; C left 2; D up 1; A right 3

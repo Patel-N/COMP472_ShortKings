@@ -56,6 +56,7 @@ class PriorityQueue(object):
 
     def takeH(self, elem:State):
         return elem.h
+        
     def takeG(self, elem:State):
         return elem.h + elem.cost
 

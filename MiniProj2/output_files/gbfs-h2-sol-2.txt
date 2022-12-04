@@ -12,7 +12,7 @@ AA.OXP
 
 Car fuel available: A:100, O:100, P:100, X:100
 
-Runtime: 0.005825042724609375 seconds
+Runtime: 0.004503965377807617 seconds
 Search path length: 31 states
 Solution path length: 4 moves
 Solution path: O down 3; P down 3; X up 1; A right 4

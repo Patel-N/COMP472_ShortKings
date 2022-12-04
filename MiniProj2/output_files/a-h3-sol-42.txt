@@ -12,7 +12,7 @@ AA.OBP
 
 Car fuel available: A:100, B:100, C:100, O:100, P:100, Q:100, X:100
 
-Runtime: 0.03875303268432617 seconds
+Runtime: 0.02652263641357422 seconds
 Search path length: 108 states
 Solution path length: 7 moves
 Solution path: Q left 1; P down 2; Q left 2; O down 3; X left 2; B up 1; A right 4

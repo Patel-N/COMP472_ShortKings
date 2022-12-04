@@ -12,7 +12,7 @@ EEOOOF
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, O:100, X:100
 
-Runtime: 1.6269481182098389 seconds
+Runtime: 0.8947691917419434 seconds
 Search path length: 688 states
 Solution path length: 9 moves
 Solution path: B left 1; C up 2; A left 2; F up 4; O right 1; X down 3; B left 1; D up 2; A right 4

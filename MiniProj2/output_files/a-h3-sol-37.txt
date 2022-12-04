@@ -12,7 +12,7 @@ Initial board configuration:  ...XBB.C.XDE.CAADE.....O..PPPO.....O
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, P:100, X:100
 
-Runtime: 0.18707609176635742 seconds
+Runtime: 0.09307980537414551 seconds
 Search path length: 167 states
 Solution path length: 9 moves
 Solution path: P left 1; D down 2; C up 1; A left 1; P left 1; X down 3; B left 1; E up 1; A right 3

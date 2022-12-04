@@ -12,7 +12,7 @@ DPPPEE
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, P:100, X:100
 
-Runtime: 1.0600898265838623 seconds
+Runtime: 0.716616153717041 seconds
 Search path length: 538 states
 Solution path length: 5 moves
 Solution path: B left 1; X left 1; O left 1; C up 2; A right 4

@@ -12,7 +12,7 @@ PPP.EE
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, O:100, P:100, X:100
 
-Runtime: 0.6372077465057373 seconds
+Runtime: 0.44087934494018555 seconds
 Search path length: 501 states
 Solution path length: 6 moves
 Solution path: O left 2; X left 2; B left 2; C up 2; D up 2; A right 4

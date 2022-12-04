@@ -12,7 +12,7 @@ DEGGHH
 
 Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, G:100, H:100, I:100, O:100, P:100, Q:100
 
-Runtime: 47.05751299858093 seconds
+Runtime: 20.8709454536438 seconds
 Search path length: 5134 states
 Solution path length: 19 moves
 Solution path: P down 1; O right 3; B up 1; A left 3; B down 1; O left 2; C up 3; F right 1; P up 1; Q right 3; B down 2; A right 3; B up 2; E up 1; G left 1; H left 1; Q left 1; P down 3; A right 1
