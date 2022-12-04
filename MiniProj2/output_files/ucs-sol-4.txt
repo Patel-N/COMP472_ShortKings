@@ -1,19 +1,36 @@
 --------------------------------------------------------------------------------
 
-Initial board configuration:  BBB..MCCDD.MAAKL.MJ.KLEEJ.GG..JHHHII J0 B4
+Initial board configuration:  XBBOOOX.....AA...CP....CPDDQQQP.....
 
-! J0 B4
-BBB..M
-CCDD.M
-AAKL.M
-J.KLEE
-J.GG..
-JHHHII
+! 
+XBBOOO
+X.....
+AA...C
+P....C
+PDDQQQ
+P.....
 
-Car fuel available: A:100, B:4, C:100, D:100, E:100, G:100, H:100, I:100, J:0, K:100, L:100, M:100
+Car fuel available: A:100, B:100, C:100, D:100, O:100, P:100, Q:100, X:100
 
-Sorry, could not solve the puzzle as specified.
-Error: no solution found
+Runtime: 0.0335240364074707 seconds
+Search path length: 34 states
+Solution path length: 6 moves
+Solution path: A right 1; X down 1; B left 1; O left 1; C up 2; A right 3
 
-Runtime: 0.3418393135070801 seconds
+A right 1       99 XBBOOOX......AA..CP....CPDDQQQP..... A99 
+X  down 1       99 .BBOOOX.....XAA..CP....CPDDQQQP..... A99 X99 
+B  left 1       99 BB.OOOX.....XAA..CP....CPDDQQQP..... A99 X99 B99 
+O  left 1       99 BBOOO.X.....XAA..CP....CPDDQQQP..... A99 X99 B99 O99 
+C    up 2       98 BBOOOCX....CXAA...P.....PDDQQQP..... A99 X99 B99 O99 C98 
+A right 3       96 BBOOOCX....CX...AAP.....PDDQQQP..... A96 X99 B99 O99 C98 
+
+! A96 X99 B99 O99 C98 
+BBOOOC
+X....C
+X...AA
+P.....
+PDDQQQ
+P.....
+
+
 --------------------------------------------------------------------------------

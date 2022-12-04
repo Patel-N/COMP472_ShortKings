@@ -363,9 +363,10 @@ def solvePuzzle(puzzleString, puzzleNum:int):
     gameInput = puzzleString.split(' ')
     # print(gameInput)
     grid = setupGame(gameInput)
-    grid.printMap()
     
-    print("start")
+    print("Start solving puzzle #" + str(puzzleNum) + " :\n")
+    print(grid.getSingleLineMap() + '\n')
+    grid.printMap()
 
     # UniformCostSearch(grid)
     ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
@@ -376,10 +377,14 @@ def solvePuzzle(puzzleString, puzzleNum:int):
     # ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
     # generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
     # print(search_time)
+    
+    print("Finish puzzle #" + str(puzzleNum) + "\n")
 
 
 
-validPuzzles = getPuzzlesFromFile('./Sample/sample-input.txt')
+
+
+validPuzzles = getPuzzlesFromFile('./custom-input.txt')
 puzzleNumber = []
 algo = []
 heuristic = []
