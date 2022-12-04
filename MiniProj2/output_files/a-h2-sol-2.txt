@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+
+Initial board configuration:  ...O.P...OXPAA.OXP..................
+
+! 
+...O.P
+...OXP
+AA.OXP
+......
+......
+......
+
+Car fuel available: A:100, O:100, P:100, X:100
+
+Runtime: 0.023345947265625 seconds
+Search path length: 75 states
+Solution path length: 4 moves
+Solution path: O down 3; P down 3; X up 1; A right 4
+
+O  down 3       97 .....P....XPAA..XP...O.....O.....O.. O97 
+P  down 3       97 ..........X.AA..X....O.P...O.P...O.P O97 P97 
+X    up 1       99 ....X.....X.AA.......O.P...O.P...O.P O97 P97 X99 
+A right 4       96 ....X.....X.....AA...O.P...O.P...O.P O97 P97 X99 A96 
+
+! O97 P97 X99 A96 
+....X.
+....X.
+....AA
+...O.P
+...O.P
+...O.P
+
+
+--------------------------------------------------------------------------------

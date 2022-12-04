@@ -1,32 +1,49 @@
 --------------------------------------------------------------------------------
 
-Initial board configuration:  BBIJ....IJCC..IAAMGDDK.MGH.KL.GHFFL.
+Initial board configuration:  OOO..PIIB..P..BAAPQQQ.C.DEFFC.DEGGHH
 
 ! 
-BBIJ..
-..IJCC
-..IAAM
-GDDK.M
-GH.KL.
-GHFFL.
+OOO..P
+IIB..P
+..BAAP
+QQQ.C.
+DEFFC.
+DEGGHH
 
-Car fuel available: A:100, B:100, C:100, D:100, F:100, G:100, H:100, I:100, J:100, K:100, L:100, M:100
+Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, G:100, H:100, I:100, O:100, P:100, Q:100
 
-Runtime: 0.0019409656524658203 seconds
-Search path length: 5 states
-Solution path length: 2 moves
-Solution path: M down 1; A right 1
+Runtime: 44.50344395637512 seconds
+Search path length: 5134 states
+Solution path length: 19 moves
+Solution path: P down 1; O right 3; B up 1; A left 3; B down 1; O left 2; C up 3; F right 1; P up 1; Q right 3; B down 2; A right 3; B up 2; E up 1; G left 1; H left 1; Q left 1; P down 3; A right 1
 
-M  down 1       99 BBIJ....IJCC..IAA.GDDK.MGH.KLMGHFFL. M99 
-A right 1       99 BBIJ....IJCC..I.AAGDDK.MGH.KLMGHFFL. M99 A99 
+P  down 1       99 OOO...IIB..P..BAAPQQQ.CPDEFFC.DEGGHH P99 
+O right 3       97 ...OOOIIB..P..BAAPQQQ.CPDEFFC.DEGGHH P99 O97 
+B    up 1       99 ..BOOOIIB..P...AAPQQQ.CPDEFFC.DEGGHH P99 O97 B99 
+A  left 3       97 ..BOOOIIB..PAA...PQQQ.CPDEFFC.DEGGHH P99 O97 B99 A97 
+B  down 1       98 ...OOOIIB..PAAB..PQQQ.CPDEFFC.DEGGHH P99 O97 B98 A97 
+O  left 2       95 .OOO..IIB..PAAB..PQQQ.CPDEFFC.DEGGHH P99 O95 B98 A97 
+C    up 3       97 .OOOC.IIB.CPAAB..PQQQ..PDEFF..DEGGHH P99 O95 B98 A97 C97 
+F right 1       99 .OOOC.IIB.CPAAB..PQQQ..PDE.FF.DEGGHH P99 O95 B98 A97 C97 F99 
+P    up 1       98 .OOOCPIIB.CPAAB..PQQQ...DE.FF.DEGGHH P98 O95 B98 A97 C97 F99 
+Q right 3       97 .OOOCPIIB.CPAAB..P...QQQDE.FF.DEGGHH P98 O95 B98 A97 C97 F99 Q97 
+B  down 2       96 .OOOCPII..CPAA...P..BQQQDEBFF.DEGGHH P98 O95 B96 A97 C97 F99 Q97 
+A right 3       94 .OOOCPII..CP...AAP..BQQQDEBFF.DEGGHH P98 O95 B96 A94 C97 F99 Q97 
+B    up 2       94 .OOOCPIIB.CP..BAAP...QQQDE.FF.DEGGHH P98 O95 B94 A94 C97 F99 Q97 
+E    up 1       99 .OOOCPIIB.CP..BAAP.E.QQQDE.FF.D.GGHH P98 O95 B94 A94 C97 F99 Q97 E99 
+G  left 1       99 .OOOCPIIB.CP..BAAP.E.QQQDE.FF.DGG.HH P98 O95 B94 A94 C97 F99 Q97 E99 G99 
+H  left 1       99 .OOOCPIIB.CP..BAAP.E.QQQDE.FF.DGGHH. P98 O95 B94 A94 C97 F99 Q97 E99 G99 H99 
+Q  left 1       96 .OOOCPIIB.CP..BAAP.EQQQ.DE.FF.DGGHH. P98 O95 B94 A94 C97 F99 Q96 E99 G99 H99 
+P  down 3       95 .OOOC.IIB.C...BAA..EQQQPDE.FFPDGGHHP P95 O95 B94 A94 C97 F99 Q96 E99 G99 H99 
+A right 1       93 .OOOC.IIB.C...B.AA.EQQQPDE.FFPDGGHHP P95 O95 B94 A93 C97 F99 Q96 E99 G99 H99 
 
-! M99 A99 
-BBIJ..
-..IJCC
-..I.AA
-GDDK.M
-GH.KLM
-GHFFL.
+! P95 O95 B94 A93 C97 F99 Q96 E99 G99 H99 
+.OOOC.
+IIB.C.
+..B.AA
+.EQQQP
+DE.FFP
+DGGHHP
 
 
 --------------------------------------------------------------------------------

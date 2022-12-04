@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------
+
+Initial board configuration:  OOOPPP....XB..AAXB..C.DD..CEFFQQQE..
+
+! 
+OOOPPP
+....XB
+..AAXB
+..C.DD
+..CEFF
+QQQE..
+
+Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, O:100, P:100, Q:100, X:100
+
+Runtime: 3.1128969192504883 seconds
+Search path length: 1482 states
+Solution path length: 16 moves
+Solution path: A left 1; E up 3; D left 1; F left 1; B down 2; A left 1; C up 1; F left 3; C down 1; Q right 3; C down 1; D left 1; X down 2; D left 1; E down 2; A right 4
+
+A  left 1       99 OOOPPP....XB.AA.XB..C.DD..CEFFQQQE.. A99 
+E    up 3       97 OOOPPP...EXB.AAEXB..C.DD..C.FFQQQ... A99 E97 
+D  left 1       99 OOOPPP...EXB.AAEXB..CDD...C.FFQQQ... A99 E97 D99 
+F  left 1       99 OOOPPP...EXB.AAEXB..CDD...CFF.QQQ... A99 E97 D99 F99 
+B  down 2       98 OOOPPP...EX..AAEX...CDDB..CFFBQQQ... A99 E97 D99 F99 B98 
+A  left 1       98 OOOPPP...EX.AA.EX...CDDB..CFFBQQQ... A98 E97 D99 F99 B98 
+C    up 1       99 OOOPPP...EX.AACEX...CDDB...FFBQQQ... A98 E97 D99 F99 B98 C99 
+F  left 3       96 OOOPPP...EX.AACEX...CDDBFF...BQQQ... A98 E97 D99 F96 B98 C99 
+C  down 1       98 OOOPPP...EX.AA.EX...CDDBFFC..BQQQ... A98 E97 D99 F96 B98 C98 
+Q right 3       97 OOOPPP...EX.AA.EX...CDDBFFC..B...QQQ A98 E97 D99 F96 B98 C98 Q97 
+C  down 1       97 OOOPPP...EX.AA.EX....DDBFFC..B..CQQQ A98 E97 D99 F96 B98 C97 Q97 
+D  left 1       98 OOOPPP...EX.AA.EX...DD.BFFC..B..CQQQ A98 E97 D98 F96 B98 C97 Q97 
+X  down 2       98 OOOPPP...E..AA.E....DDXBFFC.XB..CQQQ A98 E97 D98 F96 B98 C97 Q97 X98 
+D  left 1       97 OOOPPP...E..AA.E...DD.XBFFC.XB..CQQQ A98 E97 D97 F96 B98 C97 Q97 X98 
+E  down 2       95 OOOPPP......AA.....DDEXBFFCEXB..CQQQ A98 E95 D97 F96 B98 C97 Q97 X98 
+A right 4       94 OOOPPP..........AA.DDEXBFFCEXB..CQQQ A94 E95 D97 F96 B98 C97 Q97 X98 
+
+! A94 E95 D97 F96 B98 C97 Q97 X98 
+OOOPPP
+......
+....AA
+.DDEXB
+FFCEXB
+..CQQQ
+
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,216 @@
+0 0 0 OOOX....BX..AAB.....CPPP..C......... 
+0 0 1 OOOX....BX..AAB......PPP..C.....C... C99 
+0 0 2 OOO.....BX..AABX....CPPP..C......... X99 
+0 0 1 OOOX.....X..AAB.....BPPP..C.....C... C99 B99 
+0 0 1 OOOX....BX..AAB.....CPPP..C......... C98 
+0 0 1 OOOX....BX..AAB.....PPP...C.....C... C99 P99 
+0 0 1 OOOX....BX..AAB....PPP....C.....C... C99 P98 
+0 0 1 OOOX....BX..AAB...PPP.....C.....C... C99 P97 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 X99 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... X99 C99 
+0 0 2 .OOO....BX..AABX....CPPP..C......... X99 O99 
+0 0 2 ..OOO...BX..AABX....CPPP..C......... X99 O98 
+0 0 2 ...OOO..BX..AABX....CPPP..C......... X99 O97 
+0 0 1 OOOX....BX..AAB.....CPPP..C......... X98 
+0 0 1 OOOX....BX..AAB......PPP..C.....C... C99 B98 
+0 0 2 OOO......X..AABX....BPPP..C.....C... C99 B99 X99 
+0 0 1 OOOX....BX..AAB....PPP....C.....C... C99 P98 
+0 0 1 OOOX....BX..AAB...PPP.....C.....C... C99 P97 
+0 0 1 OOOX....BX..AAB......PPP..C.....C... C99 P98 
+0 0 2 OOO.....BX..AABX....PPP...C.....C... C99 P99 X99 
+0 0 1 OOOX....BX..AAB...PPP.....C.....C... C99 P97 
+0 0 1 OOOX....BX..AAB.....PPP...C.....C... C99 P97 
+0 0 1 OOOX....BX..AAB......PPP..C.....C... C99 P96 
+0 0 2 OOO.....BX..AABX...PPP....C.....C... C99 P98 X99 
+0 0 1 OOOX....BX..AAB....PPP....C.....C... C99 P96 
+0 0 1 OOOX....BX..AAB.....PPP...C.....C... C99 P95 
+0 0 1 OOOX....BX..AAB......PPP..C.....C... C99 P94 
+0 0 2 OOO.....BX..AABX..PPP.....C.....C... C99 P97 X99 
+0 0 2 OOO.....B...AABX..PPPX....C.....C... C99 P97 X98 
+0 0 1 OOO.....B...AAB...PPPX....CX....C... C99 P97 X97 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P97 X96 
+0 0 2 OOO......X..AABX....BPPP..C.....C... C99 X99 B99 
+0 0 2 OOO.....BX..AABX....CPPP..C......... C98 X99 
+0 0 2 .OOO....BX..AABX.....PPP..C.....C... C99 X99 O99 
+0 0 2 ..OOO...BX..AABX.....PPP..C.....C... C99 X99 O98 
+0 0 2 ...OOO..BX..AABX.....PPP..C.....C... C99 X99 O97 
+0 0 2 OOO.....BX..AABX....PPP...C.....C... C99 X99 P99 
+0 0 2 OOO.....BX..AABX...PPP....C.....C... C99 X99 P98 
+0 0 2 OOO.....BX..AABX..PPP.....C.....C... C99 X99 P97 
+0 0 1 OOOX....BX..AAB......PPP..C.....C... C99 X98 
+0 0 2 .OOO....BX..AABX.....PPP..C.....C... X99 O99 C99 
+0 0 2 OOO.....BX..AABX....CPPP..C......... X99 O98 
+0 0 2 ..OOO...BX..AABX....CPPP..C......... X99 O98 
+0 0 2 ...OOO..BX..AABX....CPPP..C......... X99 O97 
+0 0 2 ..OOO...BX..AABX.....PPP..C.....C... X99 O98 C99 
+0 0 2 .OOO....BX..AABX....CPPP..C......... X99 O97 
+0 0 2 OOO.....BX..AABX....CPPP..C......... X99 O96 
+0 0 2 ...OOO..BX..AABX....CPPP..C......... X99 O97 
+0 0 1 ..BOOO..BX..AA.X....CPPP..C......... X99 O97 B99 
+0 0 2 ...OOO..BX..AABX.....PPP..C.....C... X99 O97 C99 
+0 0 2 ..OOO...BX..AABX....CPPP..C......... X99 O96 
+0 0 2 .OOO....BX..AABX....CPPP..C......... X99 O95 
+0 0 2 OOO.....BX..AABX....CPPP..C......... X99 O94 
+0 0 1 .OOO....B...AAB...PPPX....CX....C... C99 P97 X97 O99 
+0 0 1 ..OOO...B...AAB...PPPX....CX....C... C99 P97 X97 O98 
+0 0 1 ...OOO..B...AAB...PPPX....CX....C... C99 P97 X97 O97 
+0 0 2 OOO.....B...AABX..PPPX....C.....C... C99 P97 X96 
+0 0 2 OOO.....BX..AABX..PPP.....C.....C... C99 P97 X95 
+0 0 1 OOOX....BX..AAB...PPP.....C.....C... C99 P97 X94 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P97 X96 
+0 0 1 .OOO....B...AAB...PPP.....CX....CX.. C99 P97 X96 O99 
+0 0 1 ..OOO...B...AAB...PPP.....CX....CX.. C99 P97 X96 O98 
+0 0 1 ...OOO..B...AAB...PPP.....CX....CX.. C99 P97 X96 O97 
+0 0 1 OOO.....B...AAB....PPP....CX....CX.. C99 P96 X96 
+0 0 1 OOO.....B...AAB.....PPP...CX....CX.. C99 P95 X96 
+0 0 1 OOO.....B...AAB......PPP..CX....CX.. C99 P94 X96 
+0 0 1 OOO.....B...AAB...PPPX....CX....C... C99 P97 X95 
+0 0 2 OOO.....B...AABX..PPPX....C.....C... C99 P97 X94 
+0 0 2 OOO.....BX..AABX..PPP.....C.....C... C99 P97 X93 
+0 0 1 OOOX....BX..AAB...PPP.....C.....C... C99 P97 X92 
+0 0 1 ..BOOO..BX...AAX....CPPP..C......... X99 O97 B99 A99 
+0 0 2 ...OOO..BX..AABX....CPPP..C......... X99 O97 B98 
+0 0 2 ..BOOO..BX..AACX....CPPP............ X99 O97 B99 C99 
+0 0 1 ..BOOO..BX..AA.X.....PPP..C.....C... X99 O97 B99 C99 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 B98 X99 
+0 0 2 .OOO.....X..AABX....BPPP..C.....C... C99 B99 X99 O99 
+0 0 2 ..OOO....X..AABX....BPPP..C.....C... C99 B99 X99 O98 
+0 0 2 ...OOO...X..AABX....BPPP..C.....C... C99 B99 X99 O97 
+0 0 1 OOOX.....X..AAB.....BPPP..C.....C... C99 B99 X98 
+0 0 2 .OOO....BX..AABX....PPP...C.....C... C99 P99 X99 O99 
+0 0 2 ..OOO...BX..AABX....PPP...C.....C... C99 P99 X99 O98 
+0 0 2 ...OOO..BX..AABX....PPP...C.....C... C99 P99 X99 O97 
+0 0 2 OOO.....BX..AABX...PPP....C.....C... C99 P98 X99 
+0 0 2 OOO.....BX..AABX..PPP.....C.....C... C99 P97 X99 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 P98 X99 
+0 0 1 OOOX....BX..AAB.....PPP...C.....C... C99 P99 X98 
+0 0 2 .OOO....BX..AABX...PPP....C.....C... C99 P98 X99 O99 
+0 0 2 ..OOO...BX..AABX...PPP....C.....C... C99 P98 X99 O98 
+0 0 2 ...OOO..BX..AABX...PPP....C.....C... C99 P98 X99 O97 
+0 0 2 OOO.....BX..AABX..PPP.....C.....C... C99 P97 X99 
+0 0 2 OOO.....BX..AABX....PPP...C.....C... C99 P97 X99 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 P96 X99 
+0 0 1 OOOX....BX..AAB....PPP....C.....C... C99 P98 X98 
+0 0 2 .OOO....BX..AABX..PPP.....C.....C... C99 P97 X99 O99 
+0 0 2 ..OOO...BX..AABX..PPP.....C.....C... C99 P97 X99 O98 
+0 0 2 ...OOO..BX..AABX..PPP.....C.....C... C99 P97 X99 O97 
+0 0 2 OOO.....BX..AABX...PPP....C.....C... C99 P96 X99 
+0 0 2 OOO.....BX..AABX....PPP...C.....C... C99 P95 X99 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 P94 X99 
+0 0 1 OOOX....BX..AAB...PPP.....C.....C... C99 P97 X98 
+0 0 2 OOO.....B...AABX..PPPX....C.....C... C99 P97 X98 
+0 0 1 OOO.....B...AAB...PPPX....CX....C... C99 P97 X97 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P97 X96 
+0 0 2 .OOO....B...AABX..PPPX....C.....C... C99 P97 X98 O99 
+0 0 2 ..OOO...B...AABX..PPPX....C.....C... C99 P97 X98 O98 
+0 0 2 ...OOO..B...AABX..PPPX....C.....C... C99 P97 X98 O97 
+0 0 2 OOO.....BX..AABX..PPP.....C.....C... C99 P97 X97 
+0 0 1 OOOX....BX..AAB...PPP.....C.....C... C99 P97 X96 
+0 0 1 OOO.....B...AAB...PPPX....CX....C... C99 P97 X97 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P97 X96 
+0 0 2 .OOO.....X..AABX....BPPP..C.....C... C99 X99 O99 B99 
+0 0 2 .OOO....BX..AABX....CPPP..C......... C98 X99 O99 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 X99 O98 
+0 0 2 ..OOO...BX..AABX.....PPP..C.....C... C99 X99 O98 
+0 0 2 ...OOO..BX..AABX.....PPP..C.....C... C99 X99 O97 
+0 0 2 .OOO....BX..AABX....PPP...C.....C... C99 X99 O99 P99 
+0 0 2 .OOO....BX..AABX...PPP....C.....C... C99 X99 O99 P98 
+0 0 2 .OOO....BX..AABX..PPP.....C.....C... C99 X99 O99 P97 
+0 0 2 ..OOO....X..AABX....BPPP..C.....C... C99 X99 O98 B99 
+0 0 2 ..OOO...BX..AABX....CPPP..C......... C98 X99 O98 
+0 0 2 .OOO....BX..AABX.....PPP..C.....C... C99 X99 O97 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 X99 O96 
+0 0 2 ...OOO..BX..AABX.....PPP..C.....C... C99 X99 O97 
+0 0 2 ..OOO...BX..AABX....PPP...C.....C... C99 X99 O98 P99 
+0 0 2 ..OOO...BX..AABX...PPP....C.....C... C99 X99 O98 P98 
+0 0 2 ..OOO...BX..AABX..PPP.....C.....C... C99 X99 O98 P97 
+0 0 1 ..BOOO..BX..AA.X.....PPP..C.....C... C99 X99 O97 B99 
+0 0 2 ...OOO...X..AABX....BPPP..C.....C... C99 X99 O97 B99 
+0 0 2 ...OOO..BX..AABX....CPPP..C......... C98 X99 O97 
+0 0 2 ..OOO...BX..AABX.....PPP..C.....C... C99 X99 O96 
+0 0 2 .OOO....BX..AABX.....PPP..C.....C... C99 X99 O95 
+0 0 2 OOO.....BX..AABX.....PPP..C.....C... C99 X99 O94 
+0 0 2 ...OOO..BX..AABX....PPP...C.....C... C99 X99 O97 P99 
+0 0 2 ...OOO..BX..AABX...PPP....C.....C... C99 X99 O97 P98 
+0 0 2 ...OOO..BX..AABX..PPP.....C.....C... C99 X99 O97 P97 
+0 0 1 OOO.....B...AAB...PPPX....CX....C... C99 P97 X97 O98 
+0 0 1 ..OOO...B...AAB...PPPX....CX....C... C99 P97 X97 O98 
+0 0 1 ...OOO..B...AAB...PPPX....CX....C... C99 P97 X97 O97 
+0 0 2 .OOO....B...AABX..PPPX....C.....C... C99 P97 X96 O99 
+0 0 2 .OOO....BX..AABX..PPP.....C.....C... C99 P97 X95 O99 
+0 0 1 .OOO....B...AAB...PPP.....CX....CX.. C99 P97 X96 O99 
+0 0 1 .OOO....B...AAB...PPPX....CX....C... C99 P97 X97 O97 
+0 0 1 OOO.....B...AAB...PPPX....CX....C... C99 P97 X97 O96 
+0 0 1 ...OOO..B...AAB...PPPX....CX....C... C99 P97 X97 O97 
+0 0 2 ..OOO...B...AABX..PPPX....C.....C... C99 P97 X96 O98 
+0 0 2 ..OOO...BX..AABX..PPP.....C.....C... C99 P97 X95 O98 
+0 0 1 ..OOO...B...AAB...PPP.....CX....CX.. C99 P97 X96 O98 
+0 0 0 ..BOOO..B...AA....PPPX....CX....C... C99 P97 X97 O97 B99 
+0 0 1 ..OOO...B...AAB...PPPX....CX....C... C99 P97 X97 O96 
+0 0 1 .OOO....B...AAB...PPPX....CX....C... C99 P97 X97 O95 
+0 0 1 OOO.....B...AAB...PPPX....CX....C... C99 P97 X97 O94 
+0 0 2 ...OOO..B...AABX..PPPX....C.....C... C99 P97 X96 O97 
+0 0 2 ...OOO..BX..AABX..PPP.....C.....C... C99 P97 X95 O97 
+0 0 1 ...OOO..B...AAB...PPP.....CX....CX.. C99 P97 X96 O97 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P97 X96 O98 
+0 0 1 ..OOO...B...AAB...PPP.....CX....CX.. C99 P97 X96 O98 
+0 0 1 ...OOO..B...AAB...PPP.....CX....CX.. C99 P97 X96 O97 
+0 0 1 .OOO....B...AAB....PPP....CX....CX.. C99 P96 X96 O99 
+0 0 1 .OOO....B...AAB.....PPP...CX....CX.. C99 P95 X96 O99 
+0 0 1 .OOO....B...AAB......PPP..CX....CX.. C99 P94 X96 O99 
+0 0 1 .OOO....B...AAB...PPPX....CX....C... C99 P97 X95 O99 
+0 0 2 .OOO....B...AABX..PPPX....C.....C... C99 P97 X94 O99 
+0 0 2 .OOO....BX..AABX..PPP.....C.....C... C99 P97 X93 O99 
+0 0 1 .OOO....B...AAB...PPP.....CX....CX.. C99 P97 X96 O97 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P97 X96 O96 
+0 0 1 ...OOO..B...AAB...PPP.....CX....CX.. C99 P97 X96 O97 
+0 0 1 ..OOO...B...AAB....PPP....CX....CX.. C99 P96 X96 O98 
+0 0 1 ..OOO...B...AAB.....PPP...CX....CX.. C99 P95 X96 O98 
+0 0 1 ..OOO...B...AAB......PPP..CX....CX.. C99 P94 X96 O98 
+0 0 1 ..OOO...B...AAB...PPPX....CX....C... C99 P97 X95 O98 
+0 0 2 ..OOO...B...AABX..PPPX....C.....C... C99 P97 X94 O98 
+0 0 2 ..OOO...BX..AABX..PPP.....C.....C... C99 P97 X93 O98 
+0 0 0 ..BOOO..B...AA....PPP.....CX....CX.. C99 P97 X96 O97 B99 
+0 0 1 ..OOO...B...AAB...PPP.....CX....CX.. C99 P97 X96 O96 
+0 0 1 .OOO....B...AAB...PPP.....CX....CX.. C99 P97 X96 O95 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P97 X96 O94 
+0 0 1 ...OOO..B...AAB....PPP....CX....CX.. C99 P96 X96 O97 
+0 0 1 ...OOO..B...AAB.....PPP...CX....CX.. C99 P95 X96 O97 
+0 0 1 ...OOO..B...AAB......PPP..CX....CX.. C99 P94 X96 O97 
+0 0 1 ...OOO..B...AAB...PPPX....CX....C... C99 P97 X95 O97 
+0 0 2 ...OOO..B...AABX..PPPX....C.....C... C99 P97 X94 O97 
+0 0 2 ...OOO..BX..AABX..PPP.....C.....C... C99 P97 X93 O97 
+0 0 1 .OOO....B...AAB....PPP....CX....CX.. C99 P96 X96 O99 
+0 0 1 ..OOO...B...AAB....PPP....CX....CX.. C99 P96 X96 O98 
+0 0 1 ...OOO..B...AAB....PPP....CX....CX.. C99 P96 X96 O97 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P95 X96 
+0 0 1 OOO.....B...AAB.....PPP...CX....CX.. C99 P95 X96 
+0 0 1 OOO.....B...AAB......PPP..CX....CX.. C99 P94 X96 
+0 0 1 .OOO....B...AAB.....PPP...CX....CX.. C99 P95 X96 O99 
+0 0 1 ..OOO...B...AAB.....PPP...CX....CX.. C99 P95 X96 O98 
+0 0 1 ...OOO..B...AAB.....PPP...CX....CX.. C99 P95 X96 O97 
+0 0 1 OOO.....B...AAB....PPP....CX....CX.. C99 P94 X96 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P93 X96 
+0 0 1 OOO.....B...AAB......PPP..CX....CX.. C99 P94 X96 
+0 0 1 OOO.........AAB.....BPPP..CX....CX.. C99 P94 X96 B99 
+0 0 1 OOO.....B...AAB.....CPPP..CX.....X.. C98 P94 X96 
+0 0 1 .OOO....B...AAB......PPP..CX....CX.. C99 P94 X96 O99 
+0 0 1 ..OOO...B...AAB......PPP..CX....CX.. C99 P94 X96 O98 
+0 0 1 ...OOO..B...AAB......PPP..CX....CX.. C99 P94 X96 O97 
+0 0 1 OOO.....B...AAB.....PPP...CX....CX.. C99 P93 X96 
+0 0 1 OOO.....B...AAB....PPP....CX....CX.. C99 P92 X96 
+0 0 1 OOO.....B...AAB...PPP.....CX....CX.. C99 P91 X96 
+0 0 1 ..BOOO..BX..AA.X....CPPP..C......... X99 O97 B99 A98 
+0 0 1 ..BOOO..BX...AAX.....PPP..C.....C... X99 O97 B99 A99 C99 
+0 0 1 ..BOOO..BX...AAX.....PPP..C.....C... X99 O97 B99 C99 A99 
+0 0 2 ...OOO..BX..AABX.....PPP..C.....C... X99 O97 B98 C99 
+0 0 2 ...OOO...X..AABX....BPPP..C.....C... X99 O97 B97 C99 
+0 0 1 ..BOOO..BX..AA.X....CPPP..C......... X99 O97 B99 C98 
+0 0 2 ..BOOO..BX..AACX....CPPP............ X99 O97 B99 C97 
+0 0 1 ..BOOO..BX..AA.X....PPP...C.....C... X99 O97 B99 C99 P99 
+0 0 1 ..BOOO..BX..AA.X...PPP....C.....C... X99 O97 B99 C99 P98 
+0 0 1 ..BOOO..BX..AA.X..PPP.....C.....C... X99 O97 B99 C99 P97 
+0 0 0 ..BOOO..B....AA...PPPX....CX....C... C99 P97 X97 O97 B99 A99 
+0 0 0 ..BOOO..B.....AA..PPPX....CX....C... C99 P97 X97 O97 B99 A98 
+0 0 0 ..BOOO..B......AA.PPPX....CX....C... C99 P97 X97 O97 B99 A97 
+0 0 0 ..BOOO..B.......AAPPPX....CX....C... C99 P97 X97 O97 B99 A96 

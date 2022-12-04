@@ -1,0 +1,45 @@
+0 0 0 .OPPP..O..XB.OAAXB....CC............ 
+0 0 1.0 .OPPPB.O..XB.OAAX.....CC............ B99 
+0 0 2.0 .OPPP..O..XB.OAAXB...CC............. C99 
+0 0 2.0 .OPPP..O..XB.OAAXB..CC.............. C98 
+0 0 2.0 .OPPP..O..XB.OAAXB.CC............... C97 
+0 0 2.0 .OPPP..O..XB.OAAXBCC................ C96 
+0 0 2.0 ..PPP..O..XB.OAAXB.O..CC............ O99 
+0 0 2.0 ..PPP.....XB.OAAXB.O..CC.O.......... O98 
+0 0 2.0 ..PPP.....XB..AAXB.O..CC.O.....O.... O97 
+0 0 2.0 .O.PPP.O..XB.OAAXB....CC............ P99 
+0 0 2.0 .OPPP..O..XB.OAAXB....CC............ B98 
+0 0 1.0 .OPPPB.O..XB.OAAX....CC............. B99 C99 
+0 0 1.0 .OPPPB.O..XB.OAAX...CC.............. B99 C98 
+0 0 1.0 .OPPPB.O..XB.OAAX..CC............... B99 C97 
+0 0 1.0 .OPPPB.O..XB.OAAX.CC................ B99 C96 
+0 0 1.0 ..PPPB.O..XB.OAAX..O..CC............ B99 O99 
+0 0 1.0 ..PPPB....XB.OAAX..O..CC.O.......... B99 O98 
+0 0 1.0 ..PPPB....XB..AAX..O..CC.O.....O.... B99 O97 
+0 0 2.0 .OPPP..O..XB.OAAXB...CC............. B98 C99 
+0 0 2.0 .OPPP..O..X..OAAXB...CCB............ B97 C99 
+0 0 1.0 .OPPP..O..X..OAAX....CCB.....B...... B96 C99 
+0 0 1.0 .OPPP..O..X..OAAX....CC......B.....B B95 C99 
+0 0 1.0 .OPPPB.O..XB.OAAX...CC.............. B99 C98 
+0 0 1.0 .OPPPB.O..XB.OAAX..CC............... B99 C97 
+0 0 1.0 .OPPPB.O..XB.OAAX.CC................ B99 C96 
+0 0 1.0 .OPPPB.O..XB.OAAX.....CC............ B99 C98 
+0 0 1.0 ..PPPB.O..XB.OAAX..O.CC............. B99 C99 O99 
+0 0 1.0 ..PPPB....XB.OAAX..O.CC..O.......... B99 C99 O98 
+0 0 1.0 ..PPPB....XB..AAX..O.CC..O.....O.... B99 C99 O97 
+0 0 2.0 .OPPP..O..XB.OAAXB..CC.............. B98 C98 
+0 0 2.0 .OPPP..O..X..OAAXB..CC.B............ B97 C98 
+0 0 1.0 .OPPP..O..X..OAAX...CC.B.....B...... B96 C98 
+0 0 1.0 .OPPP..O..X..OAAX...CC.......B.....B B95 C98 
+0 0 1.0 .OPPPB.O..XB.OAAX..CC............... B99 C97 
+0 0 1.0 .OPPPB.O..XB.OAAX.CC................ B99 C96 
+0 0 1.0 .OPPPB.O..XB.OAAX....CC............. B99 C97 
+0 0 1.0 .OPPPB.O..XB.OAAX.....CC............ B99 C96 
+0 0 1.0 ..PPPB.O..XB.OAAX..OCC.............. B99 C98 O99 
+0 0 1.0 ..PPPB....XB.OAAX..OCC...O.......... B99 C98 O98 
+0 0 1.0 ..PPPB....XB..AAX..OCC...O.....O.... B99 C98 O97 
+0 0 1.0 .OPPPB.O...B.OAAX...CCX............. B99 C98 X99 
+0 0 0.0 .OPPPB.O...B.OAA....CCX.....X....... B99 C98 X98 
+0 0 0.0 .OPPPB.O...B.OAA....CC......X.....X. B99 C98 X97 
+0 0 0.0 .OPPPB.O...B.O.AA...CCX.....X....... B99 C98 X98 A99 
+0 0 0.0 .OPPPB.O...B.O..AA..CCX.....X....... B99 C98 X98 A98 

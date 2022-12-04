@@ -1,0 +1,151 @@
+0 0 0 ..OOO...X.B.AAX.BC..DD.C....EE...... 
+0 0 3 ..OOO...X...AAX.BC..DDBC....EE...... B99 
+0 0 3 ..OOO...X.BCAAX.BC..DD......EE...... C99 
+0 0 2 ..OOOC..X.BCAAX.B...DD......EE...... C98 
+0 0 3 ..OOO...X.B.AAX.BC.DD..C....EE...... D99 
+0 0 3 ..OOO...X.B.AAX.BCDD...C....EE...... D98 
+0 0 3 ..OOO...X.B.AAX.BC...DDC....EE...... D99 
+0 0 3 ..OOO...X.B.AAX.BC..DD.C...EE....... E99 
+0 0 3 ..OOO...X.B.AAX.BC..DD.C..EE........ E98 
+0 0 3 ..OOO...X.B.AAX.BC..DD.C.EE......... E97 
+0 0 3 ..OOO...X.B.AAX.BC..DD.CEE.......... E96 
+0 0 3 .OOO....X.B.AAX.BC..DD.C....EE...... O99 
+0 0 3 OOO.....X.B.AAX.BC..DD.C....EE...... O98 
+0 0 3 ...OOO..X.B.AAX.BC..DD.C....EE...... O99 
+0 0 2 ..OOOC..X..CAAX.B...DDB.....EE...... C98 B99 
+0 0 3 ..OOO...X.BCAAX.BC..DD......EE...... C97 
+0 0 3 ..OOO...X.B.AAX.BC..DD.C....EE...... C96 
+0 0 2 ..OOOC..X.BCAAX.B..DD.......EE...... C98 D99 
+0 0 2 ..OOOC..X.BCAAX.B.DD........EE...... C98 D98 
+0 0 2 ..OOOC..X.BCAAX.B....DD.....EE...... C98 D99 
+0 0 2 ..OOOC..X.BCAAX.B.....DD....EE...... C98 D98 
+0 0 2 ..OOOC..X.BCAAX.B...DD.....EE....... C98 E99 
+0 0 2 ..OOOC..X.BCAAX.B...DD....EE........ C98 E98 
+0 0 2 ..OOOC..X.BCAAX.B...DD...EE......... C98 E97 
+0 0 2 ..OOOC..X.BCAAX.B...DD..EE.......... C98 E96 
+0 0 2 .OOO.C..X.BCAAX.B...DD......EE...... C98 O99 
+0 0 2 OOO..C..X.BCAAX.B...DD......EE...... C98 O98 
+0 0 2 ..OOOC..X.BCAAX.B...DD......EE...... C98 B98 
+0 0 3 ..OOO...X..CAAX.BC..DDB.....EE...... C97 B99 
+0 0 3 ..OOO...X...AAX.BC..DDBC....EE...... C96 B99 
+0 0 2 ..OOOC..X..CAAX.B..DD.B.....EE...... C98 B99 D99 
+0 0 2 ..OOOC..X..CAAX.B.DD..B.....EE...... C98 B99 D98 
+0 0 2 ..OOOC..X..CAAX.B...DDB....EE....... C98 B99 E99 
+0 0 2 ..OOOC..X..CAAX.B...DDB...EE........ C98 B99 E98 
+0 0 2 ..OOOC..X..CAAX.B...DDB..EE......... C98 B99 E97 
+0 0 2 ..OOOC..X..CAAX.B...DDB.EE.......... C98 B99 E96 
+0 0 2 .OOO.C..X..CAAX.B...DDB.....EE...... C98 B99 O99 
+0 0 2 OOO..C..X..CAAX.B...DDB.....EE...... C98 B99 O98 
+0 0 2 ..OOOC..X..CAAX.B..DD.B.....EE...... C98 D99 B99 
+0 0 3 ..OOO...X.BCAAX.BC.DD.......EE...... C97 D99 
+0 0 3 ..OOO...X.B.AAX.BC.DD..C....EE...... C96 D99 
+0 0 2 ..OOOC..X.BCAAX.B.DD........EE...... C98 D98 
+0 0 2 ..OOOC..X.BCAAX.B...DD......EE...... C98 D98 
+0 0 2 ..OOOC..X.BCAAX.B....DD.....EE...... C98 D97 
+0 0 2 ..OOOC..X.BCAAX.B.....DD....EE...... C98 D96 
+0 0 2 ..OOOC..X.BCAAX.B..DD......EE....... C98 D99 E99 
+0 0 2 ..OOOC..X.BCAAX.B..DD.....EE........ C98 D99 E98 
+0 0 2 ..OOOC..X.BCAAX.B..DD....EE......... C98 D99 E97 
+0 0 2 ..OOOC..X.BCAAX.B..DD...EE.......... C98 D99 E96 
+0 0 2 .OOO.C..X.BCAAX.B..DD.......EE...... C98 D99 O99 
+0 0 2 OOO..C..X.BCAAX.B..DD.......EE...... C98 D99 O98 
+0 0 2 ..OOOC..X..CAAX.B.DD..B.....EE...... C98 D98 B99 
+0 0 3 ..OOO...X.BCAAX.BCDD........EE...... C97 D98 
+0 0 3 ..OOO...X.B.AAX.BCDD...C....EE...... C96 D98 
+0 0 2 ..OOOC..X.BCAAX.B..DD.......EE...... C98 D97 
+0 0 2 ..OOOC..X.BCAAX.B...DD......EE...... C98 D96 
+0 0 2 ..OOOC..X.BCAAX.B....DD.....EE...... C98 D95 
+0 0 2 ..OOOC..X.BCAAX.B.....DD....EE...... C98 D94 
+0 0 2 ..OOOC..X.BCAAX.B.DD.......EE....... C98 D98 E99 
+0 0 2 ..OOOC..X.BCAAX.B.DD......EE........ C98 D98 E98 
+0 0 2 ..OOOC..X.BCAAX.B.DD.....EE......... C98 D98 E97 
+0 0 2 ..OOOC..X.BCAAX.B.DD....EE.......... C98 D98 E96 
+0 0 2 .OOO.C..X.BCAAX.B.DD........EE...... C98 D98 O99 
+0 0 2 OOO..C..X.BCAAX.B.DD........EE...... C98 D98 O98 
+0 0 2 ..OOOC....BCAAX.B.DDX.......EE...... C98 D98 X99 
+0 0 1 ..OOOC....BCAA..B.DDX.....X.EE...... C98 D98 X98 
+0 0 1 ..OOOC....BCAA..B.DD......X.EE..X... C98 D98 X97 
+0 0 1 ..OOOC....BC.AA.B.DDX.....X.EE...... C98 D98 X98 A99 
+0 0 1 ..OOOC....BC..AAB.DDX.....X.EE...... C98 D98 X98 A98 
+0 0 1 ..OOOC.....CAA..B.DDX.B...X.EE...... C98 D98 X98 B99 
+0 0 2 ..OOO.....BCAA..BCDDX.....X.EE...... C97 D98 X98 
+0 0 2 ..OOO.....B.AA..BCDDX..C..X.EE...... C96 D98 X98 
+0 0 1 ..OOOC....BCAA..B.DDX.....XEE....... C98 D98 X98 E99 
+0 0 1 .OOO.C....BCAA..B.DDX.....X.EE...... C98 D98 X98 O99 
+0 0 1 OOO..C....BCAA..B.DDX.....X.EE...... C98 D98 X98 O98 
+0 0 2 ..OOOC....BCAAX.B.DDX.......EE...... C98 D98 X97 
+0 0 2 ..OOOC..X.BCAAX.B.DD........EE...... C98 D98 X96 
+0 0 1 ..OOOC....BCAA..B.DD......X.EE..X... C98 D98 X97 
+0 0 1 ..OOOC....BC.AA.B.DD......X.EE..X... C98 D98 X97 A99 
+0 0 1 ..OOOC....BC..AAB.DD......X.EE..X... C98 D98 X97 A98 
+0 0 1 ..OOOC.....CAA..B.DD..B...X.EE..X... C98 D98 X97 B99 
+0 0 2 ..OOO.....BCAA..BCDD......X.EE..X... C97 D98 X97 
+0 0 2 ..OOO.....B.AA..BCDD...C..X.EE..X... C96 D98 X97 
+0 0 1 ..OOOC....BCAA..B..DD.....X.EE..X... C98 D97 X97 
+0 0 1 ..OOOC....BCAA..B...DD....X.EE..X... C98 D96 X97 
+0 0 1 ..OOOC....BCAA..B....DD...X.EE..X... C98 D95 X97 
+0 0 1 ..OOOC....BCAA..B.....DD..X.EE..X... C98 D94 X97 
+0 0 1 ..OOOC....BCAA..B.DD......XEE...X... C98 D98 X97 E99 
+0 0 1 .OOO.C....BCAA..B.DD......X.EE..X... C98 D98 X97 O99 
+0 0 1 OOO..C....BCAA..B.DD......X.EE..X... C98 D98 X97 O98 
+0 0 1 ..OOOC....BCAA..B.DDX.....X.EE...... C98 D98 X96 
+0 0 2 ..OOOC....BCAAX.B.DDX.......EE...... C98 D98 X95 
+0 0 2 ..OOOC..X.BCAAX.B.DD........EE...... C98 D98 X94 
+0 0 1 ..OOOC....BCAA..B.DDX.....X.EE...... C98 D98 X98 A98 
+0 0 1 ..OOOC....BC..AAB.DDX.....X.EE...... C98 D98 X98 A98 
+0 0 1 ..OOOC.....C.AA.B.DDX.B...X.EE...... C98 D98 X98 A99 B99 
+0 0 2 ..OOO.....BC.AA.BCDDX.....X.EE...... C97 D98 X98 A99 
+0 0 2 ..OOO.....B..AA.BCDDX..C..X.EE...... C96 D98 X98 A99 
+0 0 1 ..OOOC....BC.AA.B.DDX.....XEE....... C98 D98 X98 A99 E99 
+0 0 1 .OOO.C....BC.AA.B.DDX.....X.EE...... C98 D98 X98 A99 O99 
+0 0 1 OOO..C....BC.AA.B.DDX.....X.EE...... C98 D98 X98 A99 O98 
+0 0 1 ..OOOC....BC.AA.B.DD......X.EE..X... C98 D98 X97 A99 
+0 0 1 ..OOOC....BC.AA.B.DDX.....X.EE...... C98 D98 X98 A97 
+0 0 1 ..OOOC....BCAA..B.DDX.....X.EE...... C98 D98 X98 A96 
+0 0 1 ..OOOC.....C..AAB.DDX.B...X.EE...... C98 D98 X98 A98 B99 
+0 0 2 ..OOO.....BC..AABCDDX.....X.EE...... C97 D98 X98 A98 
+0 0 2 ..OOO.....B...AABCDDX..C..X.EE...... C96 D98 X98 A98 
+0 0 1 ..OOOC....BC..AAB.DDX.....XEE....... C98 D98 X98 A98 E99 
+0 0 1 .OOO.C....BC..AAB.DDX.....X.EE...... C98 D98 X98 A98 O99 
+0 0 1 OOO..C....BC..AAB.DDX.....X.EE...... C98 D98 X98 A98 O98 
+0 0 1 ..OOOC....BC..AAB.DD......X.EE..X... C98 D98 X97 A98 
+0 0 1 ..OOOC.....C.AA.B.DDX.B...X.EE...... C98 D98 X98 B99 A99 
+0 0 1 ..OOOC.....C..AAB.DDX.B...X.EE...... C98 D98 X98 B99 A98 
+0 0 1 ..OOOC....BCAA..B.DDX.....X.EE...... C98 D98 X98 B98 
+0 0 2 ..OOO......CAA..BCDDX.B...X.EE...... C97 D98 X98 B99 
+0 0 2 ..OOO.......AA..BCDDX.BC..X.EE...... C96 D98 X98 B99 
+0 0 1 ..OOOC.....CAA..B.DDX.B...XEE....... C98 D98 X98 B99 E99 
+0 0 1 .OOO.C.....CAA..B.DDX.B...X.EE...... C98 D98 X98 B99 O99 
+0 0 1 OOO..C.....CAA..B.DDX.B...X.EE...... C98 D98 X98 B99 O98 
+0 0 2 ..OOOC.....CAAX.B.DDX.B.....EE...... C98 D98 X97 B99 
+0 0 2 ..OOOC..X..CAAX.B.DD..B.....EE...... C98 D98 X96 B99 
+0 0 1 ..OOOC.....CAA..B.DD..B...X.EE..X... C98 D98 X97 B99 
+0 0 1 ..OOOC....BC.AA.B.DDX.....XEE....... C98 D98 X98 E99 A99 
+0 0 1 ..OOOC....BC..AAB.DDX.....XEE....... C98 D98 X98 E99 A98 
+0 0 1 ..OOOC.....CAA..B.DDX.B...XEE....... C98 D98 X98 E99 B99 
+0 0 2 ..OOO.....BCAA..BCDDX.....XEE....... C97 D98 X98 E99 
+0 0 2 ..OOO.....B.AA..BCDDX..C..XEE....... C96 D98 X98 E99 
+0 0 1 ..OOO.....B.AA..B.DDX..C..XEEC...... C95 D98 X98 E99 
+0 0 1 ..OOO.....B.AA..B.DDX.....XEEC.....C C94 D98 X98 E99 
+0 0 1 ..OOOC....BCAA..B.DDX.....X.EE...... C98 D98 X98 E98 
+0 0 1 .OOO.C....BCAA..B.DDX.....XEE....... C98 D98 X98 E99 O99 
+0 0 1 OOO..C....BCAA..B.DDX.....XEE....... C98 D98 X98 E99 O98 
+0 0 2 ..OOOC....BCAAX.B.DDX......EE....... C98 D98 X97 E99 
+0 0 2 ..OOOC..X.BCAAX.B.DD.......EE....... C98 D98 X96 E99 
+0 0 1 ..OOOC....BCAA..B.DD......XEE...X... C98 D98 X97 E99 
+0 0 1 .OOO.C....BC.AA.B.DDX.....X.EE...... C98 D98 X98 O99 A99 
+0 0 1 .OOO.C....BC..AAB.DDX.....X.EE...... C98 D98 X98 O99 A98 
+0 0 0 .OOOBC....BCAA....DDX.....X.EE...... C98 D98 X98 O99 B99 
+0 0 1 .OOO.C.....CAA..B.DDX.B...X.EE...... C98 D98 X98 O99 B99 
+0 0 2 .OOO......BCAA..BCDDX.....X.EE...... C97 D98 X98 O99 
+0 0 2 .OOO......B.AA..BCDDX..C..X.EE...... C96 D98 X98 O99 
+0 0 1 .OOO.C....BCAA..B.DDX.....XEE....... C98 D98 X98 O99 E99 
+0 0 1 OOO..C....BCAA..B.DDX.....X.EE...... C98 D98 X98 O98 
+0 0 1 ..OOOC....BCAA..B.DDX.....X.EE...... C98 D98 X98 O98 
+0 0 2 .OOO.C....BCAAX.B.DDX.......EE...... C98 D98 X97 O99 
+0 0 2 .OOO.C..X.BCAAX.B.DD........EE...... C98 D98 X96 O99 
+0 0 1 .OOO.C....BCAA..B.DD......X.EE..X... C98 D98 X97 O99 
+0 0 0 .OOOBC....BC.AA...DDX.....X.EE...... C98 D98 X98 O99 B99 A99 
+0 0 0 .OOOBC....BC..AA..DDX.....X.EE...... C98 D98 X98 O99 B99 A98 
+0 0 0 .OOOBC....BC...AA.DDX.....X.EE...... C98 D98 X98 O99 B99 A97 
+0 0 0 .OOOBC....BC....AADDX.....X.EE...... C98 D98 X98 O99 B99 A96 

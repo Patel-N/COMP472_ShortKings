@@ -534,7 +534,6 @@ puzzleNum = 1
 for puzzle in validPuzzles:
     solvePuzzle(puzzle, puzzleNum)
     puzzleNum += 1
-    break
-
+    
 printAnalysisFile(puzzleNumber, algo, heuristic, length_of_sol, length_of_search, exec_time)
 

@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+
+Initial board configuration:  ..XOBB..XOCP.AAOCP..QQQP....D.....D.
+
+! 
+..XOBB
+..XOCP
+.AAOCP
+..QQQP
+....D.
+....D.
+
+Car fuel available: A:100, B:100, C:100, D:100, O:100, P:100, Q:100, X:100
+
+Runtime: 0.3507730960845947 seconds
+Search path length: 308 states
+Solution path length: 10 moves
+Solution path: P down 2; Q left 2; O down 3; A left 1; X down 1; B left 2; C up 1; B left 2; X up 1; A right 4
+
+P  down 2       98 ..XOBB..XOC..AAOC...QQQP....DP....DP P98 
+Q  left 2       98 ..XOBB..XOC..AAOC.QQQ..P....DP....DP P98 Q98 
+O  down 3       97 ..X.BB..X.C..AA.C.QQQO.P...ODP...ODP P98 Q98 O97 
+A  left 1       99 ..X.BB..X.C.AA..C.QQQO.P...ODP...ODP P98 Q98 O97 A99 
+X  down 1       99 ....BB..X.C.AAX.C.QQQO.P...ODP...ODP P98 Q98 O97 A99 X99 
+B  left 2       98 ..BB....X.C.AAX.C.QQQO.P...ODP...ODP P98 Q98 O97 A99 X99 B98 
+C    up 1       99 ..BBC...X.C.AAX...QQQO.P...ODP...ODP P98 Q98 O97 A99 X99 B98 C99 
+B  left 2       96 BB..C...X.C.AAX...QQQO.P...ODP...ODP P98 Q98 O97 A99 X99 B96 C99 
+X    up 1       98 BBX.C...X.C.AA....QQQO.P...ODP...ODP P98 Q98 O97 A99 X98 B96 C99 
+A right 4       95 BBX.C...X.C.....AAQQQO.P...ODP...ODP P98 Q98 O97 A95 X98 B96 C99 
+
+! P98 Q98 O97 A95 X98 B96 C99 
+BBX.C.
+..X.C.
+....AA
+QQQO.P
+...ODP
+...ODP
+
+
+--------------------------------------------------------------------------------

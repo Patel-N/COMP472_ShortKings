@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+
+Initial board configuration:  ..XOOOB.XPPPBAAQC....QC....QD.EEFFD.
+
+! 
+..XOOO
+B.XPPP
+BAAQC.
+...QC.
+...QD.
+EEFFD.
+
+Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, O:100, P:100, Q:100, X:100
+
+Runtime: 0.7050769329071045 seconds
+Search path length: 514 states
+Solution path length: 10 moves
+Solution path: B up 1; A left 1; X down 3; O left 2; P left 2; C up 2; D up 1; F right 2; Q down 1; A right 4
+
+B    up 1       99 B.XOOOB.XPPP.AAQC....QC....QD.EEFFD. B99 
+A  left 1       99 B.XOOOB.XPPPAA.QC....QC....QD.EEFFD. B99 A99 
+X  down 3       97 B..OOOB..PPPAA.QC...XQC...XQD.EEFFD. B99 A99 X97 
+O  left 2       98 BOOO..B..PPPAA.QC...XQC...XQD.EEFFD. B99 A99 X97 O98 
+P  left 2       98 BOOO..BPPP..AA.QC...XQC...XQD.EEFFD. B99 A99 X97 O98 P98 
+C    up 2       98 BOOOC.BPPPC.AA.Q....XQ....XQD.EEFFD. B99 A99 X97 O98 P98 C98 
+D    up 1       99 BOOOC.BPPPC.AA.Q....XQD...XQD.EEFF.. B99 A99 X97 O98 P98 C98 D99 
+F right 2       98 BOOOC.BPPPC.AA.Q....XQD...XQD.EE..FF B99 A99 X97 O98 P98 C98 D99 F98 
+Q  down 1       99 BOOOC.BPPPC.AA......XQD...XQD.EE.QFF B99 A99 X97 O98 P98 C98 D99 F98 Q99 
+A right 4       95 BOOOC.BPPPC.....AA..XQD...XQD.EE.QFF B99 A95 X97 O98 P98 C98 D99 F98 Q99 
+
+! B99 A95 X97 O98 P98 C98 D99 F98 Q99 
+BOOOC.
+BPPPC.
+....AA
+..XQD.
+..XQD.
+EE.QFF
+
+
+--------------------------------------------------------------------------------

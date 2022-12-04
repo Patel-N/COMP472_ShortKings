@@ -1,0 +1,49 @@
+--------------------------------------------------------------------------------
+
+Initial board configuration:  O.XBCCO.XBDDOAAEFG...EFGHH..IJ....IJ
+
+! 
+O.XBCC
+O.XBDD
+OAAEFG
+...EFG
+HH..IJ
+....IJ
+
+Car fuel available: A:100, B:100, C:100, D:100, E:100, F:100, G:100, H:100, I:100, J:100, O:100, X:100
+
+Runtime: 0.729315996170044 seconds
+Search path length: 646 states
+Solution path length: 19 moves
+Solution path: E down 2; B down 2; C left 1; D left 1; G up 2; H right 1; O down 3; A left 1; X down 2; C left 1; D left 1; F up 2; C left 1; D left 1; B up 2; C left 1; D left 1; X up 2; A right 4
+
+E  down 2       98 O.XBCCO.XBDDOAA.FG....FGHH.EIJ...EIJ E98 
+B  down 2       98 O.X.CCO.X.DDOAABFG...BFGHH.EIJ...EIJ E98 B98 
+C  left 1       99 O.XCC.O.X.DDOAABFG...BFGHH.EIJ...EIJ E98 B98 C99 
+D  left 1       99 O.XCC.O.XDD.OAABFG...BFGHH.EIJ...EIJ E98 B98 C99 D99 
+G    up 2       98 O.XCCGO.XDDGOAABF....BF.HH.EIJ...EIJ E98 B98 C99 D99 G98 
+H right 1       99 O.XCCGO.XDDGOAABF....BF..HHEIJ...EIJ E98 B98 C99 D99 G98 H99 
+O  down 3       97 ..XCCG..XDDG.AABF.O..BF.OHHEIJO..EIJ E98 B98 C99 D99 G98 H99 O97 
+A  left 1       99 ..XCCG..XDDGAA.BF.O..BF.OHHEIJO..EIJ E98 B98 C99 D99 G98 H99 O97 A99 
+X  down 2       98 ...CCG...DDGAAXBF.O.XBF.OHHEIJO..EIJ E98 B98 C99 D99 G98 H99 O97 A99 X98 
+C  left 1       98 ..CC.G...DDGAAXBF.O.XBF.OHHEIJO..EIJ E98 B98 C98 D99 G98 H99 O97 A99 X98 
+D  left 1       98 ..CC.G..DD.GAAXBF.O.XBF.OHHEIJO..EIJ E98 B98 C98 D98 G98 H99 O97 A99 X98 
+F    up 2       98 ..CCFG..DDFGAAXB..O.XB..OHHEIJO..EIJ E98 B98 C98 D98 G98 H99 O97 A99 X98 F98 
+C  left 1       97 .CC.FG..DDFGAAXB..O.XB..OHHEIJO..EIJ E98 B98 C97 D98 G98 H99 O97 A99 X98 F98 
+D  left 1       97 .CC.FG.DD.FGAAXB..O.XB..OHHEIJO..EIJ E98 B98 C97 D97 G98 H99 O97 A99 X98 F98 
+B    up 2       96 .CCBFG.DDBFGAAX...O.X...OHHEIJO..EIJ E98 B96 C97 D97 G98 H99 O97 A99 X98 F98 
+C  left 1       96 CC.BFG.DDBFGAAX...O.X...OHHEIJO..EIJ E98 B96 C96 D97 G98 H99 O97 A99 X98 F98 
+D  left 1       96 CC.BFGDD.BFGAAX...O.X...OHHEIJO..EIJ E98 B96 C96 D96 G98 H99 O97 A99 X98 F98 
+X    up 2       96 CCXBFGDDXBFGAA....O.....OHHEIJO..EIJ E98 B96 C96 D96 G98 H99 O97 A99 X96 F98 
+A right 4       95 CCXBFGDDXBFG....AAO.....OHHEIJO..EIJ E98 B96 C96 D96 G98 H99 O97 A95 X96 F98 
+
+! E98 B96 C96 D96 G98 H99 O97 A95 X96 F98 
+CCXBFG
+DDXBFG
+....AA
+O.....
+OHHEIJ
+O..EIJ
+
+
+--------------------------------------------------------------------------------
