@@ -237,6 +237,8 @@ class Grid:
             return grid.heuristicTwo()
         elif(h=='h3'):
             return grid.heuristicThree()
+        elif(h=='h4'):
+            return grid.heuristicFour()
         else:
             return grid.heuristicOne()
 
@@ -286,3 +288,6 @@ class Grid:
                 
                 x -= 1
         return value * multipler
+
+    def heuristicFour(grid):
+        return (grid.heuristicOne() +grid.heuristicTwo()) / 2
