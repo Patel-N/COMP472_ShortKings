@@ -1,11 +1,11 @@
 from PriorityQueue import State, PriorityQueue
 import re
 import pandas as pd
+import os
 
 def generateOutputFiles(dir:str, filePrefix:str,  puzzleNum:int, initialPuzzle:str, finalState:State, searchDetails:str, timeToSol, stateSearchCount:int):
     
     printSearchFile(dir, filePrefix, puzzleNum, searchDetails)
-    print(finalState)
     moveCount = printSolutionFile(dir, filePrefix, puzzleNum, initialPuzzle, finalState, timeToSol, stateSearchCount)
     # print(initialPuzzle)
     # print(finalState)
@@ -127,4 +127,16 @@ def printAnalysisFile(puzzleNumber, algo, heuristic, length_of_sol, length_of_se
 
     df = pd.DataFrame(data)
 
-    print(df)
+    fileName = uniquify('./analysis/results.csv')
+
+    df.to_csv(fileName)
+
+def uniquify(path):
+    filename, extension = os.path.splitext(path)
+    counter = 1
+
+    while os.path.exists(path):
+        path = filename + " (" + str(counter) + ")" + extension
+        counter += 1
+
+    return path

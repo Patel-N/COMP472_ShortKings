@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+Initial board configuration:  .XX..BCCOOOBAAD.....D....PPPEE...... D1
+
+! D1
+.XX..B
+CCOOOB
+AAD...
+..D...
+.PPPEE
+......
+
+Car fuel available: A:100, B:100, C:100, D:1, E:100, O:100, P:100, X:100
+
+Sorry, could not solve the puzzle as specified.
+Error: no solution found
+
+Runtime: 0.30599498748779297 seconds
+--------------------------------------------------------------------------------
