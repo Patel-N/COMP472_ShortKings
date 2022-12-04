@@ -470,7 +470,7 @@ def solvePuzzle(puzzleString, puzzleNum:int):
     #GBFS
     # ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
     # generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
-    print(search_time)
+    # print(search_time)
 
 
 
