@@ -166,7 +166,12 @@ def GBFS(grid, heuristic):
                     subState = doMovement(leftMostState, car.name, move, searchDetails)
 
                     #Update the cost
+                    prevG = leftMostState.g
+                    newG = prevG + 1
+                    subState.g = newG
+                    subState.f = subState.h
                     
+                    #Update searchDetails
                     
                     newCost = leftMostState.cost + 1
                     subState.cost = newCost
@@ -261,7 +266,10 @@ def A(grid, heuristic):
                     newCost = leftMostState.cost + 1
                     subState.cost = newCost
                     subState.h = subState.grid.heuristic(heuristic)
-                    
+                    prevG = leftMostState.g
+                    newG = prevG + 1
+                    subState.g = newG
+                    subState.f = newG + subState.h
                     #Update searchDetails
                     searchDetails += subState.getStateSearchDetail() + '\n'
                     
