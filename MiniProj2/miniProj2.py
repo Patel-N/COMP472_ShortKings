@@ -63,7 +63,6 @@ def UniformCostSearch(grid):
                     #Update the grid
                     subState = doMovement(leftMostState, car.name, move, searchDetails)
                     
-
                     #Update the cost
                     prevG = leftMostState.g
                     newG = prevG + 1
@@ -122,9 +121,9 @@ def GBFS(grid, heuristic):
     initialState = State(cost = starting_heuristic, grid = grid)
     subState = None
 
-    OPEN.insertH(initialState)
+    OPEN.insert(initialState)
+    searchDetails += initialState.getStateSearchDetail() + '\n'
     start_time = time.time()
-    searchDetails += subState.getStateSearchDetail() + '\n'
     
     #Start search
     while True:
@@ -214,7 +213,8 @@ def A(grid, heuristic):
     initialState = State(cost = starting_heuristic, grid = grid)
     subState = None
 
-    OPEN.insertG(initialState)
+    OPEN.insert(initialState)
+    searchDetails += initialState.getStateSearchDetail() + '\n'
     start_time = time.time()
 
     #Start search
@@ -255,15 +255,15 @@ def A(grid, heuristic):
                 for move in moves:
 
                     #Update the grid
-                    subState, details = doMovement(leftMostState, car.name, move, searchDetails)
-                    searchDetails += details + '\n'
+                    subState = doMovement(leftMostState, car.name, move, searchDetails)
 
                     #Update the cost
-                    
-                    
                     newCost = leftMostState.cost + 1
                     subState.cost = newCost
                     subState.h = subState.grid.heuristic(heuristic)
+                    
+                    #Update searchDetails
+                    searchDetails += subState.getStateSearchDetail() + '\n'
                     
 
                     #would calculate heuristic here???
