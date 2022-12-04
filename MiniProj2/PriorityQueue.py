@@ -45,12 +45,19 @@ class PriorityQueue(object):
         self.queue.append(data)
         sortedQueue = sorted(self.queue, key=self.takeH)
         self.queue = sortedQueue
+
+    def insertG(self, data:State):
+        self.queue.append(data)
+        sortedQueue = sorted(self.queue, key=self.takeG)
+        self.queue = sortedQueue
  
     def takeCost(self, elem:State):
         return elem.cost
 
     def takeH(self, elem:State):
         return elem.h
+    def takeG(self, elem:State):
+        return elem.h + elem.cost
 
     def getState(self, state:State) -> State:
         return self.queue.remove(state)
