@@ -116,6 +116,7 @@ def GBFS(grid, heuristic):
     CLOSED = []
     goalStates = []
     searchDetails = ''
+    stateSearchCount = 0
     #Initial State
     starting_heuristic = grid.heuristic(heuristic)
     initialState = State(cost = starting_heuristic, grid = grid)
@@ -135,13 +136,13 @@ def GBFS(grid, heuristic):
         #SUCCESS
         if len(goalStates) > 0:
             final_time = time.time() - start_time
-            return subState, searchDetails, final_time
+            return subState, searchDetails, final_time, stateSearchCount
 
         #FAILURE
         if OPEN.isEmpty():
             if len(goalStates) == 0:
                 final_time = time.time() - start_time
-                return initialState, searchDetails, final_time
+                return subState, searchDetails, final_time, stateSearchCount
        
         #get leftMost state
         leftMostState = OPEN.get()
@@ -187,6 +188,7 @@ def GBFS(grid, heuristic):
                     #add new subState if not same grid is found in the OPEN queue
                     elif stateWithSameGridAsSubstate is None and closedStateWithSameGridAsSubstate is None: #would probably evaluate if same state already in OPEN but compare cost
                         OPEN.insertH(subState)
+                        stateSearchCount += 1
                         #Check if substate has car possible for exit
                         subState.grid.removeExitCar()
                     else: 
@@ -194,11 +196,101 @@ def GBFS(grid, heuristic):
                         #if same grid but higher cost, we add new one and discard the more expensive state from OPEN
                         if stateWithSameGridAsSubstate is not None and subState.cost < stateWithSameGridAsSubstate.cost:
                             #remove state from queue
+                            stateSearchCount += 1
                             OPEN.getState(stateWithSameGridAsSubstate)
                             OPEN.insertH(subState)
                         #Check if substate has car possible for exit
                         subState.grid.removeExitCar()
 
+
+def A(grid, heuristic):
+    OPEN = pq()
+    CLOSED = []
+    goalStates = []
+    searchDetails = ''
+    stateSearchCount = 0
+    #Initial State
+    starting_heuristic = grid.heuristic(heuristic)
+    initialState = State(cost = starting_heuristic, grid = grid)
+    subState = None
+
+    OPEN.insertG(initialState)
+    start_time = time.time()
+
+    #Start search
+    while True:
+        #Check if no more options are left to be explored
+        # print('OPEN size:', len(OPEN.queue) )
+        # print('GoalState size:', len(goalStates) )
+        
+         
+        #SUCCESS
+        if len(goalStates) > 0:
+            final_time = time.time() - start_time
+            return subState, searchDetails, final_time, stateSearchCount
+
+        #FAILURE
+        if OPEN.isEmpty():
+            if len(goalStates) == 0:
+                final_time = time.time() - start_time
+                return subState, searchDetails, final_time, stateSearchCount
+       
+        #get leftMost state
+        leftMostState = OPEN.get()
+
+        CLOSED.append(leftMostState)
+        #Check if goal state achieved for AA if yes, add to completedArray
+    
+        leftMostGrid = leftMostState.grid
+        allMovements = leftMostGrid.getMoves()
+
+        for soloMovement in allMovements:
+
+            if len(goalStates) != 0:
+                break
+
+            for car, moves in soloMovement.items():
+                car = Car(car)
+                #iterate through all possible moves for a car
+                for move in moves:
+
+                    #Update the grid
+                    subState, details = doMovement(leftMostState, car.name, move, searchDetails)
+                    searchDetails += details + '\n'
+
+                    #Update the cost
+                    
+                    
+                    newCost = leftMostState.cost + 1
+                    subState.cost = newCost
+                    subState.h = subState.grid.heuristic(heuristic)
+                    
+
+                    #would calculate heuristic here???
+                    stateWithSameGridAsSubstate = checkForSameGridInOpen(OPEN, subState)
+                    closedStateWithSameGridAsSubstate = checkForSameGridInClosed(CLOSED, subState)
+                    
+                    #check if movement results into winning if not do state add to queue evaluation
+                    if subState.grid.isGoalSpace():
+                        goalStates.append(subState)
+                        break
+
+                    #add new subState if not same grid is found in the OPEN queue
+                    elif stateWithSameGridAsSubstate is None and closedStateWithSameGridAsSubstate is None: #would probably evaluate if same state already in OPEN but compare cost
+                        OPEN.insertG(subState)
+                        stateSearchCount += 1
+                        #Check if substate has car possible for exit
+                        subState.grid.removeExitCar()
+                    else: 
+                        #if same grid found with lower cost, we ignore the new substate
+                        #if same grid but higher cost, we add new one and discard the more expensive state from OPEN
+                        if stateWithSameGridAsSubstate is not None and subState.cost < stateWithSameGridAsSubstate.cost:
+                            #remove state from queue
+                            stateSearchCount += 1
+                            OPEN.getState(stateWithSameGridAsSubstate)
+                            OPEN.insertG(subState)
+                        #Check if substate has car possible for exit
+                        subState.grid.removeExitCar()
 
 
         
@@ -372,6 +464,9 @@ def solvePuzzle(puzzleString, puzzleNum:int):
     moveCount = generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
     addResultForAnalysis(puzzleNum, 'UCS', 'N/A', moveCount, stateSearchCount, search_time)
     
+    gbfs_state, gbfs_details, search_time, stateSearchCount = GBFS(grid, 'h1')
+    moveCount = generateOutputFiles(dir, 'GBFS',  puzzleNum, puzzleString, gbfs_state, gbfs_details, search_time, stateSearchCount)
+
     #GBFS
     # ucs_state, ucs_details, search_time, stateSearchCount = UniformCostSearch(grid)
     # generateOutputFiles(dir, 'ucs',  puzzleNum, puzzleString, ucs_state, ucs_details, search_time, stateSearchCount)
